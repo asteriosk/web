@@ -1,6 +1,6 @@
 all:
-	jekyll build
+	bundle exec jekyll build
 preview:
-	jekyll serve --watch --baseurl ''
+	bundle exec jekyll serve --watch --baseurl ''
 install:
-	sudo gem install github-pages faraday
+	sudo gem install github-pages jekyll
