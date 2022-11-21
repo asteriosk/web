@@ -52,7 +52,7 @@ I work in the broad area of scalable data management; more specifically on data 
 
 <div class="col-md-4">
 <br/>
-      <img src="assets/asterios.katsifodimos.jpg" class="img-thumbnail" alt="Asterios Kαtsifodimos - Αστέριος Κατσιφοδήμος">
+      <img src="assets/asterios.katsifodimos-2022-bw.jpg" class="img-thumbnail" alt="Asterios Kαtsifodimos - Αστέριος Κατσιφοδήμος">
 <br/><br/>
 <!-- <div class="col-sm-3"> -->
 <h6> <span class="fa fa-envelope"></span> e-mail</h6>
