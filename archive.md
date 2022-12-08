@@ -1,3 +1,8 @@
+- June 2019:  We are presenting a demo in this year's VLDB on how to execute  stateful functions in the cloud, using streaming dataflows (<a href="/assets/publications/stateful-functions.pdf">pdf</a>), as well as a paper on how to optimize ML pipelines using both linear and relational algebra.
+- March 2019:  We received the best paper award from EDBT 2019 for our paper "Efficient Window Aggregation with General Stream Slicing"!
+- January 2019:  One full-paper and one vision paper at EDBT 2019.
+- December 2018: A poster paper was accepted at ICDE 2019.
+- March 2018: I serve as a **local organization chair** of SIGMOD 2019 which will be held in Amsterdam in 2019!
 - January 2018: **Two papers** were accepted in next year's **ICDE 2018** in Paris. One on benchmarking stream procesing engines, and one on aggregating out-of-order streams. 
 - August 2017: **BlockJoin**, a technique for joining massive datasets producing distributed block-partitioned matrices, will be presented in next year's **VLDB 2018**.
 - June 2017: At **SoCC 2017** we are presenting our work on SENSE, a framework for sensor-data gathering.

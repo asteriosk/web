@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Asterios Katsifodimos | Associate Professor, TU Delft"
+title: "Asterios Katsifodimos | Assistant Professor, TU Delft"
 ---
 
 <!-- - - - - - - - - - - - - - - - -->
@@ -11,7 +11,7 @@ title: "Asterios Katsifodimos | Associate Professor, TU Delft"
 <!-- <h3> Asterios Katsifodimos </h3> -->
 
 <p class="lead" style="font-size: 130%">
-Associate Professor, <a href="http://www.tudelft.nl/">TU Delft</a>.<br>Member of the <a href="http://www.wis.ewi.tudelft.nl/">Web Information Systems group</a>.
+Assistant Professor, <a href="http://www.tudelft.nl/">TU Delft</a>, Amazon Visiting Scholar at <a href="https://aws.amazon.com">Amazon AWS</a>.<br>Member of the <a href="http://www.wis.ewi.tudelft.nl/">Web Information Systems group</a>.
 </p>
 
 <p style="text-align: justify;">
@@ -85,19 +85,12 @@ Netherlands
 - October 2020: We have implemented the schema matching algorithms of the last 20 years and <a href="https://delftdata.github.io/valentine">released them on Github</a> in order to create a benchmark. We offer datasets with ground truth too!
 - April 2020: We will present a tutorial on <a href="https://streaming-research.github.io/Tutorial-SIGMOD-2020/"> the evolution of stream processing systems</a> during the last two decades, in SIGMOD 2020. 
 - March 2020: Christos will be presenting our work on <a href="http://ceur-ws.org/Vol-2578/SEAData5.pdf">using embeddings for schema matching</a> in the SEAS workshop at EDBT 2020.
-<!-- - June 2019:  We are presenting a demo in this year's VLDB on how to execute  stateful functions in the cloud, using streaming dataflows (<a href="/assets/publications/stateful-functions.pdf">pdf</a>), as well as a paper on how to optimize ML pipelines using both linear and relational algebra.
-- March 2019:  We received the best paper award from EDBT 2019 for our paper "Efficient Window Aggregation with General Stream Slicing"!
-- January 2019:  One full-paper and one vision paper at EDBT 2019.
-- December 2018: A poster paper was accepted at ICDE 2019.
-- March 2018: I serve as a **local organization chair** of SIGMOD 2019 which will be held in Amsterdam in 2019! -->
 </section>
     </div>
 
 <div class="col-md-4">
 <a class="twitter-timeline" data-width="300" data-height="500" href="https://twitter.com/kAsterios?ref_src=twsrc%5Etfw">Tweets by Asterios</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </div>
-
-
     </div>
   
 </div>  
