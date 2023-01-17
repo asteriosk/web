@@ -59,7 +59,7 @@ I work in the broad area of scalable data management; more specifically on data 
 A.LASTNAME@tudelft.nl
 <br/><br/>
 <h6> <span class="fa fa-map-marker"></span> Address</h6>
-Office VBM6 4.E.080 (4th floor)<br/>
+Office VBM6 3rd floor, East<br/>
 Van Mourik Broekmanweg 6<br/>
 2628XE Delft<br/>
 Netherlands
