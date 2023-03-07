@@ -2,12 +2,17 @@
 layout: default
 title: "Asterios Katsifodimos | Assistant Professor, TU Delft"
 publications:
-  - { section: true, title: "2021" }
+  - { section: true, title: "2023" }
+
+
+  - { label: "EDBT'23", title: "Topio Marketplace: Search and Discovery of Geospatial Data", authors: "Andra Ionescu, Alexandra Alexandridou, Leonidas Ikonomou, Kyriakos Psarakis, Kostas Patroumpas, Georgios Chatzigeorgakidis, Dimitrios Skoutas, Spiros Athanasiou, Rihan Hai, Asterios Katsifodimos", venue: "In the Proceedings of the 22nd International Conference on Extending Database Technology (EDBT) 2023"}
+  - { section: true, title: "2022" }
   - { label: "Inf. Systems '22", title: "Transactions across serverless functions leveraging stateful dataflows", authors: "Martijn de Heus, Kyriakos Psarakis, Marios Fragkoulis, Asterios Katsifodimos", venue: " Information Systems 108: 102015 (2022)"}
   - { label: "DataPerf@NeurIPS'22", title: "Metadata Representations for Queryable ML Model Zoos", authors: "Ziyu Li, Rihan Hai, Alessandro Bozzon, Asterios Katsifodimos", venue: "DataPerf Benchmarking Data for Data-Centric AI, NeurIPS Workshop 2022"}
   - { label: "DBML@ICDE'22", title: "Join Path Based Data Augmentation for Decision Trees", authors: "Andra Ionescu, Rihan Hai, Marios Fragkoulis, Asterios Katsifodimos", venue: "In the Proceedings of the 2022 International workshop on databases and machine learning, colocated with ICDE", pdf: "assets/publications/auto-feature-discovery-dbml22.pdf"}
   - { label: "ICDE '22", title: "S-Query: Opening the Black Box of Internal Stream Processor State", authors: "Jim Verheijde, Vassilis Karakoidas, Marios Fragkoulis, Asterios Katsifodimos", pdf: "assets/publications/s-query-icde22.pdf", venue: "In the Proceedings of the 2022 IEEE 38th International Conference on Data Engineering (ICDE)"}
   - { label: "CIDR '22", title: "Amalur: Next-generation Data Integration in Data Lakes", authors: "Rihan Hai, Christos Koutras, Andra Ionescu, Asterios Katsifodimos", venue: "In the Proceedings of the 13th Annual Conference on Innovative Data Systems Research (CIDR 2022)"}
+  - { section: true, title: "2021" }
   - { label: "SIGMOD '21", title: "Clonos: Consistent Causal Recovery for Highly-Available Streaming Dataflows", pdf: "assets/publications/clonos-sigmod2021.pdf", authors: "Pedro Fortunato Silvestre, Marios Fragkoulis, Diomidis Spinellis, Asterios Katsifodimos", venue: "In the Proceedings of the 2021 ACM SIGMOD International Conference on the Management of Data"}
   - { label: "VLDB '21", title: "Hazelcast Jet: Low-latency Stream Processing at the 99.99th Percentile", authors: "Can Gencer, Marko Topolnik, Viliam Ďurina, Emin Demirci, Ensar B. Kahveci, Ali Gürbüz Ondřej Lukáš, József Bartók, Grzegorz Gierlach, František Hartman, Ufuk Yılmaz, Mehmet Doğan, Mohamed Mandouh, Marios Fragkoulis, Asterios Katsifodimos", venue: "In the Proceedings of the 47th International Conference on Very Large Data Bases (VLDB) 2021"}
   - { label: "VLDB '21", title: "Valentine in Action: Matching Tabular Data at Scale", authors: "Christos Koutras &amp; Kyriakos Psarakis , George Siachamis, Andra Ionescu,  Marios Fragkoulis, Angela Bonifati, Asterios Katsifodimos", venue: "In the Proceedings of the 47th International Conference on Very Large Data Bases (VLDB) 2021 (Demo track)"}
