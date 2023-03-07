@@ -5,7 +5,7 @@ publications:
   - { section: true, title: "2023" }
 
 
-  - { label: "EDBT'23", title: "Topio Marketplace: Search and Discovery of Geospatial Data", authors: "Andra Ionescu, Alexandra Alexandridou, Leonidas Ikonomou, Kyriakos Psarakis, Kostas Patroumpas, Georgios Chatzigeorgakidis, Dimitrios Skoutas, Spiros Athanasiou, Rihan Hai, Asterios Katsifodimos", venue: "In the Proceedings of the 22nd International Conference on Extending Database Technology (EDBT) 2023"}
+  - { label: "EDBT'23", title: "Topio Marketplace: Search and Discovery of Geospatial Data", authors: "Andra Ionescu, Alexandra Alexandridou, Leonidas Ikonomou, Kyriakos Psarakis, Kostas Patroumpas, Georgios Chatzigeorgakidis, Dimitrios Skoutas, Spiros Athanasiou, Rihan Hai, Asterios Katsifodimos", venue: "In the Proceedings of the 22nd International Conference on Extending Database Technology (EDBT) 2023 (demonstration track)"}
   - { section: true, title: "2022" }
   - { label: "Inf. Systems '22", title: "Transactions across serverless functions leveraging stateful dataflows", authors: "Martijn de Heus, Kyriakos Psarakis, Marios Fragkoulis, Asterios Katsifodimos", venue: "Springer Information Systems 108: 102015 (2022)"}
   - { label: "DataPerf@NeurIPS'22", title: "Metadata Representations for Queryable ML Model Zoos", authors: "Ziyu Li, Rihan Hai, Alessandro Bozzon, Asterios Katsifodimos", venue: "DataPerf Benchmarking Data for Data-Centric AI, NeurIPS Workshop 2022"}
