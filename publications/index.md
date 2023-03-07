@@ -3,7 +3,10 @@ layout: default
 title: "Asterios Katsifodimos | Assistant Professor, TU Delft"
 publications:
   - { section: true, title: "2021" }
-  - { label: "DBML'22", title: "Join Path Based Data Augmentation for Decision Trees", authors: "Andra Ionescu, Rihan Hai, Marios Fragkoulis, Asterios Katsifodimos", venue: "In the Proceedings of the 2022 International workshop on databases and machine learning, colocated with ICDE"}
+
+
+  - { label: "DataPerf@NeurIPS'22", title: "Metadata Representations for Queryable ML Model Zoos", authors: "Ziyu Li, Rihan Hai, Alessandro Bozzon, Asterios Katsifodimos", venue: "DataPerf Benchmarking Data for Data-Centric AI, NeurIPS Workshop 2022"}
+  - { label: "DBML@ICDE'22", title: "Join Path Based Data Augmentation for Decision Trees", authors: "Andra Ionescu, Rihan Hai, Marios Fragkoulis, Asterios Katsifodimos", venue: "In the Proceedings of the 2022 International workshop on databases and machine learning, colocated with ICDE", pdf: "assets/publications/auto-feature-discovery-dbml22.pdf"}
   - { label: "ICDE '22", title: "S-Query: Opening the Black Box of Internal Stream Processor State", authors: "Jim Verheijde, Vassilis Karakoidas, Marios Fragkoulis, Asterios Katsifodimos", pdf: "assets/publications/s-query-icde22.pdf", venue: "In the Proceedings of the 2022 IEEE 38th International Conference on Data Engineering (ICDE)"}
   - { label: "CIDR '22", title: "Amalur: Next-generation Data Integration in Data Lakes", authors: "Rihan Hai, Christos Koutras, Andra Ionescu, Asterios Katsifodimos", venue: "In the Proceedings of the 13th Annual Conference on Innovative Data Systems Research (CIDR 2022)"}
   - { label: "SIGMOD '21", title: "Clonos: Consistent Causal Recovery for Highly-Available Streaming Dataflows", pdf: "assets/publications/clonos-sigmod2021.pdf", authors: "Pedro Fortunato Silvestre, Marios Fragkoulis, Diomidis Spinellis, Asterios Katsifodimos", venue: "In the Proceedings of the 2021 ACM SIGMOD International Conference on the Management of Data"}
