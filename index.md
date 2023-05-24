@@ -20,7 +20,7 @@ Before joining TU Delft, I spent a year with the <a href="https://icn.sap.com">S
 </p>
 
 <p style="text-align: justify;">
-I work in the broad area of scalable data management; more specifically on data management and analysis, stream processing, systems for scalable AI/ML, and data integration.</p>
+I work in the broad area of scalable data management; more specifically on data management and analysis, stream processing, systems for scalable AI/ML, and data integration. I have been awarded the ACM SIGMOD Research Highlights Award in 2015, best paper award at EDBT 2019, the prestigious NWO VIDI grant in 2023, the EDBT best demo award in 2023, as well as the ACM SIGMOD Systems Award in 2023.</p>
 
 
 <div class="alert alert-warning" role="alert" markdown="1">
@@ -59,7 +59,7 @@ I work in the broad area of scalable data management; more specifically on data 
 A.LASTNAME@tudelft.nl
 <br/><br/>
 <h6> <span class="fa fa-map-marker"></span> Address</h6>
-Office VBM6 3rd floor, East<br/>
+Office VBM6 4th floor, West, 3W900<br/>
 Van Mourik Broekmanweg 6<br/>
 2628XE Delft<br/>
 Netherlands
@@ -76,6 +76,8 @@ Netherlands
 <h5>News</h5>
 
 <section markdown="1">
+- May 2023: Together with the Apache Flink team, we were awarded the <a href="https://sigmod.org/2023-sigmod-systems-award/">ACM SIGMOD Systems Award</a> 2023! 
+- April 2023: We won the best paper award at EDBT 2023. 
 - June 2022: I was awarded the VIDI grant (800K) from NWO! The funding will allow me to build a transactional actor-like Cloud programming model on top of dataflow systems!
 - June 2022: I was promoted to Associate Professor. 
 - October 2021: I have prepared a <a href="https://www.youtube.com/watch?v=jMmEDPGeh0w">video</a> for this year's Flink Forward. I pretty much describe what I am up to in the last couple of years.
