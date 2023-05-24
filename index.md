@@ -24,7 +24,7 @@ I work in the broad area of scalable data management; more specifically on data 
 </p>
 
 <p style="text-align: justify;">
-I have been awarded the ACM SIGMOD Research Highlights Award in 2015, best paper award at EDBT 2019, the prestigious NWO VIDI grant in 2023, the EDBT best demo award in 2023, as well as the ACM SIGMOD Systems Award in 2023.</p>
+I have been awarded the ACM SIGMOD Research Highlights Award in 2015, best paper award at EDBT 2019, the NWO VIDI grant in 2023, the EDBT best demo award in 2023, as well as the ACM SIGMOD Systems Award in 2023.</p>
 
 
 <div class="alert alert-warning" role="alert" markdown="1">
