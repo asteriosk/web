@@ -56,7 +56,7 @@ I have been awarded the ACM SIGMOD Research Highlights Award in 2015, best paper
 
 <div class="col-md-4">
 <br/>
-      <img src="assets/asterios.katsifodimos-2022.jpg" class="img-thumbnail" alt="Asterios Kαtsifodimos - Αστέριος Κατσιφοδήμος">
+      <img src="assets/asterios.katsifodimos.jpg" class="img-thumbnail" alt="Asterios Kαtsifodimos - Αστέριος Κατσιφοδήμος">
 <br/><br/>
 <!-- <div class="col-sm-3"> -->
 <h6> <span class="fa fa-envelope"></span> e-mail</h6>
