@@ -2,9 +2,15 @@
 layout: default
 title: "Asterios Katsifodimos | Assistant Professor, TU Delft"
 publications:
+
   - { section: true, title: "2023" }
 
-
+  - { label: "RecSys'23", title: "Leveraging Large Language Models for Sequential Recommendation", authors: "Jesse Harte, Wouter Zorgdrager, Panos Louridas, Asterios Katsifodimos, Dietmar Jannach, Marios Fragkoulis", venue: "In the Proceedings of the conference ACM Recommender Systems (RecSys) Conference 2023"}
+  - { label: "DEBS'23", title: "Adaptive Distributed Streaming Similarity Joins", authors: "	George Siachamis, Kyriakos Psarakis, Marios Fragkoulis, Odysseas Papapetrou, Arie van Deursen, Asterios Katsifodimos", venue: "In the Findings of the 61st Annual Meeting of the Association for Computational Linguistics (ACL) 2023"}
+  - { label: "ACL'23", title: "Automatic Table Union Search with Tabular Representation Learning", authors: "Xuming Hu, Shen Wang, Xiao Qin, Chuan Lei, Zhengyuan Shen, Christos Faloutsos, Asterios Katsifodimos, George Karypis, Lijie Wen, Philip S. Yu", venue: "In the Findings of the 61st Annual Meeting of the Association for Computational Linguistics (ACL) 2023"}
+  - { label: "ICWE'23", title: "Optimizing ML Inference Queries Under Constraints", authors: "Ziyu Li, Mariette Schönfeld, Wenbo Sun, Marios Fragkoulis, Rihan Hai, Alessandro Bozzon, Asterios Katsifodimos", venue: "In the Proceedings of the International Conference on Web Engineering (ICWE) 2023"}
+  - { label: "ICWE'23", title: "Topio: An Open-Source Web Platform for Trading Geospatial Data", authors: "Andra Ionescu, Kostas Patroumpas, Kyriakos Psarakis, Georgios Chatzigeorgakidis, Diego Collarana, Kai Barenscher, Dimitrios Skoutas, Asterios Katsifodimos, Spiros Athanasiou", venue: "In the Proceedings of the International Conference on Web Engineering (ICWE) 2023"}
+  - { label: "CIDR'23 / EDBT'24", title: "Stateful Entities: Object-oriented Cloud Applications as Distributed Dataflows", authors: "Kyriakos Psarakis, Wouter Zorgdrager, Marios Fragkoulis, Guido Salvaneschi, Asterios Katsifodimos", venue: "In the Proceedings of the 22nd International Conference on Extending Database Technology (EDBT) 2024"}
   - { label: "EDBT'23", title: "Topio Marketplace: Search and Discovery of Geospatial Data", authors: "Andra Ionescu, Alexandra Alexandridou, Leonidas Ikonomou, Kyriakos Psarakis, Kostas Patroumpas, Georgios Chatzigeorgakidis, Dimitrios Skoutas, Spiros Athanasiou, Rihan Hai, Asterios Katsifodimos", venue: "In the Proceedings of the 22nd International Conference on Extending Database Technology (EDBT) 2023 (demonstration track)"}
   - { section: true, title: "2022" }
   - { label: "Inf. Systems '22", title: "Transactions across serverless functions leveraging stateful dataflows", authors: "Martijn de Heus, Kyriakos Psarakis, Marios Fragkoulis, Asterios Katsifodimos", venue: "Springer Information Systems 108: 102015 (2022)"}
