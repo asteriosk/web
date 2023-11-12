@@ -41,13 +41,15 @@ I have been awarded the ACM SIGMOD Research Highlights Award in 2015, best paper
 - [Ziyu Li](https://www.tudelft.nl/ewi/over-de-faculteit/afdelingen/software-technology/web-information-systems/people/ziyu-li) (with A. Bozzon)
 - [Georgios Siachamis](https://www.tudelft.nl/ewi/over-de-faculteit/afdelingen/software-technology/web-information-systems/people/georgios-siachamis)
 - [Andra Ionescu](https://andraionescu.github.io) (with [R. Hai](https://www.wis.ewi.tudelft.nl/hai.html))
-- [Kyriakos Psarakis](https://kpsarakis.github.io/)
+- [Kyriakos Psarakis](https://kpsarakis.github.io)
+- [Marcus Schutte](https://www.linkedin.com/in/marcus-schutte-0836b91b6)
 </section>
 
 <h5>Postdocs</h5>
 <section markdown="1">
 - ~~[Marios Fragkoulis](http://mariosfragkoulis.gr)~~ - Now Research Scientist at Delivery Hero SE
 - ~~[Rihan Hai](https://www.wis.ewi.tudelft.nl/hai.html)~~ - Now Asst. Professor at TU Delft
+- [George Christodoulou](https://giorgoschristodoulou.github.io/)
 </section>
 
 </div>
