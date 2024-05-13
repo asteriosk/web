@@ -11,7 +11,7 @@ title: "Asterios Katsifodimos | Asst. Professor, TU Delft"
 <!-- <h3> Asterios Katsifodimos </h3> -->
 
 <p class="lead" style="font-size: 130%">
-Asst. Professor, <a href="http://www.tudelft.nl/">TU Delft</a>, &amp; Amazon Visiting Academic at <a href="https://aws.amazon.com"> AWS</a>. Member of the <a href="http://www.wis.ewi.tudelft.nl/">Web Information Systems group</a>.
+Asst. Professor, <a href="http://www.tudelft.nl/">TU Delft</a>, &amp; Amazon Visiting Academic at <a href="https://aws.amazon.com"> AWS</a>. Chair of the Data-intensive Systems Group.
 </p>
 
 <p style="text-align: justify;">
@@ -27,9 +27,9 @@ I work in the broad area of scalable data management; more specifically on data 
 I have been awarded the ACM SIGMOD Research Highlights Award in 2015, best paper award at EDBT 2019, the NWO VIDI grant in 2023, the EDBT best demo award in 2023, as well as the ACM SIGMOD Systems Award in 2023.</p>
 
 
-<div class="alert alert-warning" role="alert" markdown="1">
+<!-- <div class="alert alert-warning" role="alert" markdown="1">
   I am searching for motivated **postdocs and PhD students** for <a href="https://www.youtube.com/watch?v=jMmEDPGeh0w">this project</a>. Drop me an email if you are interested! 
-</div> 
+</div>  -->
 
 
 
@@ -47,7 +47,7 @@ I have been awarded the ACM SIGMOD Research Highlights Award in 2015, best paper
 
 <h5>Postdocs</h5>
 <section markdown="1">
-- [Georgios Christodoulou](#)
+- [Georgios Christodoulou](https://giorgoschristodoulou.github.io)
 - ~~[Marios Fragkoulis](http://mariosfragkoulis.gr)~~ - Now Research Scientist at Delivery Hero SE
 - ~~[Rihan Hai](https://www.wis.ewi.tudelft.nl/hai.html)~~ - Now Asst. Professor at TU Delft
 </section>
