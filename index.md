@@ -37,9 +37,9 @@ I have been awarded the ACM SIGMOD Research Highlights Award in 2015, best paper
 <div style="text-align: justify;" class="col-sm-12">
 <h5>PhD Students</h5>
 <section markdown="1">
-- [Christos Koutras](https://ckoutras.github.io) (with C. Lofi)
+- [Christos Koutras](https://ckoutras.github.io) (with C. Lofi, now at NYC)
 - [Ziyu Li](https://ziyuli.me) (with A. Bozzon and R. Hai)
-- [Georgios Siachamis](https://gsiachamis.github.io)
+- [Georgios Siachamis](https://gsiachamis.github.io, now at INRIA )
 - [Andra Ionescu](https://andraionescu.github.io)
 - [Kyriakos Psarakis](https://kpsarakis.github.io/)
 - [Marcus Schutte](#)
@@ -76,7 +76,7 @@ Netherlands
 
 
 <!-- - - - - - - - - - - - - - - - -->
-<div class="row-fluid">
+<!-- <div class="row-fluid">
     <div id="news" class="row">
     <div style="text-align: justify;" class="col-sm-8">
 <h5>News</h5>
@@ -100,7 +100,7 @@ Netherlands
 <div class="col-md-4">
 <a class="twitter-timeline" data-width="300" data-height="500" href="https://twitter.com/kAsterios?ref_src=twsrc%5Etfw">Tweets by Asterios</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </div>
-    </div>
+    </div> -->
   
 </div>  
 
