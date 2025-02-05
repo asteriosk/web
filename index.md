@@ -100,9 +100,9 @@ Netherlands
 <div class="col-md-4">
 <a class="twitter-timeline" data-width="300" data-height="500" href="https://twitter.com/kAsterios?ref_src=twsrc%5Etfw">Tweets by Asterios</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </div>
-    </div> -->
+    </div> 
   
-</div>  
+</div>  -->
 
 
 
