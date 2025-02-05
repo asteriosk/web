@@ -3,7 +3,7 @@ layout: default
 title: "Asterios Katsifodimos | Assistant Professor, TU Delft"
 publications:
   - { section: true, title: "2025" }
-  - { label: "ICDE'24", title: "Styx: Transactional Stateful Functions on Streaming Dataflows", authors: "Kyriakos Psarakis, Geroge Siachamis, George Christodoulou, Marios Fragkoulis, Asterios Katsifodimos", venue: "In the Proceedings of the 2025 ACM SIGMOD International Conference on the Management of Data"}
+  - { label: "SIGMOD'25", title: "Styx: Transactional Stateful Functions on Streaming Dataflows", authors: "Kyriakos Psarakis, Geroge Siachamis, George Christodoulou, Marios Fragkoulis, Asterios Katsifodimos", venue: "In the Proceedings of the 2025 ACM SIGMOD International Conference on the Management of Data"}
   - { label: "CIDR'25", title: "Transactional Cloud Applications Go with the (Data)Flow", authors: "Kyriakos Psarakis, George Christodoulou, Marios Fragkoulis, Asterios Katsifodimos", venue: "In the Proceedings of the 17th Annual Conference on Innovative Data Systems Research (CIDR 2025)"}
   - { label: "SIGMOD'25", title: "Transactional Cloud Applications: Status Quo, Challenges, and Opportunities", authors: "Rodrigo Laigner, Kyriakos Psarakis, George Christodoulou, Asterios Katsifodimos, Yongluan Zhou", venue: "In the Proceedings of the 2025 ACM SIGMOD International Conference on the Management of Data"}
   - { section: true, title: "2024" }
