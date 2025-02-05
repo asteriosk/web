@@ -9,11 +9,13 @@ title: "Asterios Katsifodimos | Assistant Professor, TU Delft"
 
 <section markdown="1">
 
-I regularly serve in the program committees of VLDB, SIGMOD and ICDE and I was the information Director of the <a href="http://www.sigmod.org/publications/sigmod-record/">SIGMOD Record</a> journal for roughly 7 years. I have organized the workshop on Data Analytics at sCale (DanaC) on 2014 and 2015. I regularly serve  in the <a href="https://reproducibility.sigmod.org">Repeatability &amp; Workability Evaluation</a> committee (2010, 2021 and 2022). 
+I regularly serve in the program committees of VLDB, SIGMOD and ICDE. I was the information Director of the <a href="http://www.sigmod.org/publications/sigmod-record/">SIGMOD Record</a> journal for roughly 7 years. I have organized the workshop on Data Analytics at sCale (DanaC) on 2014 and 2015. I regularly serve  in the <a href="https://reproducibility.sigmod.org">Repeatability &amp; Workability Evaluation</a> committee (2010, 2021 and 2022). 
 
 You can find detailed information below.
 
 ###### Chair and Organizer
+- Workshop Chair of <a href="https://2025.eurosys.org/">EuroSys 2025</a>
+- Demonstrations Chair of <a href="https://icde2024.github.io/">ICDE 2024</a>
 - Proceedings Chair of <a href="http://sigmod2021.org">SIGMOD 2021</a>
 - Local Organizations Chair of <a href="http://sigmod2019.org">SIGMOD 2019</a> (will be held in Amsterdam!)
 - Track chair for Programming Models and Runtime Systems in <a href="http://www.ccgrid2019.org/">ccGrid 2019</a>
@@ -21,11 +23,11 @@ You can find detailed information below.
 - <a href="http://www.sigmod2014.org/danac/">DanaC: Workshop for Data Analytics in the Cloud</a> 2014 (SIGMOD Workshop)
 
 ###### Program Committee Member
-- (P)VLDB 2015,2017, 2018, 2020, 2021
-- ACM SIGMOD 2016, 2017, 2018, 2020, 2021
-- IEEE ICDE 2016, 2017, 2018, 2019, 2021
+- (P)VLDB 2015,2017, 2018, 2020, 2021, 2023, 2024, 2025
+- ACM SIGMOD 2016, 2017, 2018, 2020, 2021, 2024, 2025, 2026
+- IEEE ICDE 2016, 2017, 2018, 2019, 2021, 2024, 
+- EDBT 2020, 2021, 2024, 2025
 - ACM CIKM 2014, 2017
-- EDBT 2020, 2021
 - WBDB 2015
 - SSDBM 2014
 

@@ -20,7 +20,7 @@ Before joining TU Delft, I spent a year with the <a href="https://icn.sap.com">S
 </p>
 
 <p>
-I work in the broad area of scalable data management; more specifically on data management and analysis, stream processing, systems for scalable AI/ML, and data integration. 
+I work in the broad area of scalable data management; more specifically on analytics, stream processing, Cloud computing, transactions and data integration. 
 </p>
 
 <p style="text-align: justify;">
@@ -65,7 +65,7 @@ I have been awarded the ACM SIGMOD Research Highlights Award in 2015, best paper
 A.LASTNAME@tudelft.nl
 <br/><br/>
 <h6> <span class="fa fa-map-marker"></span> Address</h6>
-Office VBM6 4th floor, West, 3W900<br/>
+Room 100, 1st floor, East wing (1E100)<br/>
 Van Mourik Broekmanweg 6<br/>
 2628XE Delft<br/>
 Netherlands
@@ -82,6 +82,7 @@ Netherlands
 <h5>News</h5>
 
 <section markdown="1">
+- May 2023: Together with the Apache Flink team, we were awarded the <a href="https://sigmod.org/2023-sigmod-systems-award/">ACM SIGMOD Systems Award</a> 2023! 
 - May 2023: Together with the Apache Flink team, we were awarded the <a href="https://sigmod.org/2023-sigmod-systems-award/">ACM SIGMOD Systems Award</a> 2023! 
 - April 2023: We won the best paper award at EDBT 2023. 
 - June 2022: I was awarded the VIDI grant (800K) from NWO! The funding will allow me to build a transactional actor-like Cloud programming model on top of dataflow systems!

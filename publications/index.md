@@ -2,6 +2,10 @@
 layout: default
 title: "Asterios Katsifodimos | Assistant Professor, TU Delft"
 publications:
+  - { section: true, title: "2025" }
+  - { label: "ICDE'24", title: "Styx: Transactional Stateful Functions on Streaming Dataflows", authors: "Kyriakos Psarakis, Geroge Siachamis, George Christodoulou, Marios Fragkoulis, Asterios Katsifodimos", venue: "In the Proceedings of the 2025 ACM SIGMOD International Conference on the Management of Data"}
+  - { label: "CIDR'25", title: "Transactional Cloud Applications Go with the (Data)Flow", authors: "Kyriakos Psarakis, George Christodoulou, Marios Fragkoulis, Asterios Katsifodimos", venue: "In the Proceedings of the 17th Annual Conference on Innovative Data Systems Research (CIDR 2025)"}
+  - { label: "SIGMOD'25", title: "Transactional Cloud Applications: Status Quo, Challenges, and Opportunities", authors: "Rodrigo Laigner, Kyriakos Psarakis, George Christodoulou, Asterios Katsifodimos, Yongluan Zhou", venue: "In the Proceedings of the 2025 ACM SIGMOD International Conference on the Management of Data"}
   - { section: true, title: "2024" }
   - { label: "ICDE'24", title: "CheckMate: Evaluating Checkpointing Protocols for Streaming Dataflows", authors: "George Siachamis, Kyriakos Psarakis, Marios Fragkoulis, Arie van Deursen, Paris Carbone, Asterios Katsifodimos", venue: "In the Proceedings of the 2024 IEEE 40th International Conference on Data Engineering (ICDE)"}
   - { label: "ICDE'24", title: "AutoFeat: Transitive Feature Discovery over Join Paths", authors: "Andra Ionescu, , Kiril Vasilev, Florena Buse, Rihan Hai, Asterios Katsifodimos", venue: "In the Proceedings of the 2024 IEEE 40th International Conference on Data Engineering (ICDE)"}
