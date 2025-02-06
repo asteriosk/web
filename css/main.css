@@ -14,15 +14,15 @@ html, body { height: 100%; }
 
 body {
   background-color: #FFF;
-  font: 12px Inconsolata, Helvetica, Arial, sans-serif;
-  font-size: small;
-  text-align: center;
+  font: 12px Helvetica, Arial, sans-serif;
+  font-size: medium;
+  text-align: justify;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-size: 100%; }
+  font-size: 120%; }
 
-h1 { margin-bottom: 1em; }
+h1 { margin-bottom: 0em; }
 p { margin: 1em 0; }
 
 a         { color: #00a; text-decoration: underline; }
@@ -46,7 +46,7 @@ ul.posts li {
 ul.posts span {
   color: #aaa;
   font-family: Monaco, "Courier New", monospace;
-  font-size: 80%;
+  font-size: 100%;
 }
 
 /*****************************************************************************/
