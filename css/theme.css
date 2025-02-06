@@ -1,6 +1,11 @@
 body {
   font-size: 100%;
+  font: 14px 'Montserrat', Helvetica, Arial, sans-serif;
   padding-bottom: 10px;
+}
+
+p { 
+  text-align: justify; 
 }
 
 .theme-dropdown .dropdown-menu {
@@ -40,7 +45,6 @@ body {
 h1, h2 { border-bottom: 1px solid #C0C0C0 }
 
 h3, h4 { border-bottom: 1px dotted #D3D3D3 }
-
 
 a         { color: #3973ac; }
 a:hover   { color: #000; }

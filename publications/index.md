@@ -96,24 +96,25 @@ publications:
 
 <div id="publications" class="row">
 <div style="text-align: justify;" class="col-sm-12">
-<h5>Publications</h5>
-(not always up to date, check my <a href="https://dblp.org/pid/64/7497.html">DBLP entry</a> for a complete list)
+<h5>Selected Publications</h5>
+(For a complete list, check my <a href="https://dblp.org/pid/64/7497.html">DBLP entry</a>)
 
 <br/>
-
+<br/>
+<br/>
 {% for pub in page.publications %}
-<!-- {% if pub('section')? %}
+{% if pub('section')? %}
 <h6><strong>{{pub.title}}</strong></h6>
 {% else %}
- -->&nbsp;
+&nbsp;
 <dl class="row">
- <dt class="col-sm-3"><h6><span class="badge badge-success" role="button">{{ pub.label }}</span></h6><br/>
-    {% if pub('pdf')? %}<a href="{{ site.url}}/{{ pub.pdf }}" class="badge badge-pill  badge-warning" role="button"><i class="fa fa-download"></i>&nbsp;PDF</a>{% endif %}
+ <dt class="col-sm-3"><h6><span class="badge badge-secondary" role="button">{{ pub.label }}</span></h6><br/>
+    {% if pub('pdf')? %}<a href="{{ site.url}}/{{ pub.pdf }}" class="badge badge-pill  badge-info" role="button"><i class="fa fa-download"></i>&nbsp;PDF</a>{% endif %}
     {% if pub('poster')? %}<a href="{{ site.url}}/{{ pub.poster }}" class="badge badge-pill  badge-info" role="button"><i class="fa fa-download"></i>&nbsp;Poster</a>{% endif %}
     {% if pub('slides')? %}<a href="{{ site.url}}/{{ pub.slides }}" class="badge badge-pill badge-primary" role="button"><i class="fa fa-download"></i>&nbsp;Slides</a>{% endif %}
 	</dt>
   <dd class="col-sm-9">
-    <strong>{{ pub.title }}</strong> <br> {{ pub.authors }}. <br> {{pub.venue}}. 
+    <strong>{{ pub.title }}</strong> <br> <i>{{ pub.authors }}</i>. <br><br> {{pub.venue}}. 
   </dd>
 </dl>
 {% endif %}
