@@ -15,12 +15,11 @@ Asst. Professor, <a href="http://www.tudelft.nl/">TU Delft</a>, &amp; Amazon Vis
 </p>
 
 <p>
-
 Before joining TU Delft, I spent a year with the <a href="https://icn.sap.com">SAP Innovation Center</a> in Berlin, working on scalable architectures for machine learning inference and training. Before SAP, I was a postdoc at the <a href="http://www.dima.tu-berlin.de/menue/database_systems_and_information_management_group/?no_cache=1">database systems group</a> in TU Berlin, headed by <a href="https://www.dima.tu-berlin.de/menue/staff/volker_markl/">Volker Markl</a>. I received my PhD from <a href="http://www.inria.fr/saclay/">INRIA Saclay</a> &amp; <a href="http://www.u-psud.fr" >Universite Paris-Sud</a> in 2013, supervised by <a href="http://www-rocq.inria.fr/~manolesc/">Ioana Manolescu</a>. Prior to that, I was a member of the High Performance Computing systems Lab (<a href="http://grid.ucy.ac.cy">HPCL</a>), at the University of Cyprus, working with <a href="http://www.cs.ucy.ac.cy/~mdd/">Marios Dikaiakos</a>.
 </p>
 
 <p>
-I work in the broad area of scalable data management; more specifically on analytics, stream processing, Cloud computing, transactions and data integration. 
+I work in the broad area of scalable data management, and more specifically on data analytics, stream processing, Cloud computing, distributed transactions and data integration. 
 </p>
 
 <p>
@@ -72,10 +71,10 @@ I have been awarded the ACM SIGMOD Research Highlights Award in 2015, best paper
 <br/><br/>
 <!-- <div class="col-sm-3"> -->
 <h6> <span class="fa fa-envelope"></span> e-mail</h6>
-A.LASTNAME@tudelft.nl
+A.Lastname@tudelft.nl
 <br/><br/>
 <h6> <span class="fa fa-map-marker"></span> Address</h6>
-Room 100, 1st floor, East wing (1E100)<br/>
+1E100 (1st floor, East, Room 100)<br/>
 Van Mourik Broekmanweg 6<br/>
 2628XE Delft<br/>
 Netherlands
