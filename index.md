@@ -14,7 +14,7 @@ title: "Asterios Katsifodimos | Asst. Professor, TU Delft"
 Asst. Professor, <a href="http://www.tudelft.nl/">TU Delft</a>, &amp; Amazon Visiting Academic at <a href="https://aws.amazon.com"> AWS</a>. Chair of the Data-intensive Systems Group.
 </p>
 
-<p style="text-align: justify;">
+<p>
 
 Before joining TU Delft, I spent a year with the <a href="https://icn.sap.com">SAP Innovation Center</a> in Berlin, working on scalable architectures for machine learning inference and training. Before SAP, I was a postdoc at the <a href="http://www.dima.tu-berlin.de/menue/database_systems_and_information_management_group/?no_cache=1">database systems group</a> in TU Berlin, headed by <a href="https://www.dima.tu-berlin.de/menue/staff/volker_markl/">Volker Markl</a>. I received my PhD from <a href="http://www.inria.fr/saclay/">INRIA Saclay</a> &amp; <a href="http://www.u-psud.fr" >Universite Paris-Sud</a> in 2013, supervised by <a href="http://www-rocq.inria.fr/~manolesc/">Ioana Manolescu</a>. Prior to that, I was a member of the High Performance Computing systems Lab (<a href="http://grid.ucy.ac.cy">HPCL</a>), at the University of Cyprus, working with <a href="http://www.cs.ucy.ac.cy/~mdd/">Marios Dikaiakos</a>.
 </p>
@@ -23,7 +23,7 @@ Before joining TU Delft, I spent a year with the <a href="https://icn.sap.com">S
 I work in the broad area of scalable data management; more specifically on analytics, stream processing, Cloud computing, transactions and data integration. 
 </p>
 
-<p style="text-align: justify;">
+<p>
 I have been awarded the ACM SIGMOD Research Highlights Award in 2015, best paper award at EDBT 2019, the NWO VIDI grant in 2023, the EDBT best demo award in 2023, as well as the ACM SIGMOD Systems Award in 2023.</p>
 
 
@@ -36,20 +36,30 @@ I have been awarded the ACM SIGMOD Research Highlights Award in 2015, best paper
 
 <div style="text-align: justify;" class="col-sm-12">
 <h5>PhD Students</h5>
+<h6>Current</h6>
 <section markdown="1">
-- [Christos Koutras](https://ckoutras.github.io) (with C. Lofi, now at NYC)
-- [Ziyu Li](https://ziyuli.me) (with A. Bozzon and R. Hai)
-- [Georgios Siachamis](https://gsiachamis.github.io, now at INRIA )
-- [Andra Ionescu](https://andraionescu.github.io)
 - [Kyriakos Psarakis](https://kpsarakis.github.io/)
 - [Marcus Schutte](#)
+- [Oto Mraz](https://omrazcz.github.io/)
+</section>
+
+<h6>Past</h6>
+<section markdown="1">
+- [Christos Koutras](https://ckoutras.github.io) (graduated '24, now at NYC)
+- [Ziyu Li](https://ziyuli.me) (graduated '24)
+- [Georgios Siachamis](https://gsiachamis.github.io) (graduated '24 now at INRIA / Ecole Polytechnique de Paris)
+- [Andra Ionescu](https://andraionescu.github.io) (graduated '25)
 </section>
 
 <h5>Postdocs</h5>
+<h6>Current</h6>
 <section markdown="1">
 - [Georgios Christodoulou](https://giorgoschristodoulou.github.io)
-- ~~[Marios Fragkoulis](http://mariosfragkoulis.gr)~~ - Now Research Scientist at Delivery Hero SE
-- ~~[Rihan Hai](https://www.wis.ewi.tudelft.nl/hai.html)~~ - Now Asst. Professor at TU Delft
+</section>
+<h6>Past</h6>
+<section markdown="1">
+- [Marios Fragkoulis](http://mariosfragkoulis.gr) - ('19 - '22; now at [GRNET](https://grnet.gr/en/))
+- [Rihan Hai](https://www.wis.ewi.tudelft.nl/hai.html) - ('21-'22; now Asst. Professor at TU Delft)
 </section>
 
 </div>

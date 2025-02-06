@@ -23,13 +23,13 @@ You can find detailed information below.
 - <a href="http://www.sigmod2014.org/danac/">DanaC: Workshop for Data Analytics in the Cloud</a> 2014 (SIGMOD Workshop)
 
 ###### Program Committee Member
-- (P)VLDB 2015,2017, 2018, 2020, 2021, 2023, 2024, 2025
-- ACM SIGMOD 2016, 2017, 2018, 2020, 2021, 2024, 2025, 2026
-- IEEE ICDE 2016, 2017, 2018, 2019, 2021, 2024 
-- EDBT 2020, 2021, 2024, 2025
-- ACM CIKM 2014, 2017
-- WBDB 2015
-- SSDBM 2014
+- **(P)VLDB:** 2015,2017, 2018, 2020, 2021, 2023, 2024, 2025
+- **ACM SIGMOD:** 2016, 2017, 2018, 2020, 2021, 2024, 2025, 2026
+- **IEEE ICDE:** 2016, 2017, 2018, 2019, 2021, 2024 
+- **EDBT:** 2020, 2021, 2024, 2025
+- **ACM CIKM:** 2014, 2017
+- **WBDB:** 2015
+- **SSDBM:** 2014
 
 ###### External Reviewer
 
