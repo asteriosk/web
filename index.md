@@ -44,7 +44,7 @@ I have been awarded the ACM SIGMOD Research Highlights Award in 2015, best paper
 
 <h6>Past</h6>
 <section markdown="1">
-- [Christos Koutras](https://ckoutras.github.io) (graduated '24, now at NYC)
+- [Christos Koutras](https://ckoutras.github.io) (graduated '24, now at NYU)
 - [Ziyu Li](https://ziyuli.me) (graduated '24)
 - [Georgios Siachamis](https://gsiachamis.github.io) (graduated '24 now at INRIA / Ecole Polytechnique de Paris)
 - [Andra Ionescu](https://andraionescu.github.io) (graduated '25)
