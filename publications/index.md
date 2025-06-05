@@ -117,7 +117,7 @@ publications:
     {% if pub('slides')? %}<a href="{{ site.url}}/{{ pub.slides }}" class="badge badge-pill badge-primary" role="button"><i class="fa fa-download"></i>&nbsp;Slides</a>{% endif %}
 	</dt>
   <dd class="col-sm-9">
-    <strong>{{ pub.title }}</strong> <br> <i>{{ pub.authors }}</i>. <br><br> {{pub.venue}}. 
+    <strong>{{ pub.title }}</strong> <br> <i>{{ pub.authors }}</i>. <br> {{pub.venue}}. 
   </dd>
 </dl>
 {% endif %}
