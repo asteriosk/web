@@ -11,7 +11,7 @@ title: "Asterios Katsifodimos | Asst. Professor, TU Delft"
 <!-- <h3> Asterios Katsifodimos </h3> -->
 
 <p class="lead" style="font-size: 130%">
-Asst. Professor, <a href="http://www.tudelft.nl/">TU Delft</a>, &amp; Amazon Visiting Academic at <a href="https://aws.amazon.com"> AWS</a>. Chair of the Data-intensive Systems Group.
+Asst. Professor, <a href="http://www.tudelft.nl/">TU Delft</a>, &amp; Amazon Scholar (<a href="https://aws.amazon.com">AWS</a>). Chair of the Data-intensive Systems Group.
 </p>
 
 <p>
@@ -45,9 +45,9 @@ I have been awarded the ACM SIGMOD Research Highlights Award in 2015, best paper
 <h6>Past</h6>
 <section markdown="1">
 - [Christos Koutras](https://ckoutras.github.io) (graduated '24, now at NYU)
-- [Ziyu Li](https://ziyuli.me) (graduated '24)
+- [Ziyu Li](https://ziyuli.me) (graduated '24, now at passionfruit.earth)
 - [Georgios Siachamis](https://gsiachamis.github.io) (graduated '24 now at INRIA / Ecole Polytechnique de Paris)
-- [Andra Ionescu](https://andraionescu.github.io) (graduated '25)
+- [Andra Ionescu](https://andraionescu.github.io) (graduated '25, now at KTH)
 </section>
 
 <h5>Postdocs</h5>
