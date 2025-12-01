@@ -11,7 +11,7 @@ title: "Asterios Katsifodimos | Asst. Professor, TU Delft"
 <!-- <h3> Asterios Katsifodimos </h3> -->
 
 <p class="lead" style="font-size: 130%">
-Asst. Professor, <a href="http://www.tudelft.nl/">TU Delft</a>, &amp; Amazon Scholar (<a href="https://aws.amazon.com">AWS</a>). Chair of the Data-intensive Systems Group.
+Asst. Professor, <a href="http://www.tudelft.nl/">TU Delft</a>, &amp; Amazon Scholar (<a href="https://aws.amazon.com">AWS</a>). Chair of the <a href="https://dis.ewi.tudelft.nl">Data-intensive Systems Group</a>.
 </p>
 
 <p>
@@ -32,39 +32,7 @@ I have been awarded the ACM SIGMOD Research Highlights Award in 2015, best paper
 
 
 
-
-<div style="text-align: justify;" class="col-sm-12">
-<h5>PhD Students</h5>
-<h6>Current</h6>
-<section markdown="1">
-- [Kyriakos Psarakis](https://kpsarakis.github.io/)
-- [Marcus Schutte](#)
-- [Oto Mraz](https://omrazcz.github.io/)
-</section>
-
-<h6>Past</h6>
-<section markdown="1">
-- [Christos Koutras](https://ckoutras.github.io) (graduated '24, now at NYU)
-- [Ziyu Li](https://ziyuli.me) (graduated '24, now at passionfruit.earth)
-- [Georgios Siachamis](https://gsiachamis.github.io) (graduated '24 now at INRIA / Ecole Polytechnique de Paris)
-- [Andra Ionescu](https://andraionescu.github.io) (graduated '25, now at KTH)
-</section>
-
-<h5>Postdocs</h5>
-<h6>Current</h6>
-<section markdown="1">
-- [Georgios Christodoulou](https://giorgoschristodoulou.github.io)
-</section>
-<h6>Past</h6>
-<section markdown="1">
-- [Marios Fragkoulis](http://mariosfragkoulis.gr) - ('19 - '22; now at [GRNET](https://grnet.gr/en/))
-- [Rihan Hai](https://www.wis.ewi.tudelft.nl/hai.html) - ('21-'22; now Asst. Professor at TU Delft)
-</section>
-
 </div>
-
-</div>
-
 <div class="col-md-4">
 <br/>
       <img src="assets/asterios.katsifodimos.jpg" class="img-thumbnail" alt="Asterios Kαtsifodimos - Αστέριος Κατσιφοδήμος">
