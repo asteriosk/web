@@ -12,18 +12,20 @@ Asst. Professor, <a href="http://www.tudelft.nl/">TU Delft</a>, &amp; Amazon Sch
 </p>
 
 <p>
-Before joining TU Delft, I spent a year with the <a href="https://icn.sap.com">SAP Innovation Center</a> in Berlin, working on scalable architectures for machine learning inference and training. Before SAP, I was a postdoc at the <a href="http://www.dima.tu-berlin.de/menue/database_systems_and_information_management_group/?no_cache=1">database systems group</a> in TU Berlin, headed by <a href="https://www.dima.tu-berlin.de/menue/staff/volker_markl/">Volker Markl</a>. I received my PhD from <a href="http://www.inria.fr/saclay/">INRIA Saclay</a> &amp; <a href="http://www.u-psud.fr">Universite Paris-Sud</a> in 2013, supervised by <a href="http://www-rocq.inria.fr/~manolesc/">Ioana Manolescu</a>. Prior to that, I was a member of the High Performance Computing systems Lab (<a href="http://grid.ucy.ac.cy">HPCL</a>), at the University of Cyprus, working with <a href="http://www.cs.ucy.ac.cy/~mdd/">Marios Dikaiakos</a>.
+I work in the broad area of scalable data management, and more specifically on data analytics, stream processing, Cloud computing, distributed transactions and data integration.
 </p>
 
 <p>
-I work in the broad area of scalable data management, and more specifically on data analytics, stream processing, Cloud computing, distributed transactions and data integration.
+Before joining TU Delft, I spent a year with the <a href="https://icn.sap.com">SAP Innovation Center</a> in Berlin, working on scalable architectures for machine learning inference and training. Before SAP, I was a postdoc at the <a href="http://www.dima.tu-berlin.de/menue/database_systems_and_information_management_group/?no_cache=1">database systems group</a> in TU Berlin, headed by <a href="https://www.dima.tu-berlin.de/menue/staff/volker_markl/">Volker Markl</a>. I received my PhD from <a href="http://www.inria.fr/saclay/">INRIA Saclay</a> &amp; <a href="http://www.u-psud.fr">Universite Paris-Sud</a> in 2013, supervised by <a href="http://www-rocq.inria.fr/~manolesc/">Ioana Manolescu</a>. Prior to that, I was a member of the High Performance Computing systems Lab (<a href="http://grid.ucy.ac.cy">HPCL</a>), at the University of Cyprus, working with <a href="http://www.cs.ucy.ac.cy/~mdd/">Marios Dikaiakos</a>.
 </p>
+
+
 
 <div class="awards-row">
 <strong><span class="fa fa-trophy"></span> Awards</strong><br>
 <div class="awards-content">
 <span class="badge-award"><span class="fa fa-award badge-icon"></span>ACM SIGMOD Systems Award 2023</span>
-<span class="badge-grant"><span class="fa fa-flask badge-icon"></span>NWO VIDI Grant 2023</span>
+<span class="badge-grant"><span class="fa fa-flask badge-icon"></span>NWO VIDI Grant 2022</span>
 <span class="badge-award"><span class="fa fa-award badge-icon"></span>EDBT Best Paper 2019</span>
 <span class="badge-award"><span class="fa fa-award badge-icon"></span>EDBT Best Demo 2023</span>
 <span class="badge-award"><span class="fa fa-award badge-icon"></span>ACM SIGMOD Research Highlights Award 2015</span>
@@ -52,6 +54,36 @@ I work in the broad area of scalable data management, and more specifically on d
     <a href="https://github.com/asteriosk"><span class="fab fa-github"></span> GitHub</a>
     <a href="https://x.com/kAsterios"><span class="fab fa-x-twitter"></span> X</a>
   </div>
+</div>
+</div>
+</div>
+
+
+<!-- Research Areas -->
+<div id="research" class="row" style="padding-top: 1rem;">
+<div class="col-12"><h4>Research Areas</h4></div>
+
+<div class="col-md-4 mb-3">
+<div class="research-card">
+  <div class="card-icon"><span class="fa fa-cloud"></span></div>
+  <h6>Cloud Runtimes</h6>
+  <p style="font-size:0.9rem; margin-bottom:0.75rem;">Building programming models and runtimes that bring ACID transactions to stateful serverless in the Cloud.</p>
+</div>
+</div>
+
+<div class="col-md-4 mb-3">
+<div class="research-card">
+  <div class="card-icon"><span class="fa fa-water"></span></div>
+  <h6>Stream Processing</h6>
+  <p style="font-size:0.9rem; margin-bottom:0.75rem;">Designing fault-tolerant, high-throughput streaming systems that scale to billions of events per second.</p>
+</div>
+</div>
+
+<div class="col-md-4 mb-3">
+<div class="research-card">
+  <div class="card-icon"><span class="fa fa-database"></span></div>
+  <h6>Data Discovery</h6>
+  <p style="font-size:0.9rem; margin-bottom:0.75rem;">Automating the discovery of datasets and their relationships in data lakes and enterprise repositories.</p>
 </div>
 </div>
 </div>
