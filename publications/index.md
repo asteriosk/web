@@ -99,12 +99,145 @@ publications:
 
 ---
 
-<div id="publications" class="row">
-<div style="text-align: justify;" class="col-sm-12">
-<h5>Selected Publications</h5>
-(For a complete list, check my <a href="https://dblp.org/pid/64/7497.html">DBLP entry</a>)
+<div id="research" class="row" style="padding-top: 1rem;">
+<div class="col-12"><h2>Research Areas</h2></div>
 
-<br/>
+
+<div class="col-md-4 mb-3">
+<div class="research-card">
+  <div class="card-icon"><span class="fa fa-cloud"></span></div>
+  <h5>Cloud Runtimes</h5>
+  <p style="font-size:0.9rem; margin-bottom:0.75rem;">Building programming models and runtimes that bring ACID transactions to stateful serverless in the Cloud.</p>
+  <!-- <div style="margin-bottom:0.75rem;">
+    <span class="tag">Styx</span>
+    <span class="tag">Stateful Functions</span>
+    <span class="tag">Distributed Transactions</span>
+  </div> -->
+  <!-- <div class="project-card">
+    <h6><span class="fa fa-code-branch" style="font-size:0.85em; margin-right:4px;"></span><a href="https://github.com/delftdata/styx">Styx</a></h6>
+    <p style="font-size:0.82rem; margin:0;">Transactional stateful serverless on dataflow systems. Presented at SIGMOD 2025.</p>
+  </div> -->
+</div>
+</div>
+
+
+
+<div class="col-md-4 mb-3">
+<div class="research-card">
+  <div class="card-icon"><span class="fa fa-water"></span></div>
+  <h5>Stream Processing</h5>
+  <p style="font-size:0.9rem; margin-bottom:0.75rem;">Designing fault-tolerant, high-throughput streaming systems that scale to billions of events per second.</p>
+  <!-- <div class="project-card">
+    <h6><span class="fa fa-bolt" style="font-size:0.85em; margin-right:4px;"></span><a href="https://github.com/apache/flink">Apache Flink</a></h6>
+    <p style="font-size:0.82rem; margin:0;">Open-source unified stream and batch processing engine. Co-recipient of the ACM SIGMOD Systems Award 2023.</p>
+  </div> -->
+</div>
+</div>
+
+
+
+<div class="col-md-4 mb-3">
+<div class="research-card">
+  <div class="card-icon"><span class="fa fa-database"></span></div>
+  <h5>Data Discovery</h5>
+  <p style="font-size:0.9rem; margin-bottom:0.75rem;">Automating the discovery of dataset relationships across data lakes and enterprise repositories.</p>
+  <!-- <div style="margin-bottom:0.75rem;">
+    <span class="tag">Valentine</span>
+    <span class="tag">AutoFeat</span>
+    <span class="tag">OmniMatch</span>
+  </div> -->
+  <!-- <div class="project-card">
+    <h6><span class="fa fa-heart" style="font-size:0.85em; margin-right:4px;"></span><a href="https://github.com/delftdata/valentine">Valentine</a></h6>
+    <p style="font-size:0.82rem; margin:0;">Unified benchmark and toolkit for schema matching and dataset discovery. Published at <a href="https://delftdata.github.io/valentine">ICDE 2021</a>.</p> -->
+  <!-- </div> -->
+</div>
+</div>
+</div>
+
+<div id="publications" class="row" style="padding-top: 1rem;">
+<div style="text-align: justify;" class="col-sm-12">
+<h5>Selected Results</h5>
+
+<div class="pub-highlights">
+
+  <div class="pub-highlight-card">
+    <div class="pub-highlight-venue-col"><span class="pub-highlight-venue">SIGMOD '25</span></div>
+    <div class="pub-highlight-main">
+      <div class="pub-highlight-title">Styx: Transactional Stateful Functions on Streaming Dataflows</div>
+      <div class="pub-highlight-authors">Kyriakos Psarakis, George Christodoulou, George Siachamis, Marios Fragkoulis, Asterios Katsifodimos</div>
+    </div>
+    <div class="pub-highlight-links">
+      <a href="https://arxiv.org/pdf/2312.06893"><span class="fa fa-file-pdf"></span> PDF</a>
+      <a href="https://github.com/delftdata/styx"><span class="fa fa-code-branch"></span> GitHub</a>
+    </div>
+  </div>
+
+  <div class="pub-highlight-card">
+    <div class="pub-highlight-venue-col"><span class="pub-highlight-venue">CIDR '25</span></div>
+    <div class="pub-highlight-main">
+      <div class="pub-highlight-title">Transactional Cloud Applications Go with the (Data)Flow</div>
+      <div class="pub-highlight-authors">Kyriakos Psarakis, George Christodoulou, Marios Fragkoulis, Asterios Katsifodimos</div>
+    </div>
+    <div class="pub-highlight-links">
+      <a href="https://vldb.org/cidrdb/papers/2025/p25-psarakis.pdf"><span class="fa fa-file-pdf"></span> PDF</a>
+      <a href="https://github.com/delftdata/styx"><span class="fa fa-code-branch"></span> GitHub</a>
+    </div>
+  </div>
+
+  <div class="pub-highlight-card">
+    <div class="pub-highlight-venue-col"><span class="pub-highlight-venue">SIGMOD '21</span></div>
+    <div class="pub-highlight-main">
+      <div class="pub-highlight-title">Clonos: Consistent Causal Recovery for Highly-Available Streaming Dataflows</div>
+      <div class="pub-highlight-authors">Pedro Fortunato Silvestre, Marios Fragkoulis, Diomidis Spinellis, Asterios Katsifodimos</div>
+    </div>
+    <div class="pub-highlight-links">
+      <a href="/assets/publications/clonos-sigmod2021.pdf"><span class="fa fa-file-pdf"></span> PDF</a>
+      <a href="https://github.com/delftdata/Clonos"><span class="fa fa-code-branch"></span> GitHub</a>
+    </div>
+  </div>
+
+  <div class="pub-highlight-card">
+    <div class="pub-highlight-venue-col"><span class="pub-highlight-venue">ICDE '21</span></div>
+    <div class="pub-highlight-main">
+      <div class="pub-highlight-title">Valentine: Evaluating Matching Techniques for Dataset Discovery</div>
+      <div class="pub-highlight-authors">Christos Koutras, George Siachamis, Andra Ionescu, Kyriakos Psarakis, Jerry Brons, Marios Fragkoulis, Christoph Lofi, Angela Bonifati, Asterios Katsifodimos</div>
+    </div>
+    <div class="pub-highlight-links">
+      <a href="https://arxiv.org/pdf/2010.07386"><span class="fa fa-file-pdf"></span> PDF</a>
+      <a href="https://github.com/delftdata/valentine"><span class="fa fa-code-branch"></span> GitHub</a>
+    </div>
+  </div>
+
+  <div class="pub-highlight-card">
+    <div class="pub-highlight-venue-col"><span class="pub-highlight-venue">SIGMOD '15</span></div>
+    <div class="pub-highlight-main">
+      <div class="pub-highlight-title">Implicit Parallelism through Deep Language Embedding</div>
+      <div class="pub-highlight-authors">Alexander Alexandrov, Andreas Kunft, Asterios Katsifodimos, Felix Schüler, Lauritz Thamsen, Odej Kao, Tobias Herb, Volker Markl</div>
+      <div class="pub-highlight-award"><span class="fa fa-trophy"></span> ACM SIGMOD Research Highlights Award 2015</div>
+    </div>
+    <div class="pub-highlight-links">
+      <a href="/assets/publications/emma-sigmod2015.pdf"><span class="fa fa-file-pdf"></span> PDF</a>
+      <a href="https://github.com/emmalanguage"><span class="fa fa-code-branch"></span> GitHub</a>
+    </div>
+  </div>
+
+  <div class="pub-highlight-card">
+    <div class="pub-highlight-venue-col"><span class="pub-highlight-venue">IEEE DEB '15</span></div>
+    <div class="pub-highlight-main">
+      <div class="pub-highlight-title">Apache Flink: Stream and Batch Processing in a Single Engine</div>
+      <div class="pub-highlight-authors">Paris Carbone, Stephan Ewen, Seif Haridi, Asterios Katsifodimos, Volker Markl, Kostas Tzoumas</div>
+      <div class="pub-highlight-award"><span class="fa fa-trophy"></span> ACM SIGMOD Systems Award 2023</div>
+    </div>
+    <div class="pub-highlight-links">
+      <a href="/assets/publications/flink-deb.pdf"><span class="fa fa-file-pdf"></span> PDF</a>
+      <a href="https://github.com/apache/flink"><span class="fa fa-code-branch"></span> GitHub</a>
+    </div>
+  </div>
+
+</div>
+
+<h5>All Publications (Almost)</h5>
+<i>For a complete list, check my <a href="https://dblp.org/pid/64/7497.html">DBLP entry</a></i>
 <br/>
 <br/>
 {% for pub in page.publications %}
