@@ -2,6 +2,8 @@
 layout: default
 title: "Asterios Katsifodimos | Assistant Professor, TU Delft"
 publications:
+  - { section: true, title: "2026" }
+  - { label: "CIDR'26", title: "Event Horizon: Asymmetric Dependencies for Fast Geo-Distributed Operations", authors: "Jonathan Arns, Harald Ng, Kyriakos Psarakis, Asterios Katsifodimos, Paris Carbone", venue: "In the Proceedings of the 18th Annual Conference on Innovative Data Systems Research (CIDR 2026)"}
   - { section: true, title: "2025" }
   - { label: "SIGMOD'25", title: "Styx: Transactional Stateful Functions on Streaming Dataflows", authors: "Kyriakos Psarakis, George Christodoulou, George Siachamis, Marios Fragkoulis, Asterios Katsifodimos", venue: "In the Proceedings of the 2025 ACM SIGMOD International Conference on the Management of Data"}
   - { label: "VLDB'25", title: "Styx in Action: Transactional Cloud Applications Made Easy", authors: "Kyriakos Psarakis, Oto Mraz, George Christodoulou, George Siachamis, Marios Fragkoulis, Asterios Katsifodimos", venue: "In the Proceedings of the 51st International Conference on Very Large Data Bases (VLDB 2025)"}
@@ -111,10 +113,10 @@ publications:
 {% else %}
 &nbsp;
 <dl class="row">
- <dt class="col-sm-3"><h6><span class="badge badge-secondary" role="button">{{ pub.label }}</span></h6><br/>
-    {% if pub.pdf %}<a href="{{ site.url}}/{{ pub.pdf }}" class="badge badge-pill  badge-info" role="button"><i class="fa fa-download"></i>&nbsp;PDF</a>{% endif %}
-    {% if pub.poster %}<a href="{{ site.url}}/{{ pub.poster }}" class="badge badge-pill  badge-info" role="button"><i class="fa fa-download"></i>&nbsp;Poster</a>{% endif %}
-    {% if pub.slides %}<a href="{{ site.url}}/{{ pub.slides }}" class="badge badge-pill badge-primary" role="button"><i class="fa fa-download"></i>&nbsp;Slides</a>{% endif %}
+ <dt class="col-sm-3"><span class="badge bg-secondary" role="button">{{ pub.label }}</span><br/>
+    {% if pub.pdf %}<a href="{{ site.url}}/{{ pub.pdf }}" class="badge rounded-pill bg-info" role="button"><i class="fa fa-download"></i>&nbsp;PDF</a>{% endif %}
+    {% if pub.poster %}<a href="{{ site.url}}/{{ pub.poster }}" class="badge rounded-pill bg-info" role="button"><i class="fa fa-download"></i>&nbsp;Poster</a>{% endif %}
+    {% if pub.slides %}<a href="{{ site.url}}/{{ pub.slides }}" class="badge rounded-pill bg-primary" role="button"><i class="fa fa-download"></i>&nbsp;Slides</a>{% endif %}
 	</dt>
   <dd class="col-sm-9">
     <strong>{{ pub.title }}</strong> <br> <i>{{ pub.authors }}</i>. <br> {{pub.venue}}. 
