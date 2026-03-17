@@ -100,13 +100,13 @@ publications:
 ---
 
 <div id="research" class="row" style="padding-top: 1rem;">
-<div class="col-12"><h2>Research Areas</h2></div>
+<div class="col-12"><h4>Research Areas</h4></div>
 
 
 <div class="col-md-4 mb-3">
 <div class="research-card">
   <div class="card-icon"><span class="fa fa-cloud"></span></div>
-  <h5>Cloud Runtimes</h5>
+  <h6>Cloud Runtimes</h6>
   <p style="font-size:0.9rem; margin-bottom:0.75rem;">Building programming models and runtimes that bring ACID transactions to stateful serverless in the Cloud.</p>
   <!-- <div style="margin-bottom:0.75rem;">
     <span class="tag">Styx</span>
@@ -125,7 +125,7 @@ publications:
 <div class="col-md-4 mb-3">
 <div class="research-card">
   <div class="card-icon"><span class="fa fa-water"></span></div>
-  <h5>Stream Processing</h5>
+  <h6>Stream Processing</h6>
   <p style="font-size:0.9rem; margin-bottom:0.75rem;">Designing fault-tolerant, high-throughput streaming systems that scale to billions of events per second.</p>
   <!-- <div class="project-card">
     <h6><span class="fa fa-bolt" style="font-size:0.85em; margin-right:4px;"></span><a href="https://github.com/apache/flink">Apache Flink</a></h6>
@@ -139,8 +139,8 @@ publications:
 <div class="col-md-4 mb-3">
 <div class="research-card">
   <div class="card-icon"><span class="fa fa-database"></span></div>
-  <h5>Data Discovery</h5>
-  <p style="font-size:0.9rem; margin-bottom:0.75rem;">Automating the discovery of dataset relationships across data lakes and enterprise repositories.</p>
+  <h6>Data Discovery</h6>
+  <p style="font-size:0.9rem; margin-bottom:0.75rem;">Automating the discovery of datasets and their relationships in data lakes and enterprise repositories.</p>
   <!-- <div style="margin-bottom:0.75rem;">
     <span class="tag">Valentine</span>
     <span class="tag">AutoFeat</span>

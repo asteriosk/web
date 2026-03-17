@@ -7,7 +7,7 @@ title: "Asterios Katsifodimos | Asst. Professor, TU Delft"
 <div id="top" class="row align-items-start">
 <div class="col-sm-8">
 
-<p class="lead" style="font-size: 130%">
+<p class="lead lead-xl">
 Asst. Professor, <a href="http://www.tudelft.nl/">TU Delft</a>, &amp; Amazon Scholar (<a href="https://aws.amazon.com">AWS</a>). Chair of the <a href="https://dis.ewi.tudelft.nl">Data-intensive Systems Group</a>.
 </p>
 
@@ -20,13 +20,13 @@ I work in the broad area of scalable data management, and more specifically on d
 </p>
 
 <div class="awards-row">
-<strong><span class="fa fa-trophy" style="color:#1a4f8a; margin-right:5px;"></span> Awards</strong><br>
-<div style="margin-top:0.5rem;">
-<span class="badge-award"><span class="fa fa-award" style="font-size:0.75em; margin-right:3px;"></span>ACM SIGMOD Systems Award 2023</span>
-<span class="badge-grant"><span class="fa fa-flask" style="font-size:0.75em; margin-right:3px;"></span>NWO VIDI Grant 2023</span>
-<span class="badge-award"><span class="fa fa-award" style="font-size:0.75em; margin-right:3px;"></span>EDBT Best Paper 2019</span>
-<span class="badge-award"><span class="fa fa-award" style="font-size:0.75em; margin-right:3px;"></span>EDBT Best Demo 2023</span>
-<span class="badge-award"><span class="fa fa-award" style="font-size:0.75em; margin-right:3px;"></span>ACM SIGMOD Research Highlights Award 2015</span>
+<strong><span class="fa fa-trophy"></span> Awards</strong><br>
+<div class="awards-content">
+<span class="badge-award"><span class="fa fa-award badge-icon"></span>ACM SIGMOD Systems Award 2023</span>
+<span class="badge-grant"><span class="fa fa-flask badge-icon"></span>NWO VIDI Grant 2023</span>
+<span class="badge-award"><span class="fa fa-award badge-icon"></span>EDBT Best Paper 2019</span>
+<span class="badge-award"><span class="fa fa-award badge-icon"></span>EDBT Best Demo 2023</span>
+<span class="badge-award"><span class="fa fa-award badge-icon"></span>ACM SIGMOD Research Highlights Award 2015</span>
 </div>
 </div>
 
@@ -151,7 +151,7 @@ I work in the broad area of scalable data management, and more specifically on d
 
 
 <!-- People -->
-<div id="people" class="row" style="padding-top: 0.5rem;">
+<div id="people" class="row">
 <div class="col-12">
 <h2>People</h2>
 </div>

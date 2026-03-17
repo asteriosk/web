@@ -4,7 +4,7 @@ title: "Asterios Katsifodimos | Assistant Professor, TU Delft"
 ---
 
 <div id="service" class="row">
-<div  style="text-align: justify;" class="col-sm-12">
+<div class="col-sm-12">
 <h5>Scientific Community Service</h5>
 
 <section markdown="1">
