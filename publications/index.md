@@ -15,7 +15,7 @@ publications:
   - { label: "VLDB'25", title: "OmniMatch: Joinability Discovery in Data Products", authors: "Christos Koutras, Jiani Zhang, Xiao Qin, Chuan Lei, Vassilis N. Ioannidis, Christos Faloutsos, George Karypis, Asterios Katsifodimos", venue: "In the Proceedings of the 51st International Conference on Very Large Data Bases (VLDB 2025)", pdf: "https://www.vldb.org/pvldb/vol18/p4588-koutras.pdf"}
   - { label: "ICDE'25", title: "Featpilot: Automatic Feature Augmentation on Tabular Data", authors: "Jiaming Liang, Chuan Lei, Xiao Qin, Jiani Zhang, Asterios Katsifodimos, Christos Faloutsos, Huzefa Rangwala", venue: "In the Proceedings of the 2025 IEEE International Conference on Data Engineering (ICDE)", link: "https://doi.org/10.1109/ICDE65448.2025.00163"}
   - { label: "DBPL'25", title: "Cascade: From Imperative Code to Stateful Dataflows", authors: "Marcus Schutte, Lucas Van Mol, George Christodoulou, Asterios Katsifodimos", venue: "In the Proceedings of the ACM SIGPLAN International Symposium on Database Programming Languages (DBPL 2025)", link: "https://doi.org/10.1145/3735106.3736537"}
-  - { label: "Distrib. Parallel DB'25", title: "Accelerating Machine Learning Queries with Linear Algebra Query Processing", authors: "Wenbo Sun, Asterios Katsifodimos, Rihan Hai", venue: "Distributed and Parallel Databases, Springer, 2025", link: "https://doi.org/10.1007/s10619-024-07451-7"}
+  - { label: "DPDB'25", title: "Accelerating Machine Learning Queries with Linear Algebra Query Processing", authors: "Wenbo Sun, Asterios Katsifodimos, Rihan Hai", venue: "Distributed and Parallel Databases, Springer, 2025", link: "https://doi.org/10.1007/s10619-024-07451-7"}
   - { label: "arXiv'25", title: "CoddLLM: Empowering Large Language Models for Data Analytics", authors: "Jiani Zhang, Hengrui Zhang, Rishav Chakravarti, Yiqun Hu, Patrick Ng, Asterios Katsifodimos, Huzefa Rangwala, George Karypis, Alon Halevy", venue: "arXiv preprint, 2025", pdf: "https://arxiv.org/pdf/2502.00329"}
   - { section: true, title: "2024" }
   - { label: "ICDE'24", title: "CheckMate: Evaluating Checkpointing Protocols for Streaming Dataflows", authors: "George Siachamis, Kyriakos Psarakis, Marios Fragkoulis, Arie van Deursen, Paris Carbone, Asterios Katsifodimos", venue: "In the Proceedings of the 2024 IEEE 40th International Conference on Data Engineering (ICDE)", pdf: "https://arxiv.org/pdf/2403.13629"}
@@ -70,7 +70,7 @@ publications:
   - { section: true, title: "2017" }
   - { label: "VLDB '17", title: "BlockJoin: Efficient Matrix Partitioning Through Joins", authors: "Andreas Kunft, Asterios Katsifodimos, Sebastian Schelter, Tilmann Rabl, Volker Markl", venue: "In the Proceedings of the VLDB Endowment, Vol. 10, No. 13 (presented in VLDB 2018)", pdf: "assets/publications/blockjoin-pvldb17.pdf"}
   - { label: "ACM SoCC '17", title: "Optimized On-Demand Data Streaming from Sensor Nodes", authors: "Jonas Traub, Sebastian Breß, Tilmann Rabl, Asterios Katsifodimos, Volker Markl", venue: "In the poceedings of the 8th ACM Symposium on Cloud Computing 2017 (SoCC '17')", pdf: "assets/publications/sense-socc17.pdf"}
-  - { label: "Elsevier Big Data Handbook  '17", title: "Large-Scale Data Stream Processing Systems", authors: "Paris Carbone, Gábor E. Gévay, Gábor Hermann, Asterios Katsifodimos, Juan Soto, Volker Markl, Seif Haridi", venue: "Book chapter on Large-Scale Data Stream Processing Systems, part of the Handbook of Big Data Technologies 2017 (Elsevier): 219-260", link: "https://link.springer.com/chapter/10.1007/978-3-319-49340-4_7"}
+  - { label: "EBDH '17", title: "Large-Scale Data Stream Processing Systems", authors: "Paris Carbone, Gábor E. Gévay, Gábor Hermann, Asterios Katsifodimos, Juan Soto, Volker Markl, Seif Haridi", venue: "Book chapter on Large-Scale Data Stream Processing Systems, part of the Handbook of Big Data Technologies 2017 (Elsevier): 219-260", link: "https://link.springer.com/chapter/10.1007/978-3-319-49340-4_7"}
   
   - { section: true, title: "2016" }
   - { label: "ACM CIKM '16", title: "Cutty: Aggregate Sharing for User-defined Windows", authors: "Paris Carbone, Jonas Traub, Asterios Katsifodimos, Seif Haridi, Volker Markl", venue: "To appear in the 25th ACM International Conference on Information and Knowledge Management (CIKM 2016)", pdf: "assets/publications/cutty-cikm2016.pdf"}
@@ -115,93 +115,105 @@ publications:
 
 <div id="publications" class="row" style="padding-top: 1rem;">
 <div style="text-align: justify;" class="col-sm-12">
-<h4>Selected Results</h4>
+<h5>Selected Results</h5>
 
 <div class="pub-highlights">
 
   <div class="pub-highlight-card">
-    <div class="pub-highlight-venue-col"><span class="pub-highlight-venue">SIGMOD '25</span></div>
+    <div class="pub-highlight-venue-col">
+      <span class="pub-highlight-venue">SIGMOD '25</span>
+      <div class="pub-highlight-links">
+        <a href="https://arxiv.org/pdf/2312.06893"><span class="fa fa-file-pdf"></span> PDF</a>
+        <a href="https://github.com/delftdata/styx"><span class="fa fa-code-branch"></span> GitHub</a>
+      </div>
+    </div>
     <div class="pub-highlight-main">
       <div class="pub-highlight-title">Styx: Transactional Stateful Functions on Streaming Dataflows</div>
       <div class="pub-highlight-authors">Kyriakos Psarakis, George Christodoulou, George Siachamis, Marios Fragkoulis, Asterios Katsifodimos</div>
       <div class="pub-highlight-desc">Styx brings transactions to stateful functions running on streaming dataflows — giving you the scalability of stream processing with strong consistency guarantees.</div>
     </div>
-    <div class="pub-highlight-links">
-      <a href="https://arxiv.org/pdf/2312.06893"><span class="fa fa-file-pdf"></span> PDF</a>
-      <a href="https://github.com/delftdata/styx"><span class="fa fa-code-branch"></span> GitHub</a>
-    </div>
   </div>
 
   <div class="pub-highlight-card">
-    <div class="pub-highlight-venue-col"><span class="pub-highlight-venue">CIDR '25</span></div>
+    <div class="pub-highlight-venue-col">
+      <span class="pub-highlight-venue">CIDR '25</span>
+      <div class="pub-highlight-links">
+        <a href="https://vldb.org/cidrdb/papers/2025/p25-psarakis.pdf"><span class="fa fa-file-pdf"></span> PDF</a>
+        <a href="https://github.com/delftdata/styx"><span class="fa fa-code-branch"></span> GitHub</a>
+      </div>
+    </div>
     <div class="pub-highlight-main">
       <div class="pub-highlight-title">Transactional Cloud Applications Go with the (Data)Flow</div>
       <div class="pub-highlight-authors">Kyriakos Psarakis, George Christodoulou, Marios Fragkoulis, Asterios Katsifodimos</div>
       <div class="pub-highlight-desc">A vision for building transactional cloud apps directly on streaming dataflows, cutting out the need for separate coordination services.</div>
     </div>
-    <div class="pub-highlight-links">
-      <a href="https://vldb.org/cidrdb/papers/2025/p25-psarakis.pdf"><span class="fa fa-file-pdf"></span> PDF</a>
-      <a href="https://github.com/delftdata/styx"><span class="fa fa-code-branch"></span> GitHub</a>
-    </div>
   </div>
 
   <div class="pub-highlight-card">
-    <div class="pub-highlight-venue-col"><span class="pub-highlight-venue">SIGMOD '21</span></div>
+    <div class="pub-highlight-venue-col">
+      <span class="pub-highlight-venue">SIGMOD '21</span>
+      <div class="pub-highlight-links">
+        <a href="/assets/publications/clonos-sigmod2021.pdf"><span class="fa fa-file-pdf"></span> PDF</a>
+        <a href="https://github.com/delftdata/Clonos"><span class="fa fa-code-branch"></span> GitHub</a>
+      </div>
+    </div>
     <div class="pub-highlight-main">
       <div class="pub-highlight-title">Clonos: Consistent Causal Recovery for Highly-Available Streaming Dataflows</div>
       <div class="pub-highlight-authors">Pedro Fortunato Silvestre, Marios Fragkoulis, Diomidis Spinellis, Asterios Katsifodimos</div>
       <div class="pub-highlight-desc">Clonos lets streaming dataflows recover from failures quickly and consistently, with exactly-once guarantees and minimal downtime.</div>
     </div>
-    <div class="pub-highlight-links">
-      <a href="/assets/publications/clonos-sigmod2021.pdf"><span class="fa fa-file-pdf"></span> PDF</a>
-      <a href="https://github.com/delftdata/Clonos"><span class="fa fa-code-branch"></span> GitHub</a>
-    </div>
   </div>
 
   <div class="pub-highlight-card">
-    <div class="pub-highlight-venue-col"><span class="pub-highlight-venue">ICDE '21</span></div>
+    <div class="pub-highlight-venue-col">
+      <span class="pub-highlight-venue">ICDE '21</span>
+      <div class="pub-highlight-links">
+        <a href="https://arxiv.org/pdf/2010.07386"><span class="fa fa-file-pdf"></span> PDF</a>
+        <a href="https://github.com/delftdata/valentine"><span class="fa fa-code-branch"></span> GitHub</a>
+      </div>
+    </div>
     <div class="pub-highlight-main">
       <div class="pub-highlight-title">Valentine: Evaluating Matching Techniques for Dataset Discovery</div>
       <div class="pub-highlight-authors">Christos Koutras, George Siachamis, Andra Ionescu, Kyriakos Psarakis, Jerry Brons, Marios Fragkoulis, Christoph Lofi, Angela Bonifati, Asterios Katsifodimos</div>
       <div class="pub-highlight-desc">A benchmark for schema matching techniques in data lakes — helps you figure out which matching algorithm actually works best for dataset discovery.</div>
     </div>
-    <div class="pub-highlight-links">
-      <a href="https://arxiv.org/pdf/2010.07386"><span class="fa fa-file-pdf"></span> PDF</a>
-      <a href="https://github.com/delftdata/valentine"><span class="fa fa-code-branch"></span> GitHub</a>
-    </div>
   </div>
 
   <div class="pub-highlight-card">
-    <div class="pub-highlight-venue-col"><span class="pub-highlight-venue">SIGMOD '15</span></div>
+    <div class="pub-highlight-venue-col">
+      <span class="pub-highlight-venue">SIGMOD '15</span>
+      <div class="pub-highlight-links">
+        <a href="/assets/publications/emma-sigmod2015.pdf"><span class="fa fa-file-pdf"></span> PDF</a>
+        <a href="https://github.com/emmalanguage"><span class="fa fa-code-branch"></span> GitHub</a>
+      </div>
+    </div>
     <div class="pub-highlight-main">
       <div class="pub-highlight-title">Implicit Parallelism through Deep Language Embedding</div>
       <div class="pub-highlight-authors">Alexander Alexandrov, Andreas Kunft, Asterios Katsifodimos, Felix Schüler, Lauritz Thamsen, Odej Kao, Tobias Herb, Volker Markl</div>
       <div class="pub-highlight-award"><span class="fa fa-trophy"></span> ACM SIGMOD Research Highlights Award 2015</div>
       <div class="pub-highlight-desc">Emma automatically parallelizes data analysis programs written in a regular programming language — no need to think about distributed computing.</div>
     </div>
-    <div class="pub-highlight-links">
-      <a href="/assets/publications/emma-sigmod2015.pdf"><span class="fa fa-file-pdf"></span> PDF</a>
-      <a href="https://github.com/emmalanguage"><span class="fa fa-code-branch"></span> GitHub</a>
-    </div>
   </div>
 
   <div class="pub-highlight-card">
-    <div class="pub-highlight-venue-col"><span class="pub-highlight-venue">IEEE DEB '15</span></div>
+    <div class="pub-highlight-venue-col">
+      <span class="pub-highlight-venue">IEEE DEB '15</span>
+      <div class="pub-highlight-links">
+        <a href="/assets/publications/flink-deb.pdf"><span class="fa fa-file-pdf"></span> PDF</a>
+        <a href="https://github.com/apache/flink"><span class="fa fa-code-branch"></span> GitHub</a>
+      </div>
+    </div>
     <div class="pub-highlight-main">
       <div class="pub-highlight-title">Apache Flink: Stream and Batch Processing in a Single Engine</div>
       <div class="pub-highlight-authors">Paris Carbone, Stephan Ewen, Seif Haridi, Asterios Katsifodimos, Volker Markl, Kostas Tzoumas</div>
       <div class="pub-highlight-award"><span class="fa fa-trophy"></span> ACM SIGMOD Systems Award 2023</div>
       <div class="pub-highlight-desc">The paper behind Apache Flink, a unified stream and batch processing engine that went on to become one of the most widely used open-source stream processors.</div>
     </div>
-    <div class="pub-highlight-links">
-      <a href="/assets/publications/flink-deb.pdf"><span class="fa fa-file-pdf"></span> PDF</a>
-      <a href="https://github.com/apache/flink"><span class="fa fa-code-branch"></span> GitHub</a>
-    </div>
   </div>
 
 </div>
 
-<h4>Publications</h4>
+<h5>Publications</h5>
 <i>For a complete list, check my <a href="https://dblp.org/pid/64/7497.html">DBLP entry</a></i>
 <br/>
 <br/>
@@ -212,16 +224,18 @@ publications:
 <div class="pub-highlights">
 {% else %}
   <div class="pub-highlight-card">
-    <div class="pub-highlight-venue-col"><span class="pub-highlight-venue">{{ pub.label }}</span></div>
+    <div class="pub-highlight-venue-col">
+      <span class="pub-highlight-venue">{{ pub.label }}</span>
+      <div class="pub-highlight-links">
+        {% if pub.pdf %}{% if pub.pdf contains "http" %}<a href="{{ pub.pdf }}"><span class="fa fa-file-pdf"></span> PDF</a>{% else %}<a href="{{ site.url}}/{{ pub.pdf }}"><span class="fa fa-file-pdf"></span> PDF</a>{% endif %}{% endif %}
+        {% if pub.link %}<a href="{{ pub.link }}"><span class="fa fa-up-right-from-square"></span> Link</a>{% endif %}
+        {% if pub.poster %}<a href="{{ site.url}}/{{ pub.poster }}"><span class="fa fa-file-pdf"></span> Poster</a>{% endif %}
+        {% if pub.slides %}<a href="{{ site.url}}/{{ pub.slides }}"><span class="fa fa-file-pdf"></span> Slides</a>{% endif %}
+      </div>
+    </div>
     <div class="pub-highlight-main">
       <div class="pub-highlight-title">{{ pub.title }}</div>
       <div class="pub-highlight-authors">{{ pub.authors }}</div>
-    </div>
-    <div class="pub-highlight-links">
-      {% if pub.pdf %}{% if pub.pdf contains "http" %}<a href="{{ pub.pdf }}"><span class="fa fa-file-pdf"></span> PDF</a>{% else %}<a href="{{ site.url}}/{{ pub.pdf }}"><span class="fa fa-file-pdf"></span> PDF</a>{% endif %}{% endif %}
-      {% if pub.link %}<a href="{{ pub.link }}"><span class="fa fa-up-right-from-square"></span> Link</a>{% endif %}
-      {% if pub.poster %}<a href="{{ site.url}}/{{ pub.poster }}"><span class="fa fa-file-pdf"></span> Poster</a>{% endif %}
-      {% if pub.slides %}<a href="{{ site.url}}/{{ pub.slides }}"><span class="fa fa-file-pdf"></span> Slides</a>{% endif %}
     </div>
   </div>
 {% endif %}

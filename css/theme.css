@@ -304,14 +304,21 @@ a:visited { color: #1a4f8a; }
   margin-top: 0.3rem;
 }
 .pub-highlight-links {
-  min-width: 100px;
+  margin-top: 0.35rem;
   text-align: right;
-  white-space: nowrap;
   font-size: 0.80rem;
   font-weight: 600;
 }
 .pub-highlight-links a {
-  margin-left: 0.5rem;
+  display: block;
+  margin-top: 2px;
+}
+
+@media (max-width: 575.98px) {
+  .pub-highlight-venue-col {
+    width: auto;
+    min-width: auto;
+  }
 }
 
 /* Career timeline */
