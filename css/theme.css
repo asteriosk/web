@@ -419,6 +419,49 @@ a:visited { color: #1a4f8a; }
   line-height: 1.3;
 }
 
+/* People vertical list */
+.people-list {
+  margin-bottom: 1.75rem;
+}
+.people-list-item {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.45rem 0;
+}
+.people-list-photo {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #e3e8ef;
+  flex-shrink: 0;
+}
+.people-list-item:hover .people-list-photo {
+  border-color: #1a4f8a;
+}
+.people-list-name {
+  font-weight: 700;
+  font-size: 0.85rem;
+  line-height: 1.3;
+}
+.people-list-advisor {
+  font-size: 0.78rem;
+  color: #888;
+  line-height: 1.3;
+}
+.people-list-meta {
+  font-size: 0.78rem;
+  color: #888;
+  line-height: 1.3;
+}
+.people-list-topic {
+  font-size: 0.78rem;
+  color: #555;
+  font-style: italic;
+  line-height: 1.3;
+}
+
 /* Awards row */
 .awards-row {
   border-left: 3px solid #1a4f8a;
