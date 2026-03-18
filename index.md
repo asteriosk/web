@@ -7,8 +7,8 @@ title: "Asterios Katsifodimos | Asst. Professor, TU Delft"
 <div id="top" class="row align-items-start">
 <div class="col-sm-8">
 
-<p class="lead lead-xl">
-Asst. Professor, <a href="http://www.tudelft.nl/">TU Delft</a>, &amp; Amazon Scholar (<a href="https://aws.amazon.com">AWS</a>). Chair of the <a href="https://dis.ewi.tudelft.nl">Data-intensive Systems Group</a>.
+<p class="lead lead-xl"><strong>
+Asst. Professor, <a href="http://www.tudelft.nl/">TU Delft</a>, &amp; Amazon Scholar (<a href="https://aws.amazon.com">AWS</a>). Chair of the <a href="https://dis.ewi.tudelft.nl">Data-intensive Systems Group</a>.</strong>
 </p>
 
 <p>
@@ -185,7 +185,7 @@ Before joining TU Delft, I spent a year with the <a href="https://icn.sap.com">S
 <!-- People -->
 <div id="people" class="row">
 <div class="col-12">
-<h2>People</h2>
+<h4>People</h4>
 </div>
 
 <div class="col-12 mb-1">

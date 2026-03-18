@@ -114,7 +114,7 @@ publications:
 
 <div id="publications" class="row" style="padding-top: 1rem;">
 <div style="text-align: justify;" class="col-sm-12">
-<h5>Selected Results</h5>
+<h4>Selected Results</h4>
 
 <div class="pub-highlights">
 
@@ -200,7 +200,7 @@ publications:
 
 </div>
 
-<h5>All Publications (Almost)</h5>
+<h4>Publications</h4>
 <i>For a complete list, check my <a href="https://dblp.org/pid/64/7497.html">DBLP entry</a></i>
 <br/>
 <br/>

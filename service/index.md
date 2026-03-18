@@ -5,7 +5,7 @@ title: "Asterios Katsifodimos | Assistant Professor, TU Delft"
 
 <div id="service" class="row">
 <div class="col-sm-12">
-<h5>Scientific Community Service</h5>
+<h4>Scientific Community Service</h4>
 
 <section markdown="1">
 
@@ -14,10 +14,10 @@ I regularly serve in the program committees of VLDB, SIGMOD and ICDE. I was the 
 You can find detailed (but maybe incomplete) information below.
 
 <br/>
-##### Chair and Organizer
+#### Chair and Organizer
 
 <table class="teaching-table">
-  <thead><tr><th>Event</th><th>Role</th></tr></thead>
+  <thead><tr><th>Venue</th><th>Role</th></tr></thead>
   <tbody>
     <tr><td>ICDE 2027</td><td>Tutorial Chair</td></tr>
     <tr><td>EuroSys 2025</td><td>Workshop Chair</td></tr>
@@ -31,7 +31,7 @@ You can find detailed (but maybe incomplete) information below.
 
 <br/>
 
-##### Program Committee Member
+#### Program Committee Member
 
 <table class="teaching-table">
   <thead><tr><th>Venue</th><th>Years</th></tr></thead>
@@ -48,7 +48,7 @@ You can find detailed (but maybe incomplete) information below.
 
 <br/>
 
-##### External Reviewer
+#### External Reviewer
 
 <table class="teaching-table">
   <thead><tr><th>Venue</th><th>Year</th></tr></thead>
