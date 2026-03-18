@@ -3,6 +3,7 @@ layout: default
 title: "Asterios Katsifodimos | Assistant Professor, TU Delft"
 publications:
   - { section: true, title: "2026" }
+  - { label: "VLDBJ'26", title: "State Migration in Styx: Towards Serverless Transactional Functions", authors: "Kyriakos Psarakis, George Christodoulou, George Siachamis, Marios Fragkoulis, Asterios Katsifodimos", venue: "The VLDB Journal, 2026"}
   - { label: "CIDR'26", title: "Event Horizon: Asymmetric Dependencies for Fast Geo-Distributed Operations", authors: "Jonathan Arns, Harald Ng, Kyriakos Psarakis, Asterios Katsifodimos, Paris Carbone", venue: "In the Proceedings of the 18th Annual Conference on Innovative Data Systems Research (CIDR 2026)", pdf: "https://www.vldb.org/cidrdb/papers/2026/p20-arns.pdf"}
   - { section: true, title: "2025" }
   - { label: "SIGMOD'25", title: "Styx: Transactional Stateful Functions on Streaming Dataflows", authors: "Kyriakos Psarakis, George Christodoulou, George Siachamis, Marios Fragkoulis, Asterios Katsifodimos", venue: "In the Proceedings of the 2025 ACM SIGMOD International Conference on the Management of Data", pdf: "https://arxiv.org/pdf/2312.06893"}
