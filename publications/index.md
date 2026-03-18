@@ -3,42 +3,42 @@ layout: default
 title: "Asterios Katsifodimos | Assistant Professor, TU Delft"
 publications:
   - { section: true, title: "2026" }
-  - { label: "CIDR'26", title: "Event Horizon: Asymmetric Dependencies for Fast Geo-Distributed Operations", authors: "Jonathan Arns, Harald Ng, Kyriakos Psarakis, Asterios Katsifodimos, Paris Carbone", venue: "In the Proceedings of the 18th Annual Conference on Innovative Data Systems Research (CIDR 2026)"}
+  - { label: "CIDR'26", title: "Event Horizon: Asymmetric Dependencies for Fast Geo-Distributed Operations", authors: "Jonathan Arns, Harald Ng, Kyriakos Psarakis, Asterios Katsifodimos, Paris Carbone", venue: "In the Proceedings of the 18th Annual Conference on Innovative Data Systems Research (CIDR 2026)", pdf: "https://www.vldb.org/cidrdb/papers/2026/p20-arns.pdf"}
   - { section: true, title: "2025" }
-  - { label: "SIGMOD'25", title: "Styx: Transactional Stateful Functions on Streaming Dataflows", authors: "Kyriakos Psarakis, George Christodoulou, George Siachamis, Marios Fragkoulis, Asterios Katsifodimos", venue: "In the Proceedings of the 2025 ACM SIGMOD International Conference on the Management of Data"}
-  - { label: "VLDB'25", title: "Styx in Action: Transactional Cloud Applications Made Easy", authors: "Kyriakos Psarakis, Oto Mraz, George Christodoulou, George Siachamis, Marios Fragkoulis, Asterios Katsifodimos", venue: "In the Proceedings of the 51st International Conference on Very Large Data Bases (VLDB 2025)"}
-  - { label: "CIDR'25", title: "Transactional Cloud Applications Go with the (Data)Flow", authors: "Kyriakos Psarakis, George Christodoulou, Marios Fragkoulis, Asterios Katsifodimos", venue: "In the Proceedings of the 17th Annual Conference on Innovative Data Systems Research (CIDR 2025)"}
-  - { label: "NAACL'25", title: "DiscoverGPT: Multi-task Fine-tuning Large Language Model for Related Table Discovery", authors: "Xuming Hu, Xiao Qin, Chuan Lei, Asterios Katsifodimos, Zhengyuan Shen, Balasubramaniam Srinivasan, Huzefa Rangwala", venue: "2025 Annual Conference of the North American Chapter of the Association for Computational Linguistics (findings)"}	
-  - { label: "SIGMOD'25", title: "Transactional Cloud Applications: Status Quo, Challenges, and Opportunities", authors: "Rodrigo Laigner, George Christodoulou, Kyriakos Psarakis, Asterios Katsifodimos, Yongluan Zhou", venue: "In the Proceedings of the 2025 ACM SIGMOD International Conference on the Management of Data"}
-  - { label: "NAACL'25", title: "PolyJoin: Semantic Multi-key Joinable Table Search in Data Lakes", authors: "Xuming Hu, Chuan Lei, Xiao Qin, Asterios Katsifodimos, Christos Faloutsos, Huzefa Rangwala", venue: "2025 Annual Conference of the North American Chapter of the Association for Computational Linguistics (findings)"}
+  - { label: "SIGMOD'25", title: "Styx: Transactional Stateful Functions on Streaming Dataflows", authors: "Kyriakos Psarakis, George Christodoulou, George Siachamis, Marios Fragkoulis, Asterios Katsifodimos", venue: "In the Proceedings of the 2025 ACM SIGMOD International Conference on the Management of Data", pdf: "https://arxiv.org/pdf/2312.06893"}
+  - { label: "VLDB'25", title: "Styx in Action: Transactional Cloud Applications Made Easy", authors: "Kyriakos Psarakis, Oto Mraz, George Christodoulou, George Siachamis, Marios Fragkoulis, Asterios Katsifodimos", venue: "In the Proceedings of the 51st International Conference on Very Large Data Bases (VLDB 2025)", pdf: "https://www.vldb.org/pvldb/vol18/p5275-psarakis.pdf"}
+  - { label: "CIDR'25", title: "Transactional Cloud Applications Go with the (Data)Flow", authors: "Kyriakos Psarakis, George Christodoulou, Marios Fragkoulis, Asterios Katsifodimos", venue: "In the Proceedings of the 17th Annual Conference on Innovative Data Systems Research (CIDR 2025)", pdf: "https://vldb.org/cidrdb/papers/2025/p25-psarakis.pdf"}
+  - { label: "NAACL'25", title: "DiscoverGPT: Multi-task Fine-tuning Large Language Model for Related Table Discovery", authors: "Xuming Hu, Xiao Qin, Chuan Lei, Asterios Katsifodimos, Zhengyuan Shen, Balasubramaniam Srinivasan, Huzefa Rangwala", venue: "2025 Annual Conference of the North American Chapter of the Association for Computational Linguistics (findings)", pdf: "https://aclanthology.org/2025.findings-naacl.21.pdf"}	
+  - { label: "SIGMOD'25", title: "Transactional Cloud Applications: Status Quo, Challenges, and Opportunities", authors: "Rodrigo Laigner, George Christodoulou, Kyriakos Psarakis, Asterios Katsifodimos, Yongluan Zhou", venue: "In the Proceedings of the 2025 ACM SIGMOD International Conference on the Management of Data", pdf: "https://arxiv.org/pdf/2504.17106"}
+  - { label: "NAACL'25", title: "PolyJoin: Semantic Multi-key Joinable Table Search in Data Lakes", authors: "Xuming Hu, Chuan Lei, Xiao Qin, Asterios Katsifodimos, Christos Faloutsos, Huzefa Rangwala", venue: "2025 Annual Conference of the North American Chapter of the Association for Computational Linguistics (findings)", pdf: "https://aclanthology.org/2025.findings-naacl.23.pdf"}
   - { section: true, title: "2024" }
-  - { label: "ICDE'24", title: "CheckMate: Evaluating Checkpointing Protocols for Streaming Dataflows", authors: "George Siachamis, Kyriakos Psarakis, Marios Fragkoulis, Arie van Deursen, Paris Carbone, Asterios Katsifodimos", venue: "In the Proceedings of the 2024 IEEE 40th International Conference on Data Engineering (ICDE)"}
-  - { label: "ICDE'24", title: "AutoFeat: Transitive Feature Discovery over Join Paths", authors: "Andra Ionescu, , Kiril Vasilev, Florena Buse, Rihan Hai, Asterios Katsifodimos", venue: "In the Proceedings of the 2024 IEEE 40th International Conference on Data Engineering (ICDE)"}
-  - { label: "VLDBJ'24", title: "A survey on the evolution of stream processing systems", authors: "Marios Fragkoulis, Paris Carbone, Vasiliki Kalavri, Asterios Katsifodimos", venue: "The VLDB Journal; 33(2): 507-541"}
-  - { label: "EDBT'24 / CIDR'23", title: "Stateful Entities: Object-oriented Cloud Applications as Distributed Dataflows", authors: "Kyriakos Psarakis, Wouter Zorgdrager, Marios Fragkoulis, Guido Salvaneschi, Asterios Katsifodimos", venue: "In the Proceedings of the 22nd International Conference on Extending Database Technology (EDBT) 2024"}
+  - { label: "ICDE'24", title: "CheckMate: Evaluating Checkpointing Protocols for Streaming Dataflows", authors: "George Siachamis, Kyriakos Psarakis, Marios Fragkoulis, Arie van Deursen, Paris Carbone, Asterios Katsifodimos", venue: "In the Proceedings of the 2024 IEEE 40th International Conference on Data Engineering (ICDE)", pdf: "https://arxiv.org/pdf/2403.13629"}
+  - { label: "ICDE'24", title: "AutoFeat: Transitive Feature Discovery over Join Paths", authors: "Andra Ionescu, , Kiril Vasilev, Florena Buse, Rihan Hai, Asterios Katsifodimos", venue: "In the Proceedings of the 2024 IEEE 40th International Conference on Data Engineering (ICDE)", link: "https://ieeexplore.ieee.org/document/10597758"}
+  - { label: "VLDBJ'24", title: "A survey on the evolution of stream processing systems", authors: "Marios Fragkoulis, Paris Carbone, Vasiliki Kalavri, Asterios Katsifodimos", venue: "The VLDB Journal; 33(2): 507-541", pdf: "https://arxiv.org/pdf/2008.00842"}
+  - { label: "EDBT'24 / CIDR'23", title: "Stateful Entities: Object-oriented Cloud Applications as Distributed Dataflows", authors: "Kyriakos Psarakis, Wouter Zorgdrager, Marios Fragkoulis, Guido Salvaneschi, Asterios Katsifodimos", venue: "In the Proceedings of the 22nd International Conference on Extending Database Technology (EDBT) 2024", pdf: "https://openproceedings.org/2024/conf/edbt/paper-11.pdf"}
   - { section: true, title: "2023" }
-  - { label: "RecSys'23", title: "Leveraging Large Language Models for Sequential Recommendation", authors: "Jesse Harte, Wouter Zorgdrager, Panos Louridas, Asterios Katsifodimos, Dietmar Jannach, Marios Fragkoulis", venue: "In the Proceedings of the conference ACM Recommender Systems (RecSys) Conference 2023"}
-  - { label: "DEBS'23", title: "Adaptive Distributed Streaming Similarity Joins", authors: "	George Siachamis, Kyriakos Psarakis, Marios Fragkoulis, Odysseas Papapetrou, Arie van Deursen, Asterios Katsifodimos", venue: "In the Findings of the 61st Annual Meeting of the Association for Computational Linguistics (ACL) 2023"}
-  - { label: "ACL'23", title: "Automatic Table Union Search with Tabular Representation Learning", authors: "Xuming Hu, Shen Wang, Xiao Qin, Chuan Lei, Zhengyuan Shen, Christos Faloutsos, Asterios Katsifodimos, George Karypis, Lijie Wen, Philip S. Yu", venue: "In the Findings of the 61st Annual Meeting of the Association for Computational Linguistics (ACL) 2023"}
-  - { label: "ICWE'23", title: "Optimizing ML Inference Queries Under Constraints", authors: "Ziyu Li, Mariette Schönfeld, Wenbo Sun, Marios Fragkoulis, Rihan Hai, Alessandro Bozzon, Asterios Katsifodimos", venue: "In the Proceedings of the International Conference on Web Engineering (ICWE) 2023"}
-  - { label: "ICWE'23", title: "Topio: An Open-Source Web Platform for Trading Geospatial Data", authors: "Andra Ionescu, Kostas Patroumpas, Kyriakos Psarakis, Georgios Chatzigeorgakidis, Diego Collarana, Kai Barenscher, Dimitrios Skoutas, Asterios Katsifodimos, Spiros Athanasiou", venue: "In the Proceedings of the International Conference on Web Engineering (ICWE) 2023"}
-  - { label: "EDBT'23", title: "Topio Marketplace: Search and Discovery of Geospatial Data", authors: "Andra Ionescu, Alexandra Alexandridou, Leonidas Ikonomou, Kyriakos Psarakis, Kostas Patroumpas, Georgios Chatzigeorgakidis, Dimitrios Skoutas, Spiros Athanasiou, Rihan Hai, Asterios Katsifodimos", venue: "In the Proceedings of the 22nd International Conference on Extending Database Technology (EDBT) 2023 (demonstration track)"}
+  - { label: "RecSys'23", title: "Leveraging Large Language Models for Sequential Recommendation", authors: "Jesse Harte, Wouter Zorgdrager, Panos Louridas, Asterios Katsifodimos, Dietmar Jannach, Marios Fragkoulis", venue: "In the Proceedings of the conference ACM Recommender Systems (RecSys) Conference 2023", pdf: "https://arxiv.org/pdf/2309.09261"}
+  - { label: "DEBS'23", title: "Adaptive Distributed Streaming Similarity Joins", authors: "	George Siachamis, Kyriakos Psarakis, Marios Fragkoulis, Odysseas Papapetrou, Arie van Deursen, Asterios Katsifodimos", venue: "In the Findings of the 61st Annual Meeting of the Association for Computational Linguistics (ACL) 2023", link: "https://dl.acm.org/doi/10.1145/3583668.3594575"}
+  - { label: "ACL'23", title: "Automatic Table Union Search with Tabular Representation Learning", authors: "Xuming Hu, Shen Wang, Xiao Qin, Chuan Lei, Zhengyuan Shen, Christos Faloutsos, Asterios Katsifodimos, George Karypis, Lijie Wen, Philip S. Yu", venue: "In the Findings of the 61st Annual Meeting of the Association for Computational Linguistics (ACL) 2023", pdf: "https://aclanthology.org/2023.findings-acl.233.pdf"}
+  - { label: "ICWE'23", title: "Optimizing ML Inference Queries Under Constraints", authors: "Ziyu Li, Mariette Schönfeld, Wenbo Sun, Marios Fragkoulis, Rihan Hai, Alessandro Bozzon, Asterios Katsifodimos", venue: "In the Proceedings of the International Conference on Web Engineering (ICWE) 2023", link: "https://link.springer.com/chapter/10.1007/978-3-031-34444-2_4"}
+  - { label: "ICWE'23", title: "Topio: An Open-Source Web Platform for Trading Geospatial Data", authors: "Andra Ionescu, Kostas Patroumpas, Kyriakos Psarakis, Georgios Chatzigeorgakidis, Diego Collarana, Kai Barenscher, Dimitrios Skoutas, Asterios Katsifodimos, Spiros Athanasiou", venue: "In the Proceedings of the International Conference on Web Engineering (ICWE) 2023", link: "https://link.springer.com/chapter/10.1007/978-3-031-34444-2_25"}
+  - { label: "EDBT'23", title: "Topio Marketplace: Search and Discovery of Geospatial Data", authors: "Andra Ionescu, Alexandra Alexandridou, Leonidas Ikonomou, Kyriakos Psarakis, Kostas Patroumpas, Georgios Chatzigeorgakidis, Dimitrios Skoutas, Spiros Athanasiou, Rihan Hai, Asterios Katsifodimos", venue: "In the Proceedings of the 22nd International Conference on Extending Database Technology (EDBT) 2023 (demonstration track)", pdf: "https://openproceedings.org/2023/conf/edbt/3-paper-165.pdf"}
   - { section: true, title: "2022" }
-  - { label: "Inf. Systems '22", title: "Transactions across serverless functions leveraging stateful dataflows", authors: "Martijn de Heus, Kyriakos Psarakis, Marios Fragkoulis, Asterios Katsifodimos", venue: "Springer Information Systems 108: 102015 (2022)"}
-  - { label: "DataPerf@NeurIPS'22", title: "Metadata Representations for Queryable ML Model Zoos", authors: "Ziyu Li, Rihan Hai, Alessandro Bozzon, Asterios Katsifodimos", venue: "DataPerf Benchmarking Data for Data-Centric AI, NeurIPS Workshop 2022"}
+  - { label: "Inf. Systems '22", title: "Transactions across serverless functions leveraging stateful dataflows", authors: "Martijn de Heus, Kyriakos Psarakis, Marios Fragkoulis, Asterios Katsifodimos", venue: "Springer Information Systems 108: 102015 (2022)", link: "https://link.springer.com/article/10.1007/s10796-022-10244-x"}
+  - { label: "DataPerf@NeurIPS'22", title: "Metadata Representations for Queryable ML Model Zoos", authors: "Ziyu Li, Rihan Hai, Alessandro Bozzon, Asterios Katsifodimos", venue: "DataPerf Benchmarking Data for Data-Centric AI, NeurIPS Workshop 2022", pdf: "https://arxiv.org/pdf/2207.09315"}
   - { label: "DBML@ICDE'22", title: "Join Path Based Data Augmentation for Decision Trees", authors: "Andra Ionescu, Rihan Hai, Marios Fragkoulis, Asterios Katsifodimos", venue: "In the Proceedings of the 2022 International workshop on databases and machine learning, colocated with ICDE", pdf: "assets/publications/auto-feature-discovery-dbml22.pdf"}
   - { label: "ICDE '22", title: "S-Query: Opening the Black Box of Internal Stream Processor State", authors: "Jim Verheijde, Vassilis Karakoidas, Marios Fragkoulis, Asterios Katsifodimos", pdf: "assets/publications/s-query-icde22.pdf", venue: "In the Proceedings of the 2022 IEEE 38th International Conference on Data Engineering (ICDE)"}
-  - { label: "CIDR '22", title: "Amalur: Next-generation Data Integration in Data Lakes", authors: "Rihan Hai, Christos Koutras, Andra Ionescu, Asterios Katsifodimos", venue: "In the Proceedings of the 13th Annual Conference on Innovative Data Systems Research (CIDR 2022)"}
+  - { label: "CIDR '22", title: "Amalur: Next-generation Data Integration in Data Lakes", authors: "Rihan Hai, Christos Koutras, Andra Ionescu, Asterios Katsifodimos", venue: "In the Proceedings of the 13th Annual Conference on Innovative Data Systems Research (CIDR 2022)", pdf: "https://arxiv.org/pdf/2205.09681"}
   - { section: true, title: "2021" }
   - { label: "SIGMOD '21", title: "Clonos: Consistent Causal Recovery for Highly-Available Streaming Dataflows", pdf: "assets/publications/clonos-sigmod2021.pdf", authors: "Pedro Fortunato Silvestre, Marios Fragkoulis, Diomidis Spinellis, Asterios Katsifodimos", venue: "In the Proceedings of the 2021 ACM SIGMOD International Conference on the Management of Data"}
-  - { label: "VLDB '21", title: "Hazelcast Jet: Low-latency Stream Processing at the 99.99th Percentile", authors: "Can Gencer, Marko Topolnik, Viliam Ďurina, Emin Demirci, Ensar B. Kahveci, Ali Gürbüz Ondřej Lukáš, József Bartók, Grzegorz Gierlach, František Hartman, Ufuk Yılmaz, Mehmet Doğan, Mohamed Mandouh, Marios Fragkoulis, Asterios Katsifodimos", venue: "In the Proceedings of the 47th International Conference on Very Large Data Bases (VLDB) 2021"}
-  - { label: "VLDB '21", title: "Valentine in Action: Matching Tabular Data at Scale", authors: "Christos Koutras &amp; Kyriakos Psarakis , George Siachamis, Andra Ionescu,  Marios Fragkoulis, Angela Bonifati, Asterios Katsifodimos", venue: "In the Proceedings of the 47th International Conference on Very Large Data Bases (VLDB) 2021 (Demo track)"}
-  - { label: "ACM TODS '21", title: "Scotty: General and Efficient Open-source Window Aggregation for Stream Processing Systems", authors: "Jonas Traub, Philipp Marian Grulich, Alejandro Rodriguez Cuellar, Sebastian Breß, Asterios Katsifodimos, Tilmann Rabl, Volker Markl", venue: "In the ACM journal on the Transactions on Database Systems, Volume 46, 2021"}
-  - { label: "ACM DEBS '21", title: "Distributed Transactions on Serverless Stateful Functions", authors: "Martijn De Heus, Kyriakos Psarakis, Marios Fragkoulis, Asterios Katsifodimos", venue: "Inthe proceedings of the 15th ACM International Conference on Distributed and Event‐based Systems (DEBS) 2021"}
-  - { label: "ICDE '21", title: "Valentine: Evaluating Matching Techniques for Dataset Discovery", authors: "Christos Koutras, George Siachamis, Andra Ionescu, Kyriakos Psarakis, Jerry Brons,  Marios Fragkoulis, Christoph Lofi, Angela Bonifati, Asterios Katsifodimos", venue: "In the Proceedings of the 2021 IEEE International Conference on Data Engineering (ICDE)"}
+  - { label: "VLDB '21", title: "Hazelcast Jet: Low-latency Stream Processing at the 99.99th Percentile", authors: "Can Gencer, Marko Topolnik, Viliam Ďurina, Emin Demirci, Ensar B. Kahveci, Ali Gürbüz Ondřej Lukáš, József Bartók, Grzegorz Gierlach, František Hartman, Ufuk Yılmaz, Mehmet Doğan, Mohamed Mandouh, Marios Fragkoulis, Asterios Katsifodimos", venue: "In the Proceedings of the 47th International Conference on Very Large Data Bases (VLDB) 2021", pdf: "https://arxiv.org/pdf/2103.10169"}
+  - { label: "VLDB '21", title: "Valentine in Action: Matching Tabular Data at Scale", authors: "Christos Koutras &amp; Kyriakos Psarakis , George Siachamis, Andra Ionescu,  Marios Fragkoulis, Angela Bonifati, Asterios Katsifodimos", venue: "In the Proceedings of the 47th International Conference on Very Large Data Bases (VLDB) 2021 (Demo track)", pdf: "https://vldb.org/pvldb/vol14/p2871-koutras.pdf"}
+  - { label: "ACM TODS '21", title: "Scotty: General and Efficient Open-source Window Aggregation for Stream Processing Systems", authors: "Jonas Traub, Philipp Marian Grulich, Alejandro Rodriguez Cuellar, Sebastian Breß, Asterios Katsifodimos, Tilmann Rabl, Volker Markl", venue: "In the ACM journal on the Transactions on Database Systems, Volume 46, 2021", link: "https://dl.acm.org/doi/10.1145/3433675"}
+  - { label: "ACM DEBS '21", title: "Distributed Transactions on Serverless Stateful Functions", authors: "Martijn De Heus, Kyriakos Psarakis, Marios Fragkoulis, Asterios Katsifodimos", venue: "Inthe proceedings of the 15th ACM International Conference on Distributed and Event‐based Systems (DEBS) 2021", link: "https://dl.acm.org/doi/10.1145/3465480.3466920"}
+  - { label: "ICDE '21", title: "Valentine: Evaluating Matching Techniques for Dataset Discovery", authors: "Christos Koutras, George Siachamis, Andra Ionescu, Kyriakos Psarakis, Jerry Brons,  Marios Fragkoulis, Christoph Lofi, Angela Bonifati, Asterios Katsifodimos", venue: "In the Proceedings of the 2021 IEEE International Conference on Data Engineering (ICDE)", pdf: "https://arxiv.org/pdf/2010.07386"}
   - { section: true, title: "2020" }
-  - { label: "SIGMOD '20", title: "Beyond Analytics: The Evolution of Stream Processing Systems", authors: "Paris Carbone, Marios Fragkoulis, Vasiliki Kalavri, Asterios Katsifodimos", venue: "In the Proceedings of the 2020 ACM SIGMOD International Conference on Management of Data (tutorial)"}
-  - { label: "SEAS @EDBT '20", title: "REMA: Graph Embeddings-based Relational Schema Matching", authors: "Christos Koutras, Marios Fragkoulis, Asterios Katsifodimos, Christoph Lofi", venue: "SEA Data workshop colocated with EDBT 2020"}
+  - { label: "SIGMOD '20", title: "Beyond Analytics: The Evolution of Stream Processing Systems", authors: "Paris Carbone, Marios Fragkoulis, Vasiliki Kalavri, Asterios Katsifodimos", venue: "In the Proceedings of the 2020 ACM SIGMOD International Conference on Management of Data (tutorial)", link: "https://dl.acm.org/doi/10.1145/3318464.3383131"}
+  - { label: "SEAS @EDBT '20", title: "REMA: Graph Embeddings-based Relational Schema Matching", authors: "Christos Koutras, Marios Fragkoulis, Asterios Katsifodimos, Christoph Lofi", venue: "SEA Data workshop colocated with EDBT 2020", pdf: "https://ceur-ws.org/Vol-2578/SEAData5.pdf"}
   - { section: true, title: "2019" }
   - { label: "VLDB '19", title: "Stateful Functions as a Service in Action", authors: "Adil Akhter, Marios Fragkoulis, Asterios Katsifodimos", venue: "In the Proceedings of the 45th International Conference on Very Large Data Bases (VLDB) 2019 (demo track)" , pdf: "assets/publications/stateful-functions.pdf"}
   - { label: "VLDB '19", title: "An Intermediate Representation for Optimizing Machine Learning Pipelines", authors: "Andreas Kunft, Asterios Katsifodimos, Sebastian Schelter, Sebastian Bress, Tilmann Rabl, Volker Markl", venue: "In the Proceedings of the 45th International Conference on Very Large Data Bases (VLDB) 2019", pdf: "assets/publications/end-to-end-ml-pipelines.pdf"} 
@@ -56,7 +56,7 @@ publications:
   - { section: true, title: "2017" }
   - { label: "VLDB '17", title: "BlockJoin: Efficient Matrix Partitioning Through Joins", authors: "Andreas Kunft, Asterios Katsifodimos, Sebastian Schelter, Tilmann Rabl, Volker Markl", venue: "In the Proceedings of the VLDB Endowment, Vol. 10, No. 13 (presented in VLDB 2018)", pdf: "assets/publications/blockjoin-pvldb17.pdf"}
   - { label: "ACM SoCC '17", title: "Optimized On-Demand Data Streaming from Sensor Nodes", authors: "Jonas Traub, Sebastian Breß, Tilmann Rabl, Asterios Katsifodimos, Volker Markl", venue: "In the poceedings of the 8th ACM Symposium on Cloud Computing 2017 (SoCC '17')", pdf: "assets/publications/sense-socc17.pdf"}
-  - { label: "Elsevier Big Data Handbook  '17", title: "Large-Scale Data Stream Processing Systems", authors: "Paris Carbone, Gábor E. Gévay, Gábor Hermann, Asterios Katsifodimos, Juan Soto, Volker Markl, Seif Haridi", venue: "Book chapter on Large-Scale Data Stream Processing Systems, part of the Handbook of Big Data Technologies 2017 (Elsevier): 219-260"}
+  - { label: "Elsevier Big Data Handbook  '17", title: "Large-Scale Data Stream Processing Systems", authors: "Paris Carbone, Gábor E. Gévay, Gábor Hermann, Asterios Katsifodimos, Juan Soto, Volker Markl, Seif Haridi", venue: "Book chapter on Large-Scale Data Stream Processing Systems, part of the Handbook of Big Data Technologies 2017 (Elsevier): 219-260", link: "https://link.springer.com/chapter/10.1007/978-3-319-49340-4_7"}
   
   - { section: true, title: "2016" }
   - { label: "ACM CIKM '16", title: "Cutty: Aggregate Sharing for User-defined Windows", authors: "Paris Carbone, Jonas Traub, Asterios Katsifodimos, Seif Haridi, Volker Markl", venue: "To appear in the 25th ACM International Conference on Information and Knowledge Management (CIKM 2016)", pdf: "assets/publications/cutty-cikm2016.pdf"}
@@ -110,6 +110,7 @@ publications:
     <div class="pub-highlight-main">
       <div class="pub-highlight-title">Styx: Transactional Stateful Functions on Streaming Dataflows</div>
       <div class="pub-highlight-authors">Kyriakos Psarakis, George Christodoulou, George Siachamis, Marios Fragkoulis, Asterios Katsifodimos</div>
+      <div class="pub-highlight-desc">Styx brings transactions to stateful functions running on streaming dataflows — giving you the scalability of stream processing with strong consistency guarantees.</div>
     </div>
     <div class="pub-highlight-links">
       <a href="https://arxiv.org/pdf/2312.06893"><span class="fa fa-file-pdf"></span> PDF</a>
@@ -122,6 +123,7 @@ publications:
     <div class="pub-highlight-main">
       <div class="pub-highlight-title">Transactional Cloud Applications Go with the (Data)Flow</div>
       <div class="pub-highlight-authors">Kyriakos Psarakis, George Christodoulou, Marios Fragkoulis, Asterios Katsifodimos</div>
+      <div class="pub-highlight-desc">A vision for building transactional cloud apps directly on streaming dataflows, cutting out the need for separate coordination services.</div>
     </div>
     <div class="pub-highlight-links">
       <a href="https://vldb.org/cidrdb/papers/2025/p25-psarakis.pdf"><span class="fa fa-file-pdf"></span> PDF</a>
@@ -134,6 +136,7 @@ publications:
     <div class="pub-highlight-main">
       <div class="pub-highlight-title">Clonos: Consistent Causal Recovery for Highly-Available Streaming Dataflows</div>
       <div class="pub-highlight-authors">Pedro Fortunato Silvestre, Marios Fragkoulis, Diomidis Spinellis, Asterios Katsifodimos</div>
+      <div class="pub-highlight-desc">Clonos lets streaming dataflows recover from failures quickly and consistently, with exactly-once guarantees and minimal downtime.</div>
     </div>
     <div class="pub-highlight-links">
       <a href="/assets/publications/clonos-sigmod2021.pdf"><span class="fa fa-file-pdf"></span> PDF</a>
@@ -146,6 +149,7 @@ publications:
     <div class="pub-highlight-main">
       <div class="pub-highlight-title">Valentine: Evaluating Matching Techniques for Dataset Discovery</div>
       <div class="pub-highlight-authors">Christos Koutras, George Siachamis, Andra Ionescu, Kyriakos Psarakis, Jerry Brons, Marios Fragkoulis, Christoph Lofi, Angela Bonifati, Asterios Katsifodimos</div>
+      <div class="pub-highlight-desc">A benchmark for schema matching techniques in data lakes — helps you figure out which matching algorithm actually works best for dataset discovery.</div>
     </div>
     <div class="pub-highlight-links">
       <a href="https://arxiv.org/pdf/2010.07386"><span class="fa fa-file-pdf"></span> PDF</a>
@@ -159,6 +163,7 @@ publications:
       <div class="pub-highlight-title">Implicit Parallelism through Deep Language Embedding</div>
       <div class="pub-highlight-authors">Alexander Alexandrov, Andreas Kunft, Asterios Katsifodimos, Felix Schüler, Lauritz Thamsen, Odej Kao, Tobias Herb, Volker Markl</div>
       <div class="pub-highlight-award"><span class="fa fa-trophy"></span> ACM SIGMOD Research Highlights Award 2015</div>
+      <div class="pub-highlight-desc">Emma automatically parallelizes data analysis programs written in a regular programming language — no need to think about distributed computing.</div>
     </div>
     <div class="pub-highlight-links">
       <a href="/assets/publications/emma-sigmod2015.pdf"><span class="fa fa-file-pdf"></span> PDF</a>
@@ -172,6 +177,7 @@ publications:
       <div class="pub-highlight-title">Apache Flink: Stream and Batch Processing in a Single Engine</div>
       <div class="pub-highlight-authors">Paris Carbone, Stephan Ewen, Seif Haridi, Asterios Katsifodimos, Volker Markl, Kostas Tzoumas</div>
       <div class="pub-highlight-award"><span class="fa fa-trophy"></span> ACM SIGMOD Systems Award 2023</div>
+      <div class="pub-highlight-desc">The paper behind Apache Flink, a unified stream and batch processing engine that went on to become one of the most widely used open-source stream processors.</div>
     </div>
     <div class="pub-highlight-links">
       <a href="/assets/publications/flink-deb.pdf"><span class="fa fa-file-pdf"></span> PDF</a>
@@ -187,21 +193,26 @@ publications:
 <br/>
 {% for pub in page.publications %}
 {% if pub.section %}
-<h6><strong>{{pub.title}}</strong></h6>
+{% unless forloop.first %}</div>{% endunless %}
+<h6 style="margin-top:1.2rem;"><strong>{{pub.title}}</strong></h6>
+<div class="pub-highlights">
 {% else %}
-&nbsp;
-<dl class="row">
- <dt class="col-sm-3"><span class="badge bg-secondary" role="button">{{ pub.label }}</span><br/>
-    {% if pub.pdf %}<a href="{{ site.url}}/{{ pub.pdf }}" class="badge rounded-pill bg-info" role="button"><i class="fa fa-download"></i>&nbsp;PDF</a>{% endif %}
-    {% if pub.poster %}<a href="{{ site.url}}/{{ pub.poster }}" class="badge rounded-pill bg-info" role="button"><i class="fa fa-download"></i>&nbsp;Poster</a>{% endif %}
-    {% if pub.slides %}<a href="{{ site.url}}/{{ pub.slides }}" class="badge rounded-pill bg-primary" role="button"><i class="fa fa-download"></i>&nbsp;Slides</a>{% endif %}
-	</dt>
-  <dd class="col-sm-9">
-    <strong>{{ pub.title }}</strong> <br> <i>{{ pub.authors }}</i>. <br> {{pub.venue}}. 
-  </dd>
-</dl>
+  <div class="pub-highlight-card">
+    <div class="pub-highlight-venue-col"><span class="pub-highlight-venue">{{ pub.label }}</span></div>
+    <div class="pub-highlight-main">
+      <div class="pub-highlight-title">{{ pub.title }}</div>
+      <div class="pub-highlight-authors">{{ pub.authors }}</div>
+    </div>
+    <div class="pub-highlight-links">
+      {% if pub.pdf %}{% if pub.pdf contains "http" %}<a href="{{ pub.pdf }}"><span class="fa fa-file-pdf"></span> PDF</a>{% else %}<a href="{{ site.url}}/{{ pub.pdf }}"><span class="fa fa-file-pdf"></span> PDF</a>{% endif %}{% endif %}
+      {% if pub.link %}<a href="{{ pub.link }}"><span class="fa fa-up-right-from-square"></span> Link</a>{% endif %}
+      {% if pub.poster %}<a href="{{ site.url}}/{{ pub.poster }}"><span class="fa fa-file-pdf"></span> Poster</a>{% endif %}
+      {% if pub.slides %}<a href="{{ site.url}}/{{ pub.slides }}"><span class="fa fa-file-pdf"></span> Slides</a>{% endif %}
+    </div>
+  </div>
 {% endif %}
 {% endfor %}
+</div>
 
 </div>
 
