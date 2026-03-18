@@ -238,6 +238,9 @@ a:visited { color: #1a4f8a; }
   border-bottom: 1px solid #e3e8ef;
   vertical-align: top;
 }
+.teaching-table td:first-child {
+  font-weight: 700;
+}
 .teaching-table tr:last-child td {
   border-bottom: none;
 }
