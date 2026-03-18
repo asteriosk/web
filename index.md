@@ -61,7 +61,7 @@ Before joining TU Delft, I spent a year with the <a href="https://icn.sap.com">S
 
 <!-- Research Areas -->
 <div id="research" class="row" style="padding-top: 1rem;">
-<div class="col-12"><h4>Research Areas</h4></div>
+<div class="col-12"><h5>Research Areas</h5></div>
 
 <div class="col-md-4 mb-3">
 <div class="research-card">
