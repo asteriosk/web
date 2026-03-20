@@ -429,16 +429,21 @@ a:visited { color: #1a4f8a; }
 /* People vertical list */
 .people-list {
   margin-bottom: 1.75rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
 }
 .people-list-item {
+  flex: 1 1 45%;
   display: flex;
   align-items: center;
   gap: 0.75rem;
   padding: 0.45rem 0;
+  min-width: 300px;
 }
 .people-list-photo {
-  width: 42px;
-  height: 42px;
+  width: 72px;
+  height: 72px;
   border-radius: 50%;
   object-fit: cover;
   border: 2px solid #e3e8ef;
@@ -446,6 +451,21 @@ a:visited { color: #1a4f8a; }
 }
 .people-list-item:hover .people-list-photo {
   border-color: #1a4f8a;
+}
+
+/* Icon placeholder for people photos */
+.people-list-photo-icon {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  background: #1a4f8a;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 0.9rem;
+  flex-shrink: 0;
 }
 .people-list-name {
   font-weight: 700;
@@ -471,9 +491,7 @@ a:visited { color: #1a4f8a; }
 
 /* Awards row */
 .awards-row {
-  border-left: 3px solid #1a4f8a;
   background: #f8fafd;
-  border-radius: 0 4px 4px 0;
   padding: 0.75rem 1rem;
   margin-top: 1.5rem;
 }
