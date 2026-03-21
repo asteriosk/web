@@ -110,113 +110,29 @@ publications:
   - { label: "IEEE/WIC/ACM Web Intell.  '09", title: "Effective Keyword search for Software Resources installed in Large-scale Grid Infrastructures", authors: "G. Pallis, A. Katsifodimos, M.D. Dikaiakos", venue: "In the 2009 IEEE/WIC/ACM International Conference on Web Intelligence (WI '09), 15-18 September 2009, Milan Italy", pdf: "assets/publications/wi2009.pdf"}
   - { label: "IEEE/ACM ccGrid  '09", title: "Harvesting Large-Scale Grids for Software Resources", authors: "A. Katsifodimos, G. Pallis, M.D. Dikaiakos", venue: "In the 9th IEEE International Symposium on Cluster Computing and the Grid (CCGrid '09), May 18-21, 2009. Shanghai, China", pdf: "assets/publications/ccgrid2009.pdf"}
   - { label: "Egee User Forum  '09", title: "Searching Software Resources in the EGEE Grid", authors: "A. Katsifodimos, G. Pallis, M.D. Dikaiakos", venue: "The 4th EGEE User Forum in conjunction with the Open Grid Forum 25 (OGF), March 2-6, 2009, Catania, Italy", poster: "assets/publications/posters/egeeuf09poster.pdf"}
+  - { section: true, title: "2009" }
+  - { label: "MSc Thesis  '09", title: "Minersoft: Searching Software Resources in large-scale Grid and Cloud Infrastructures", authors: "A. Katsifodimos", venue: "Master Thesis, Computer Science Department, University of Cyprus, September 2009", pdf: "assets/publications/msc.thesis.pdf", slides: "assets/presentations/msc.thesis.21-09-2009.ppt"}
+  - { label: "IEEE/WIC/ACM Web Intell.  '09", title: "Effective Keyword search for Software Resources installed in Large-scale Grid Infrastructures", authors: "G. Pallis, A. Katsifodimos, M.D. Dikaiakos", venue: "In the 2009 IEEE/WIC/ACM International Conference on Web Intelligence (WI '09), 15-18 September 2009, Milan Italy", pdf: "assets/publications/wi2009.pdf"}
+  - { label: "IEEE/ACM ccGrid  '09", title: "Harvesting Large-Scale Grids for Software Resources", authors: "A. Katsifodimos, G. Pallis, M.D. Dikaiakos", venue: "In the 9th IEEE International Symposium on Cluster Computing and the Grid (CCGrid '09), May 18-21, 2009. Shanghai, China", pdf: "assets/publications/ccgrid2009.pdf"}
+  - { label: "Egee User Forum  '09", title: "Searching Software Resources in the EGEE Grid", authors: "A. Katsifodimos, G. Pallis, M.D. Dikaiakos", venue: "The 4th EGEE User Forum in conjunction with the Open Grid Forum 25 (OGF), March 2-6, 2009, Catania, Italy", poster: "assets/publications/posters/egeeuf09poster.pdf"}
+
+selected_publications:
+  - { label: "SIGMOD '25", title: "Styx: Transactional Stateful Functions on Streaming Dataflows", authors: "Kyriakos Psarakis, George Christodoulou, George Siachamis, Marios Fragkoulis, Asterios Katsifodimos", venue: "In the Proceedings of the 2025 ACM SIGMOD International Conference on the Management of Data", pdf: "https://arxiv.org/pdf/2312.06893", github: "https://github.com/delftdata/styx", desc: "Styx brings transactions to stateful functions running on streaming dataflows — giving you the scalability of stream processing with strong consistency guarantees." }
+  - { label: "CIDR '25", title: "Transactional Cloud Applications Go with the (Data)Flow", authors: "Kyriakos Psarakis, George Christodoulou, Marios Fragkoulis, Asterios Katsifodimos", venue: "In the Proceedings of the 17th Annual Conference on Innovative Data Systems Research (CIDR 2025)", pdf: "https://vldb.org/cidrdb/papers/2025/p25-psarakis.pdf", github: "https://github.com/delftdata/styx", desc: "A vision for building transactional cloud apps directly on streaming dataflows, cutting out the need for separate coordination services." }
+  - { label: "SIGMOD '21", title: "Clonos: Consistent Causal Recovery for Highly-Available Streaming Dataflows", authors: "Pedro Fortunato Silvestre, Marios Fragkoulis, Diomidis Spinellis, Asterios Katsifodimos", venue: "In the Proceedings of the 2021 ACM SIGMOD International Conference on the Management of Data", pdf: "/assets/publications/clonos-sigmod2021.pdf", github: "https://github.com/delftdata/Clonos", desc: "Clonos lets streaming dataflows recover from failures quickly and consistently, with exactly-once guarantees and minimal downtime." }
+  - { label: "ICDE '21", title: "Valentine: Evaluating Matching Techniques for Dataset Discovery", authors: "Christos Koutras, George Siachamis, Andra Ionescu, Kyriakos Psarakis, Jerry Brons, Marios Fragkoulis, Christoph Lofi, Angela Bonifati, Asterios Katsifodimos", venue: "In the Proceedings of the 2021 IEEE International Conference on Data Engineering (ICDE)", pdf: "https://arxiv.org/pdf/2010.07386", github: "https://github.com/delftdata/valentine", desc: "A benchmark for schema matching techniques in data lakes — helps you figure out which matching algorithm actually works best for dataset discovery." }
+  - { label: "SIGMOD '15", title: "Implicit Parallelism through Deep Language Embedding", authors: "Alexander Alexandrov, Andreas Kunft, Asterios Katsifodimos, Felix Schuler, Lauritz Thamsen, Odej Kao, Tobias Herb, Volker Markl", venue: "In the Proceedings of the ACM SIGMOD International Conference on Management of Data, May 31 - June 4, 2015, Melbourne, VIC, Australia", pdf: "/assets/publications/emma-sigmod2015.pdf", github: "https://github.com/emmalanguage", award: "<span class=\"fa fa-trophy\"></span> ACM SIGMOD Research Highlights Award 2015", desc: "Emma automatically parallelizes data analysis programs written in a regular programming language — no need to think about distributed computing." }
+  - { label: "IEEE DEB '15", title: "Apache Flink: Stream and Batch Processing in a Single Engine", authors: "Paris Carbone, Stephan Ewen, Seif Haridi, Asterios Katsifodimos, Volker Markl, Kostas Tzoumas", venue: "IEEE Data Engineering Bulletin, in the special issue on Next-gen Stream Processing (December 2015, Vol. 38 No. 4)", pdf: "/assets/publications/flink-deb.pdf", github: "https://github.com/apache/flink", award: "<span class=\"fa fa-trophy\"></span> ACM SIGMOD Systems Award 2023", desc: "The paper behind Apache Flink, a unified stream and batch processing engine that went on to become one of the most widely used open-source stream processors." }
 
 ---
-
 <div id="publications" class="row" style="padding-top: 1rem;">
 <div style="text-align: justify;" class="col-sm-12">
 <h5>Selected Results</h5>
 
 <div class="pub-highlights">
-
-  <div class="pub-highlight-card">
-    <div class="pub-highlight-venue-col">
-      <span class="pub-highlight-venue">SIGMOD '25</span>
-      <div class="pub-highlight-links">
-        <a href="https://arxiv.org/pdf/2312.06893"><span class="fa fa-file-pdf"></span> PDF</a>
-        <a href="https://github.com/delftdata/styx"><span class="fa fa-code-branch"></span> GitHub</a>
-      </div>
-    </div>
-    <div class="pub-highlight-main">
-      <div class="pub-highlight-title">Styx: Transactional Stateful Functions on Streaming Dataflows</div>
-      <div class="pub-highlight-authors">Kyriakos Psarakis, George Christodoulou, George Siachamis, Marios Fragkoulis, Asterios Katsifodimos</div>
-      <div class="pub-highlight-venue-text">In the Proceedings of the 2025 ACM SIGMOD International Conference on the Management of Data</div>
-      <div class="pub-highlight-desc">Styx brings transactions to stateful functions running on streaming dataflows — giving you the scalability of stream processing with strong consistency guarantees.</div>
-    </div>
-  </div>
-
-  <div class="pub-highlight-card">
-    <div class="pub-highlight-venue-col">
-      <span class="pub-highlight-venue">CIDR '25</span>
-      <div class="pub-highlight-links">
-        <a href="https://vldb.org/cidrdb/papers/2025/p25-psarakis.pdf"><span class="fa fa-file-pdf"></span> PDF</a>
-        <a href="https://github.com/delftdata/styx"><span class="fa fa-code-branch"></span> GitHub</a>
-      </div>
-    </div>
-    <div class="pub-highlight-main">
-      <div class="pub-highlight-title">Transactional Cloud Applications Go with the (Data)Flow</div>
-      <div class="pub-highlight-authors">Kyriakos Psarakis, George Christodoulou, Marios Fragkoulis, Asterios Katsifodimos</div>
-      <div class="pub-highlight-venue-text">In the Proceedings of the 17th Annual Conference on Innovative Data Systems Research (CIDR 2025)</div>
-      <div class="pub-highlight-desc">A vision for building transactional cloud apps directly on streaming dataflows, cutting out the need for separate coordination services.</div>
-    </div>
-  </div>
-
-  <div class="pub-highlight-card">
-    <div class="pub-highlight-venue-col">
-      <span class="pub-highlight-venue">SIGMOD '21</span>
-      <div class="pub-highlight-links">
-        <a href="/assets/publications/clonos-sigmod2021.pdf"><span class="fa fa-file-pdf"></span> PDF</a>
-        <a href="https://github.com/delftdata/Clonos"><span class="fa fa-code-branch"></span> GitHub</a>
-      </div>
-    </div>
-    <div class="pub-highlight-main">
-      <div class="pub-highlight-title">Clonos: Consistent Causal Recovery for Highly-Available Streaming Dataflows</div>
-      <div class="pub-highlight-authors">Pedro Fortunato Silvestre, Marios Fragkoulis, Diomidis Spinellis, Asterios Katsifodimos</div>
-      <div class="pub-highlight-venue-text">In the Proceedings of the 2021 ACM SIGMOD International Conference on the Management of Data</div>
-      <div class="pub-highlight-desc">Clonos lets streaming dataflows recover from failures quickly and consistently, with exactly-once guarantees and minimal downtime.</div>
-    </div>
-  </div>
-
-  <div class="pub-highlight-card">
-    <div class="pub-highlight-venue-col">
-      <span class="pub-highlight-venue">ICDE '21</span>
-      <div class="pub-highlight-links">
-        <a href="https://arxiv.org/pdf/2010.07386"><span class="fa fa-file-pdf"></span> PDF</a>
-        <a href="https://github.com/delftdata/valentine"><span class="fa fa-code-branch"></span> GitHub</a>
-      </div>
-    </div>
-    <div class="pub-highlight-main">
-      <div class="pub-highlight-title">Valentine: Evaluating Matching Techniques for Dataset Discovery</div>
-      <div class="pub-highlight-authors">Christos Koutras, George Siachamis, Andra Ionescu, Kyriakos Psarakis, Jerry Brons, Marios Fragkoulis, Christoph Lofi, Angela Bonifati, Asterios Katsifodimos</div>
-      <div class="pub-highlight-venue-text">In the Proceedings of the 2021 IEEE International Conference on Data Engineering (ICDE)</div>
-      <div class="pub-highlight-desc">A benchmark for schema matching techniques in data lakes — helps you figure out which matching algorithm actually works best for dataset discovery.</div>
-    </div>
-  </div>
-
-  <div class="pub-highlight-card">
-    <div class="pub-highlight-venue-col">
-      <span class="pub-highlight-venue">SIGMOD '15</span>
-      <div class="pub-highlight-links">
-        <a href="/assets/publications/emma-sigmod2015.pdf"><span class="fa fa-file-pdf"></span> PDF</a>
-        <a href="https://github.com/emmalanguage"><span class="fa fa-code-branch"></span> GitHub</a>
-      </div>
-    </div>
-    <div class="pub-highlight-main">
-      <div class="pub-highlight-title">Implicit Parallelism through Deep Language Embedding</div>
-      <div class="pub-highlight-authors">Alexander Alexandrov, Andreas Kunft, Asterios Katsifodimos, Felix Schüler, Lauritz Thamsen, Odej Kao, Tobias Herb, Volker Markl</div>
-      <div class="pub-highlight-venue-text">In the Proceedings of the ACM SIGMOD International Conference on Management of Data, May 31 - June 4, 2015, Melbourne, VIC, Australia</div>
-      <div class="pub-highlight-award"><span class="fa fa-trophy"></span> ACM SIGMOD Research Highlights Award 2015</div>
-      <div class="pub-highlight-desc">Emma automatically parallelizes data analysis programs written in a regular programming language — no need to think about distributed computing.</div>
-    </div>
-  </div>
-
-  <div class="pub-highlight-card">
-    <div class="pub-highlight-venue-col">
-      <span class="pub-highlight-venue">IEEE DEB '15</span>
-      <div class="pub-highlight-links">
-        <a href="/assets/publications/flink-deb.pdf"><span class="fa fa-file-pdf"></span> PDF</a>
-        <a href="https://github.com/apache/flink"><span class="fa fa-code-branch"></span> GitHub</a>
-      </div>
-    </div>
-    <div class="pub-highlight-main">
-      <div class="pub-highlight-title">Apache Flink: Stream and Batch Processing in a Single Engine</div>
-      <div class="pub-highlight-authors">Paris Carbone, Stephan Ewen, Seif Haridi, Asterios Katsifodimos, Volker Markl, Kostas Tzoumas</div>
-      <div class="pub-highlight-venue-text">IEEE Data Engineering Bulletin, in the special issue on Next-gen Stream Processing (December 2015, Vol. 38 No. 4)</div>
-      <div class="pub-highlight-award"><span class="fa fa-trophy"></span> ACM SIGMOD Systems Award 2023</div>
-      <div class="pub-highlight-desc">The paper behind Apache Flink, a unified stream and batch processing engine that went on to become one of the most widely used open-source stream processors.</div>
-    </div>
-  </div>
-
+{% for pub in page.selected_publications %}
+{% include pub-highlight.html publication=pub %}
+{% endfor %}
 </div>
 
 <h5>Publications</h5>
@@ -250,16 +166,3 @@ publications:
 </div>
 
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-

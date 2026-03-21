@@ -36,6 +36,9 @@ Student data should have:
     {%- if student.advisor_present and student.advisor -%}
       <div class="people-list-advisor">{{ student.advisor }}</div>
     {%- endif -%}
+    {%- if student.institution -%}
+      <div class="people-list-advisor">{{ student.institution }}</div>
+    {%- endif -%}
     <div class="people-list-meta">{{ student.meta }}</div>
     <div class="people-list-topic">{{ student.topic }}</div>
   </div>

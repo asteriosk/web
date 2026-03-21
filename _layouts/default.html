@@ -53,16 +53,16 @@
         <a class="nav-link" href="/">Home</a>
       </li> -->
         <li class="nav-item">
-          <a class="nav-link" href="{{ site.url }}/publications/">Research</a>
+          <a class="nav-link {% if page.url == '/publications/' or page.url contains '/publications/' %}active{% endif %}" href="{{ site.url }}/publications/">Research</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="{{ site.url }}/teaching/">Teaching</a>
+          <a class="nav-link {% if page.url == '/teaching/' or page.url contains '/teaching/' %}active{% endif %}" href="{{ site.url }}/teaching/">Teaching</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="{{ site.url }}/supervision/">Supervision</a>
+          <a class="nav-link {% if page.url == '/supervision/' or page.url contains '/supervision/' %}active{% endif %}" href="{{ site.url }}/supervision/">Supervision</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="{{ site.url }}/service">Service</a>
+          <a class="nav-link {% if page.url == '/service' or page.url contains '/service' %}active{% endif %}" href="{{ site.url }}/service">Service</a>
         </li>
         <!--       <li class="nav-item">
         <a class="nav-link" href="/jobs/">Jobs</a>
