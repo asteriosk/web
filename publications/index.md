@@ -130,6 +130,7 @@ publications:
     <div class="pub-highlight-main">
       <div class="pub-highlight-title">Styx: Transactional Stateful Functions on Streaming Dataflows</div>
       <div class="pub-highlight-authors">Kyriakos Psarakis, George Christodoulou, George Siachamis, Marios Fragkoulis, Asterios Katsifodimos</div>
+      <div class="pub-highlight-venue-text">In the Proceedings of the 2025 ACM SIGMOD International Conference on the Management of Data</div>
       <div class="pub-highlight-desc">Styx brings transactions to stateful functions running on streaming dataflows — giving you the scalability of stream processing with strong consistency guarantees.</div>
     </div>
   </div>
@@ -145,6 +146,7 @@ publications:
     <div class="pub-highlight-main">
       <div class="pub-highlight-title">Transactional Cloud Applications Go with the (Data)Flow</div>
       <div class="pub-highlight-authors">Kyriakos Psarakis, George Christodoulou, Marios Fragkoulis, Asterios Katsifodimos</div>
+      <div class="pub-highlight-venue-text">In the Proceedings of the 17th Annual Conference on Innovative Data Systems Research (CIDR 2025)</div>
       <div class="pub-highlight-desc">A vision for building transactional cloud apps directly on streaming dataflows, cutting out the need for separate coordination services.</div>
     </div>
   </div>
@@ -160,6 +162,7 @@ publications:
     <div class="pub-highlight-main">
       <div class="pub-highlight-title">Clonos: Consistent Causal Recovery for Highly-Available Streaming Dataflows</div>
       <div class="pub-highlight-authors">Pedro Fortunato Silvestre, Marios Fragkoulis, Diomidis Spinellis, Asterios Katsifodimos</div>
+      <div class="pub-highlight-venue-text">In the Proceedings of the 2021 ACM SIGMOD International Conference on the Management of Data</div>
       <div class="pub-highlight-desc">Clonos lets streaming dataflows recover from failures quickly and consistently, with exactly-once guarantees and minimal downtime.</div>
     </div>
   </div>
@@ -175,6 +178,7 @@ publications:
     <div class="pub-highlight-main">
       <div class="pub-highlight-title">Valentine: Evaluating Matching Techniques for Dataset Discovery</div>
       <div class="pub-highlight-authors">Christos Koutras, George Siachamis, Andra Ionescu, Kyriakos Psarakis, Jerry Brons, Marios Fragkoulis, Christoph Lofi, Angela Bonifati, Asterios Katsifodimos</div>
+      <div class="pub-highlight-venue-text">In the Proceedings of the 2021 IEEE International Conference on Data Engineering (ICDE)</div>
       <div class="pub-highlight-desc">A benchmark for schema matching techniques in data lakes — helps you figure out which matching algorithm actually works best for dataset discovery.</div>
     </div>
   </div>
@@ -190,6 +194,7 @@ publications:
     <div class="pub-highlight-main">
       <div class="pub-highlight-title">Implicit Parallelism through Deep Language Embedding</div>
       <div class="pub-highlight-authors">Alexander Alexandrov, Andreas Kunft, Asterios Katsifodimos, Felix Schüler, Lauritz Thamsen, Odej Kao, Tobias Herb, Volker Markl</div>
+      <div class="pub-highlight-venue-text">In the Proceedings of the ACM SIGMOD International Conference on Management of Data, May 31 - June 4, 2015, Melbourne, VIC, Australia</div>
       <div class="pub-highlight-award"><span class="fa fa-trophy"></span> ACM SIGMOD Research Highlights Award 2015</div>
       <div class="pub-highlight-desc">Emma automatically parallelizes data analysis programs written in a regular programming language — no need to think about distributed computing.</div>
     </div>
@@ -206,6 +211,7 @@ publications:
     <div class="pub-highlight-main">
       <div class="pub-highlight-title">Apache Flink: Stream and Batch Processing in a Single Engine</div>
       <div class="pub-highlight-authors">Paris Carbone, Stephan Ewen, Seif Haridi, Asterios Katsifodimos, Volker Markl, Kostas Tzoumas</div>
+      <div class="pub-highlight-venue-text">IEEE Data Engineering Bulletin, in the special issue on Next-gen Stream Processing (December 2015, Vol. 38 No. 4)</div>
       <div class="pub-highlight-award"><span class="fa fa-trophy"></span> ACM SIGMOD Systems Award 2023</div>
       <div class="pub-highlight-desc">The paper behind Apache Flink, a unified stream and batch processing engine that went on to become one of the most widely used open-source stream processors.</div>
     </div>
@@ -236,6 +242,7 @@ publications:
     <div class="pub-highlight-main">
       <div class="pub-highlight-title">{{ pub.title }}</div>
       <div class="pub-highlight-authors">{{ pub.authors }}</div>
+      <div class="pub-highlight-venue-text">{{ pub.venue }}</div>
     </div>
   </div>
 {% endif %}

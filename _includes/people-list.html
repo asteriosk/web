@@ -1,0 +1,56 @@
+{%- comment -%}
+People list include. Usage:
+{% include people-list.html people=site.data.supervision section=section %}
+
+section should have:
+  - name: Section title (e.g., "PhD Students")
+  - icon: Font Awesome class (e.g., "fa fa-user-graduate")
+  - advisors: boolean (optional, show advisor field)
+  - photo_field: field name for photo path (default: photo)
+  - photo_class: CSS class for photo (default: people-list-photo)
+
+people should be an array of items with:
+  - name: Person's name
+  - link: Optional URL
+  - advisor: Optional advisor info (shown if section has advisors: true)
+  - meta: Meta info (e.g., "2023&ndash;present &middot; PhD Candidate &middot; TU Delft")
+  - topic: Research topic
+  - photo: Optional photo path (if not provided, uses initials placeholder)
+  - initials: Optional initials for placeholder (default: extract from name)
+{%- endcomment -%}
+
+<div class="col-12 mb-1">
+  <p class="people-section-label">
+    <span class="{{ section.icon }}" style="margin-right:6px;"></span>{{ section.name }}
+  </p>
+  <div class="people-list">
+    {%- for person in include.people -%}
+      <div class="people-list-item">
+        {%- if person.photo -%}
+          <img class="{{ include.photo_class | default: 'people-list-photo' }}" src="{{ person.photo }}" alt="{{ person.name }}">
+        {%- else -%}
+          {%- assign initials = include.initials_field | default: 'initials' -%}
+          {%- assign name_parts = person.name | split: ' ' -%}
+          {%- if name_parts.size > 1 -%}
+            {%- assign initial_text = name_parts[0][0] | append: name_parts[-1][0] -%}
+          {%- else -%}
+            {%- assign initial_text = name_parts[0][0] | append: name_parts[0][1] -%}
+          {%- endif -%}
+          <div class="people-list-photo-icon">{{ person.initials | default: initial_text | upcase }}</div>
+        {%- endif -%}
+        <div class="people-list-info">
+          {%- if person.link -%}
+            <div class="people-list-name"><a href="{{ person.link }}">{{ person.name }}</a></div>
+          {%- else -%}
+            <div class="people-list-name">{{ person.name }}</div>
+          {%- endif -%}
+          {%- if section.advisors and person.advisor -%}
+            <div class="people-list-advisor">{{ person.advisor }}</div>
+          {%- endif -%}
+          <div class="people-list-meta">{{ person.meta }}</div>
+          <div class="people-list-topic">{{ person.topic }}</div>
+        </div>
+      </div>
+    {%- endfor -%}
+  </div>
+</div>

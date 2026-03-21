@@ -288,8 +288,15 @@ a:visited { color: #1a4f8a; }
 }
 .pub-highlight-authors {
   font-size: 0.80rem;
-  color: #777;
+  color: #333;
   margin-top: 1px;
+}
+.pub-highlight-venue-text {
+  font-size: 0.75rem;
+  color: #1a4f8a;
+  font-weight: 600;
+  margin-top: 2px;
+  font-style: italic;
 }
 .pub-highlight-award {
   font-size: 0.75rem;
