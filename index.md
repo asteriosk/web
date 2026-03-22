@@ -8,15 +8,10 @@ title: "Asterios Katsifodimos | Asst. Professor, TU Delft"
 <div class="col-sm-8">
 
 <p class="lead lead-xl"><strong>
-Asst. Professor, <a href="http://www.tudelft.nl/">TU Delft</a>, &amp; Amazon Scholar (<a href="https://aws.amazon.com">AWS</a>). Chair of the <a href="https://dis.ewi.tudelft.nl">Data-intensive Systems Group</a>.</strong>
+Asst. Professor at <a href="http://www.tudelft.nl/">TU Delft</a> and Amazon Scholar (<a href="https://www.amazon.science/research-areas/information-and-knowledge-management">AWS</a>).</strong>
 </p>
 
-<p>
-I work in the broad area of scalable data management, and more specifically on data analytics, stream processing, Cloud computing, distributed transactions and data integration.
-</p>
-
-<p>
-Before joining TU Delft, I spent a year with the <a href="https://icn.sap.com">SAP Innovation Center</a> in Berlin, working on scalable architectures for machine learning inference and training. Before SAP, I was a postdoc at the <a href="http://www.dima.tu-berlin.de/menue/database_systems_and_information_management_group/?no_cache=1">database systems group</a> in TU Berlin, headed by <a href="https://www.dima.tu-berlin.de/menue/staff/volker_markl/">Volker Markl</a>. I received my PhD from <a href="http://www.inria.fr/saclay/">INRIA Saclay</a> &amp; <a href="http://www.u-psud.fr">Universite Paris-Sud</a> in 2013, supervised by <a href="http://www-rocq.inria.fr/~manolesc/">Ioana Manolescu</a>. Prior to that, I was a member of the High Performance Computing systems Lab (<a href="http://grid.ucy.ac.cy">HPCL</a>), at the University of Cyprus, working with <a href="http://www.cs.ucy.ac.cy/~mdd/">Marios Dikaiakos</a>.
+<p>I am the Chair of the <a href="https://dis.ewi.tudelft.nl">Data-intensive Systems Group</a>. I work in the broad area of scalable data management; at the moment most of my research focuses on Cloud application runtimes, distributed transactions, and data integration. My research has found applications in multiple real-world systems, including Apache Flink, and different systems within AWS cloud. I received my PhD from <a href="http://www.inria.fr/saclay/">INRIA Saclay</a> &amp; <a href="http://www.u-psud.fr">Université Paris-Sud</a> in 2013, supervised by <a href="http://www-rocq.inria.fr/~manolesc/">Ioana Manolescu</a>. Before joining TU Delft in 2017 I held positions at the <a href="http://www.dima.tu-berlin.de/menue/database_systems_and_information_management_group/?no_cache=1">database systems group</a> at TU Berlin, working with <a href="https://www.dima.tu-berlin.de/menue/staff/volker_markl/">Volker Markl</a>, and the <a href="https://icn.sap.com">SAP Innovation Center</a> in Berlin. I my BSc and MSc at the University of Cyprus, working with <a href="http://www.cs.ucy.ac.cy/~mdd/">Marios Dikaiakos</a>.
 </p>
 
 

@@ -26,6 +26,9 @@ The three main content areas are driven entirely by YAML data files — no conte
 - `_data/publications.yml` — all papers, grouped by year, rendered on `/publications/`
 - `_data/selected_publications.yml` — 6 curated papers shown as cards on `/publications/`; references entries by `id` from the full list
 - `_data/supervision.yml` — three arrays: `phd_students`, `postdocs`, `masters`; rendered on `/supervision/`
+- `_data/teaching.yml` — institutions with nested course arrays, rendered on `/teaching/`
+
+**Convention: no HTML in `_data/` files.** All fields must be plain text. Presentation (icons, links, badges) is handled exclusively in templates and includes. For structured links (e.g. a collaborator), use separate `_name` / `_link` fields and let the template render the anchor tag.
 
 ### Publication entry structure
 
@@ -42,6 +45,25 @@ The three main content areas are driven entirely by YAML data files — no conte
   slides: "path/to/slides.pdf"
   poster: "path/to/poster.pdf"
   award: "ACM SIGMOD Best Paper 2025"  # plain text; icon injected by template
+```
+
+### Teaching entry structure
+
+```yaml
+- institution: TU Delft
+  start_year: 2017
+  end_year:               # omit or leave empty if still active
+  courses:
+    - id:                 # course ID (e.g. CS4225), fill when known
+      name: "Course Name"
+      link: https://...   # omit if none
+      level: MSc          # MSc / BSc / ProfEd
+      period: Q2          # quarter (TU Delft) or season semester (TU Berlin)
+      start_year: 2017
+      end_year:           # omit or leave empty if still teaching
+      description: "Short description"
+      collaborator_name:  # optional
+      collaborator_link:  # optional
 ```
 
 ### Supervision entry structure
