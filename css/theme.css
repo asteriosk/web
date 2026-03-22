@@ -262,7 +262,15 @@ a:visited { color: #1a4f8a; }
   background: #f8fafd;
 }
 
-/* Publication highlights */
+/* Publication highlight cards — 2×3 grid */
+.pub-cards-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+/* Publications list */
 .pub-highlights {
   margin-bottom: 2rem;
   border-top: 1px solid #e3e8ef;
@@ -312,18 +320,6 @@ a:visited { color: #1a4f8a; }
   margin-top: 2px;
   font-style: italic;
 }
-.pub-highlight-award {
-  font-size: 0.75rem;
-  font-weight: 600;
-  color: #b8860b;
-  margin-top: 2px;
-}
-.pub-highlight-desc {
-  font-size: 0.8rem;
-  color: #555;
-  font-style: italic;
-  margin-top: 0.3rem;
-}
 .pub-highlight-links {
   margin-top: 0.35rem;
   text-align: right;
@@ -334,11 +330,64 @@ a:visited { color: #1a4f8a; }
   display: block;
   margin-top: 2px;
 }
+.pub-card {
+  border: 1px solid #e3e8ef;
+  border-radius: 8px;
+  padding: 1rem 1.1rem;
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+}
+.pub-card-top {
+  flex: 1;
+}
+.pub-card-venue {
+  font-size: 0.72rem;
+  font-weight: 700;
+  background: #1a4f8a;
+  color: #fff;
+  border-radius: 3px;
+  padding: 1px 7px;
+  display: inline-block;
+}
+.pub-card-award {
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: #b8860b;
+  margin-top: 0.3rem;
+}
+.pub-card-title {
+  font-weight: 700;
+  font-size: 0.875rem;
+  line-height: 1.4;
+  margin-top: 0.45rem;
+}
+.pub-card-authors {
+  font-size: 0.75rem;
+  color: #555;
+  margin-top: 0.2rem;
+}
+.pub-card-desc {
+  font-size: 0.8rem;
+  color: #444;
+  font-style: italic;
+  margin-top: 0.5rem;
+  line-height: 1.45;
+}
+.pub-card-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin-top: 0.9rem;
+  font-size: 0.78rem;
+  font-weight: 600;
+  padding-top: 0.6rem;
+  border-top: 1px solid #e3e8ef;
+}
 
 @media (max-width: 575.98px) {
-  .pub-highlight-venue-col {
-    width: auto;
-    min-width: auto;
+  .pub-cards-grid {
+    grid-template-columns: 1fr;
   }
 }
 

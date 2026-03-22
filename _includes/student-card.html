@@ -6,11 +6,19 @@ Student data should have:
   - name: Student name
   - link: Optional URL
   - topic: Thesis topic
-  - meta: Meta info (e.g., "2025 &middot; MSc")
   - photo: Optional photo path
   - initials: Optional initials for placeholder (overrides auto-generated)
   - advisor: Optional advisor info (shown if student.advisor_present is true)
   - advisor_present: Set to true to show advisor field
+  For PhD students / postdocs:
+  - start_year: Start year (integer)
+  - end_year: End year (integer, optional)
+  - present: true if currently active (optional)
+  - position: Role or current position string
+  - institution: Optional institution name, appended to meta
+  For master students:
+  - year: Graduation year
+  - institution: Institution name
 {%- endcomment -%}
 
 <div class="people-list-item">
@@ -36,10 +44,16 @@ Student data should have:
     {%- if student.advisor_present and student.advisor -%}
       <div class="people-list-advisor">{{ student.advisor }}</div>
     {%- endif -%}
-    {%- if student.institution -%}
-      <div class="people-list-advisor">{{ student.institution }}</div>
-    {%- endif -%}
-    <div class="people-list-meta">{{ student.meta }}</div>
+    <div class="people-list-meta">{%- if student.start_year -%}
+      {%- if student.present -%}{{ student.start_year }}–present
+      {%- elsif student.end_year -%}{{ student.start_year }}–{{ student.end_year }}
+      {%- else -%}{{ student.start_year }}
+      {%- endif -%}
+      {%- if student.position %} &middot; {{ student.position }}{%- endif -%}
+      {%- if student.institution %} &middot; {{ student.institution }}{%- endif -%}
+    {%- elsif student.year and student.institution -%}{{ student.year }} &middot; {{ student.institution }}
+    {%- elsif student.year -%}{{ student.year }}
+    {%- endif -%}</div>
     <div class="people-list-topic">{{ student.topic }}</div>
   </div>
 </div>
