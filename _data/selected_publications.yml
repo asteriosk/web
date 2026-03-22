@@ -11,9 +11,9 @@
   desc: "A benchmark for schema matching techniques in data lakes — helps you figure out which matching algorithm actually works best for dataset discovery."
 
 - id: emma-sigmod15
-  award: "<span class=\"fa fa-trophy\"></span> ACM SIGMOD Research Highlights Award 2015"
+  award: "ACM SIGMOD Research Highlights Award 2015"
   desc: "Emma automatically parallelizes data analysis programs written in a regular programming language — no need to think about distributed computing."
 
 - id: flink-deb15
-  award: "<span class=\"fa fa-trophy\"></span> ACM SIGMOD Systems Award 2023"
+  award: "ACM SIGMOD Systems Award 2023"
   desc: "The paper behind Apache Flink, a unified stream and batch processing engine that went on to become one of the most widely used open-source stream processors."

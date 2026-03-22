@@ -22,7 +22,7 @@ Publication data should have:
   <div class="pub-card-top">
     <span class="pub-card-venue">{{ include.publication.label }}</span>
     {%- if _award -%}
-      <div class="pub-card-award">{{ _award }}</div>
+      <div class="pub-card-award"><span class="fa fa-trophy"></span> {{ _award }}</div>
     {%- endif -%}
     <div class="pub-card-title">{{ include.publication.title }}</div>
     <div class="pub-card-authors">{{ include.publication.authors }}</div>
