@@ -1,4 +1,7 @@
 name: Asterios Katsifodimos
+exclude:
+  - CLAUDE.md
+  - README.md
 markdown: kramdown
 highlighter: rouge
 

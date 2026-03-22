@@ -26,6 +26,7 @@ Before joining TU Delft, I spent a year with the <a href="https://icn.sap.com">S
 <div class="awards-content">
 <span class="badge-award"><span class="fa fa-award badge-icon"></span>ACM SIGMOD Systems Award 2023</span>
 <span class="badge-grant"><span class="fa fa-flask badge-icon"></span>NWO VIDI Grant 2022</span>
+<span class="badge-award"><span class="fa fa-award badge-icon"></span>ACM DEBS Best Paper 2021</span>
 <span class="badge-award"><span class="fa fa-award badge-icon"></span>EDBT Best Paper 2019</span>
 <span class="badge-award"><span class="fa fa-award badge-icon"></span>EDBT Best Demo 2023</span>
 <span class="badge-award"><span class="fa fa-award badge-icon"></span>ACM SIGMOD Research Highlights Award 2015</span>

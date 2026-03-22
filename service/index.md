@@ -20,7 +20,8 @@ I regularly serve in the program committees of VLDB, SIGMOD and ICDE. I also ser
     <tr><td>ICDE 2027</td><td>Tutorial Chair</td></tr>
     <tr><td>EuroSys 2025</td><td>Workshop Chair</td></tr>
     <tr><td>ICDE 2024</td><td>Demos Chair</td></tr>
-    <tr><td><a href="http://www.sigmod.org/publications/sigmod-record/">SIGMOD Record</a></td><td>Information Director, 2016&ndash;2023</td></tr>
+    <tr><td>SIGMOD Record</td><td>Information Director, 2016&ndash;2023</td></tr>
+    <tr><td>DBDBD 2021</td><td>Chair</td></tr>
     <tr><td>SIGMOD 2021</td><td>Proceedings Chair</td></tr>
     <tr><td>SIGMOD 2019</td><td>Local Organizations Chair</td></tr>
     <tr><td>ccGrid 2019</td><td>Track Chair &mdash; Programming Models and Runtime Systems</td></tr>

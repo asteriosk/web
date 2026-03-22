@@ -4,8 +4,8 @@
 - id: txn-cloud-apps-cidr25
   desc: "A vision for building transactional cloud apps directly on streaming dataflows, cutting out the need for separate coordination services."
 
-- id: clonos-sigmod21
-  desc: "Clonos lets streaming dataflows recover from failures quickly and consistently, with exactly-once guarantees and minimal downtime."
+- id: omnimatch-vldb25
+  desc: "OmniMatch discovers joinable columns across data products in enterprise data repositories, by combining multiple signals to find matches that no single technique would catch alone."
 
 - id: valentine-icde21
   desc: "A benchmark for schema matching techniques in data lakes — helps you figure out which matching algorithm actually works best for dataset discovery."

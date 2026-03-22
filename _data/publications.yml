@@ -70,6 +70,7 @@
   authors: "Christos Koutras, Jiani Zhang, Xiao Qin, Chuan Lei, Vassilis N. Ioannidis, Christos Faloutsos, George Karypis, Asterios Katsifodimos"
   venue: "In the Proceedings of the 51st International Conference on Very Large Data Bases (VLDB 2025)"
   pdf: "https://www.vldb.org/pvldb/vol18/p4588-koutras.pdf"
+  github: "https://github.com/amazon-science/omnimatch"
 
 - id: featpilot-icde25
   year: 2025
