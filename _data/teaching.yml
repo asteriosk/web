@@ -1,0 +1,84 @@
+- institution: TU Delft
+  start_year: 2017
+  courses:
+    - id:
+      name: Web-scale Data Management
+      link: https://www.studiegids.tudelft.nl/courses/study-guide/educations/14750
+      level: MSc
+      period: Q2
+      start_year: 2017
+      end_year:
+      description: Scalable databases and data systems
+
+    - id:
+      name: Distributed Data Systems
+      link: https://www.studiegids.tudelft.nl/courses/study-guide/educations/14766
+      level: MSc
+      period: Q3
+      start_year: 2025
+      end_year:
+      description: Distributed transactions and Cloud-based services
+
+    - id:
+      name: Information and Data Management
+      link: https://www.studiegids.tudelft.nl/courses/study-guide/educations/14258
+      level: BSc
+      period: Q3
+      start_year: 2017
+      end_year:
+      description: Advanced topics on relational databases
+
+    - id:
+      name: "Taming Big Data Streams: Real-time Data Processing at Scale"
+      link: https://www.edx.org
+      level: ProfEd
+      period: Q3
+      start_year: 2020
+      end_year: 2021
+      description: Professional education course on TU Delft's edX
+
+- institution: TU Berlin
+  start_year: 2014
+  end_year: 2016
+  courses:
+    - id:
+      name: "BDASEM: Big Data Analytics Seminar"
+      link:
+      level: MSc
+      period: Spring Semester
+      start_year: 2016
+      end_year: 2016
+      description: 2h/week
+
+    - id:
+      name: Database Technology
+      link:
+      level: MSc
+      period: Winter Semester
+      start_year: 2015
+      end_year: 2016
+      description: 4h/week
+
+    - id:
+      name: "IMSEM: Hot Topics in Information Management"
+      link:
+      level: MSc
+      period: "Winter & Summer Semester"
+      start_year: 2014
+      end_year: 2014
+      description: 2h/week
+      collaborator_name: Sebastian Schelter
+      collaborator_link: https://deem.berlin/#professor
+
+- institution: Université Paris Descartes
+  start_year: 2012
+  end_year: 2012
+  courses:
+    - id:
+      name: Information Systems Analysis and Conception
+      link:
+      level: BSc
+      period: Fall Semester
+      start_year: 2012
+      end_year: 2012
+      description: Teaching Assistant at IUT
