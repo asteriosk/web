@@ -1,4 +1,11 @@
 name: Asterios Katsifodimos
+exclude:
+  - CLAUDE.md
+  - README.md
 markdown: kramdown
 highlighter: rouge
-url: http://asterios.katsifodimos.com
+
+# URL settings for GitHub Pages
+# For local dev: bundle exec jekyll serve --baseurl ""
+url: "https://asterios.katsifodimos.com"
+baseurl: ""

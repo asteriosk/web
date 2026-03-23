@@ -3,96 +3,80 @@ layout: default
 title: "Asterios Katsifodimos | Asst. Professor, TU Delft"
 ---
 
-<!-- - - - - - - - - - - - - - - - -->
-
-
-<div id="top" class="row">
+<!-- Hero -->
+<div id="top" class="row align-items-start">
 <div class="col-sm-8">
-<!-- <h3> Asterios Katsifodimos </h3> -->
 
-<p class="lead" style="font-size: 130%">
-Asst. Professor, <a href="http://www.tudelft.nl/">TU Delft</a>, &amp; Amazon Scholar (<a href="https://aws.amazon.com">AWS</a>). Chair of the <a href="https://dis.ewi.tudelft.nl">Data-intensive Systems Group</a>.
+<p class="lead lead-xl"><strong>
+Asst. Professor at <a href="http://www.tudelft.nl/">TU Delft</a> and Amazon Scholar (<a href="https://www.amazon.science/research-areas/information-and-knowledge-management">AWS</a>).</strong>
 </p>
 
-<p>
-Before joining TU Delft, I spent a year with the <a href="https://icn.sap.com">SAP Innovation Center</a> in Berlin, working on scalable architectures for machine learning inference and training. Before SAP, I was a postdoc at the <a href="http://www.dima.tu-berlin.de/menue/database_systems_and_information_management_group/?no_cache=1">database systems group</a> in TU Berlin, headed by <a href="https://www.dima.tu-berlin.de/menue/staff/volker_markl/">Volker Markl</a>. I received my PhD from <a href="http://www.inria.fr/saclay/">INRIA Saclay</a> &amp; <a href="http://www.u-psud.fr" >Universite Paris-Sud</a> in 2013, supervised by <a href="http://www-rocq.inria.fr/~manolesc/">Ioana Manolescu</a>. Prior to that, I was a member of the High Performance Computing systems Lab (<a href="http://grid.ucy.ac.cy">HPCL</a>), at the University of Cyprus, working with <a href="http://www.cs.ucy.ac.cy/~mdd/">Marios Dikaiakos</a>.
+<p>I lead the <a href="https://dis.ewi.tudelft.nl">Data-intensive Systems Group</a> at TU Delft. I work in the broad area of data systems research; most of my research at the moment focuses on Cloud application runtimes, and data discovery. Over the years, my research has found applications in multiple real-world systems, including Apache Flink, and systems within Amazon's Cloud. Before joining TU Delft in 2017, I held positions at the <a href="https://icn.sap.com">SAP Innovation Center</a>, as well as at <a href="http://www.dima.tu-berlin.de/menue/database_systems_and_information_management_group/?no_cache=1">TU Berlin</a>, working with <a href="https://www.dima.tu-berlin.de/menue/staff/volker_markl/">Volker Markl</a>. I received my PhD from <a href="http://www.inria.fr/saclay/">INRIA Saclay</a>/<a href="https://www.universite-paris-saclay.fr">Université Paris-Sud 11</a> in 2013, supervised by <a href="http://www-rocq.inria.fr/~manolesc/">Ioana Manolescu</a>. I completed my BSc and MSc at the University of Cyprus, working with <a href="http://www.cs.ucy.ac.cy/~mdd/">Marios Dikaiakos</a>.
+
 </p>
 
-<p>
-I work in the broad area of scalable data management, and more specifically on data analytics, stream processing, Cloud computing, distributed transactions and data integration. 
-</p>
+<p><a href="/bio/"><span class="fa-solid fa-id-card"></span> Short bio &amp; timeline</a></p>
 
-<p>
-I have been awarded the ACM SIGMOD Research Highlights Award in 2015, best paper award at EDBT 2019, the NWO VIDI grant in 2023, the EDBT best demo award in 2023, as well as the ACM SIGMOD Systems Award in 2023.</p>
-
-
-<!-- <div class="alert alert-warning" role="alert" markdown="1">
-  I am searching for motivated **postdocs and PhD students** for <a href="https://www.youtube.com/watch?v=jMmEDPGeh0w">this project</a>. Drop me an email if you are interested! 
-</div>  -->
-
-
+<div class="awards-row">
+<strong><span class="fa-solid fa-trophy"></span> Awards</strong><br>
+<div class="awards-content">
+{% for a in site.data.awards %}<span class="badge-{{ a.type }}"><span class="fa-solid fa-{% if a.type == 'grant' %}flask{% else %}award{% endif %} badge-icon"></span>{{ a.name }}</span>
+{% endfor %}</div>
+</div>
 
 </div>
 <div class="col-md-4">
-<br/>
-      <img src="assets/asterios.katsifodimos.jpg" class="img-thumbnail" alt="Asterios Kαtsifodimos - Αστέριος Κατσιφοδήμος">
-<br/><br/>
-<!-- <div class="col-sm-3"> -->
-<h6> <span class="fa fa-envelope"></span> e-mail</h6>
-A.Lastname@tudelft.nl
-<br/><br/>
-<h6> <span class="fa fa-map-marker"></span> Address</h6>
-1E100 (1st floor, East, Room 100)<br/>
-Van Mourik Broekmanweg 6<br/>
-2628XE Delft<br/>
-Netherlands
-
-</div>
-
-</div>
-
-
-<!-- - - - - - - - - - - - - - - - -->
-<!-- <div class="row-fluid">
-    <div id="news" class="row">
-    <div style="text-align: justify;" class="col-sm-8">
-<h5>News</h5>
-
-<section markdown="1">
-- May 2023: Together with the Apache Flink team, we were awarded the <a href="https://sigmod.org/2023-sigmod-systems-award/">ACM SIGMOD Systems Award</a> 2023! 
-- May 2023: Together with the Apache Flink team, we were awarded the <a href="https://sigmod.org/2023-sigmod-systems-award/">ACM SIGMOD Systems Award</a> 2023! 
-- April 2023: We won the best paper award at EDBT 2023. 
-- June 2022: I was awarded the VIDI grant (800K) from NWO! The funding will allow me to build a transactional actor-like Cloud programming model on top of dataflow systems!
-- June 2022: I was promoted to Associate Professor. 
-- October 2021: I have prepared a <a href="https://www.youtube.com/watch?v=jMmEDPGeh0w">video</a> for this year's Flink Forward. I pretty much describe what I am up to in the last couple of years.
-- August 2021: <a href="https://delftdata.github.io/valentine">Valentine</a> was presented in this year's ICDE 2021 and demoed in VLDB 2021. 
-- June 2021: We received the best <a href="https://dl.acm.org/doi/10.1145/3465480.3466920">paper</a> award in <a href="https://2021.debs.org">ACM DEBS 2021</a>, for our work on <a href="https://github.com/delftdata/flink-statefun-transactions">implementing</a> implementing transactions on Flink's Statefun. 
-- March 2021: <a href="assets/publications/clonos-sigmod2021.pdf">Clonos</a>, a fault-tolerance scheme for stream processing will be presented in this year's SIGMOD 2021. 
-- October 2020: We have implemented the schema matching algorithms of the last 20 years and <a href="https://delftdata.github.io/valentine">released them on Github</a> in order to create a benchmark. We offer datasets with ground truth too!
-- April 2020: We will present a tutorial on <a href="https://streaming-research.github.io/Tutorial-SIGMOD-2020/"> the evolution of stream processing systems</a> during the last two decades, in SIGMOD 2020. 
-- March 2020: Christos will be presenting our work on <a href="http://ceur-ws.org/Vol-2578/SEAData5.pdf">using embeddings for schema matching</a> in the SEAS workshop at EDBT 2020.
-</section>
+<div class="profile-card">
+  <img src="assets/asterios.katsifodimos-2022.jpg" class="profile-photo" alt="Asterios Katsifodimos - Αστέριος Κατσιφοδήμος">
+  <div class="profile-divider"></div>
+  <div class="profile-contact">
+    <div class="profile-contact-item">
+      <span class="fa-solid fa-envelope profile-contact-icon"></span>
+      <a href="mailto:A.Katsifodimos@tudelft.nl">A.Katsifodimos@tudelft.nl</a>
     </div>
-
-<div class="col-md-4">
-<a class="twitter-timeline" data-width="300" data-height="500" href="https://twitter.com/kAsterios?ref_src=twsrc%5Etfw">Tweets by Asterios</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <div class="profile-contact-item">
+      <span class="fa-solid fa-map-marker-alt profile-contact-icon"></span>
+      <span>Room 1E100, Van Mourik Broekmanweg 6<br>2628XE Delft, Netherlands</span>
+    </div>
+  </div>
+  <div class="profile-divider"></div>
+  <div class="profile-socials">
+    <a href="https://scholar.google.com/citations?user=1KdkcSoAAAAJ&hl=en&oi=ao"><span class="fa-solid fa-graduation-cap"></span> Scholar</a>
+    <a href="https://www.linkedin.com/in/asteriosk/"><span class="fa-brands fa-linkedin"></span> LinkedIn</a>
+    <a href="https://github.com/asteriosk"><span class="fa-brands fa-github"></span> GitHub</a>
+    <a href="https://x.com/kAsterios"><span class="fa-brands fa-x-twitter"></span> X</a>
+  </div>
 </div>
-    </div> 
-  
-</div>  -->
+</div>
+</div>
 
 
+<!-- Research Areas -->
+<div id="research" class="row" style="padding-top: 1rem;">
+<div class="col-12"><h5>Research Areas</h5></div>
 
+<div class="col-md-4 mb-3">
+<div class="research-card">
+  <div class="card-icon"><span class="fa-solid fa-cloud"></span></div>
+  <h6>Cloud Runtimes</h6>
+  <p style="font-size:0.9rem; margin-bottom:0.75rem;">Building programming models and runtimes that bring ACID transactions to stateful serverless in the Cloud.</p>
+</div>
+</div>
 
+<div class="col-md-4 mb-3">
+<div class="research-card">
+  <div class="card-icon"><span class="fa-solid fa-water"></span></div>
+  <h6>Stream Processing</h6>
+  <p style="font-size:0.9rem; margin-bottom:0.75rem;">Designing fault-tolerant, high-throughput streaming systems that scale to billions of events per second.</p>
+</div>
+</div>
 
-
-
-
-
-
-
-
-
-
-
+<div class="col-md-4 mb-3">
+<div class="research-card">
+  <div class="card-icon"><span class="fa-solid fa-database"></span></div>
+  <h6>Data Discovery</h6>
+  <p style="font-size:0.9rem; margin-bottom:0.75rem;">Automating the discovery of datasets and their relationships in data lakes and enterprise repositories.</p>
+</div>
+</div>
+</div>
 

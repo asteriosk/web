@@ -1,0 +1,19 @@
+- id: styx-sigmod25
+  desc: "Styx brings transactions to stateful functions running on streaming dataflows — giving you the scalability of stream processing with strong consistency guarantees."
+
+- id: txn-cloud-apps-cidr25
+  desc: "A vision for building transactional cloud apps directly on streaming dataflows, cutting out the need for separate coordination services."
+
+- id: omnimatch-vldb25
+  desc: "OmniMatch discovers joinable columns across data products in enterprise data repositories, by combining multiple signals to find matches that no single technique would catch alone."
+
+- id: valentine-icde21
+  desc: "A benchmark for schema matching techniques in data lakes — helps you figure out which matching algorithm actually works best for dataset discovery."
+
+- id: emma-sigmod15
+  award: "ACM SIGMOD Research Highlights Award 2015"
+  desc: "Emma automatically parallelizes data analysis programs written in a regular programming language — no need to think about distributed computing."
+
+- id: flink-deb15
+  award: "ACM SIGMOD Systems Award 2023"
+  desc: "The paper behind Apache Flink, a unified stream and batch processing engine that went on to become one of the most widely used open-source stream processors."

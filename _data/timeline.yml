@@ -1,0 +1,50 @@
+- year: "2025–"
+  current: true
+  icon: fa-solid fa-cloud
+  title: Amazon Scholar
+  org: AWS
+  detail: Deep Science for Systems Group (DS3)
+
+- year: "2024–"
+  current: true
+  icon: fa-solid fa-users
+  title: Head of the DIS Group
+  org: TU Delft
+  detail: Data-intensive Systems Group
+
+- year: "2023–2024"
+  icon: fa-solid fa-cloud
+  title: Amazon Visiting Academic
+  org: AWS
+  detail: Deep Science for Systems Group (DS3)
+
+- year: "2017–"
+  current: true
+  icon: fa-solid fa-university
+  title: Assistant Professor
+  org: TU Delft
+  detail: "Faculty of EEMCS · Delft, Netherlands"
+
+- year: "2017"
+  icon: fa-solid fa-building
+  title: Senior Software Engineer
+  org: "SAP Innovation Center, Berlin"
+  detail: Scalable architectures for machine learning inference and training
+
+- year: "2013–2016"
+  icon: fa-solid fa-flask
+  title: Postdoctoral Researcher
+  org: TU Berlin & DFKI
+  detail: "Database Systems & Information Management Group (Volker Markl)"
+
+- year: "2009–2013"
+  icon: fa-solid fa-graduation-cap
+  title: PhD
+  org: "INRIA Saclay & Université Paris-Sud"
+  detail: Supervised by Ioana Manolescu
+
+- year: "2003–2009"
+  icon: fa-solid fa-graduation-cap
+  title: "BSc & MSc"
+  org: University of Cyprus
+  detail: "High Performance Computing Lab (HPCL) · with Marios Dikaiakos"

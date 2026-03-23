@@ -1,0 +1,59 @@
+{%- comment -%}
+Student card include. Usage:
+{% include student-card.html student=student %}
+
+Student data should have:
+  - name: Student name
+  - link: Optional URL
+  - topic: Thesis topic
+  - photo: Optional photo path
+  - initials: Optional initials for placeholder (overrides auto-generated)
+  - advisor: Optional advisor info (shown if student.advisor_present is true)
+  - advisor_present: Set to true to show advisor field
+  For PhD students / postdocs:
+  - start_year: Start year (integer)
+  - end_year: End year (integer, optional)
+  - present: true if currently active (optional)
+  - position: Role or current position string
+  - institution: Optional institution name, appended to meta
+  For master students:
+  - year: Graduation year
+  - institution: Institution name
+{%- endcomment -%}
+
+<div class="people-list-item">
+  {%- if student.photo -%}
+    <img class="people-list-photo" src="{{ student.photo }}" alt="{{ student.name }}">
+  {%- else -%}
+    {%- assign name_parts = student.name | split: ' ' -%}
+    {%- if student.initials -%}
+      {%- assign initial_text = student.initials -%}
+    {%- elsif name_parts.size > 1 -%}
+      {%- assign initial_text = name_parts[0][0] | append: name_parts[-1][0] -%}
+    {%- else -%}
+      {%- assign initial_text = name_parts[0][0] | append: name_parts[0][1] -%}
+    {%- endif -%}
+    <div class="people-list-photo-icon">{{ initial_text | upcase }}</div>
+  {%- endif -%}
+  <div class="people-list-info">
+    {%- if student.link -%}
+      <div class="people-list-name"><a href="{{ student.link }}">{{ student.name }}</a></div>
+    {%- else -%}
+      <div class="people-list-name">{{ student.name }}</div>
+    {%- endif -%}
+    {%- if student.advisor_present and student.advisor -%}
+      <div class="people-list-advisor">{{ student.advisor }}</div>
+    {%- endif -%}
+    <div class="people-list-meta">{%- if student.start_year -%}
+      {%- if student.present -%}{{ student.start_year }}–present
+      {%- elsif student.end_year -%}{{ student.start_year }}–{{ student.end_year }}
+      {%- else -%}{{ student.start_year }}
+      {%- endif -%}
+      {%- if student.position %} &middot; {{ student.position }}{%- endif -%}
+      {%- if student.institution %} &middot; {{ student.institution }}{%- endif -%}
+    {%- elsif student.year and student.institution -%}{{ student.year }} &middot; {{ student.institution }}
+    {%- elsif student.year -%}{{ student.year }}
+    {%- endif -%}</div>
+    <div class="people-list-topic">{{ student.topic }}</div>
+  </div>
+</div>

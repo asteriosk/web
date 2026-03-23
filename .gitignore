@@ -1,3 +1,4 @@
 _site
 *.DS_store
 .jekyll-cache*
+config_local.yml

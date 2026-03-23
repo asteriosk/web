@@ -1,0 +1,40 @@
+intro: I regularly serve in the program committees of VLDB, SIGMOD and ICDE.
+
+chairs:
+  - venue: ICDE 2027
+    role: Tutorial Chair
+  - venue: EuroSys 2025
+    role: Workshop Chair
+  - venue: ICDE 2024
+    role: Demos Chair
+  - venue: SIGMOD Record
+    role: "Information Director, 2016–2023"
+  - venue: DBDBD 2021
+    role: Chair
+  - venue: SIGMOD 2021
+    role: Proceedings Chair
+  - venue: SIGMOD 2019
+    role: Local Organizations Chair
+  - venue: ccGrid 2019
+    role: "Track Chair — Programming Models and Runtime Systems"
+  - venue: "DanaC @ SIGMOD 2014, 2015"
+    role: "Workshop Chair — Data Analytics at Scale"
+
+pc_member:
+  - venue: (P)VLDB
+    years: "2015, 2017–2021, 2023–2027"
+  - venue: ACM SIGMOD
+    years: "2016–2018, 2020–2021, 2024–2027"
+  - venue: ACM SIGMOD ARI
+    link: https://reproducibility.sigmod.org
+    years: "2010, 2021–2022"
+  - venue: IEEE ICDE
+    years: "2016–2019, 2021, 2024"
+  - venue: EDBT
+    years: "2020–2021, 2024–2025"
+  - venue: ACM CIKM
+    years: "2014, 2017"
+  - venue: WBDB
+    years: "2015"
+  - venue: SSDBM
+    years: "2014"

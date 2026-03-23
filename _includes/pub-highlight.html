@@ -1,0 +1,54 @@
+{%- comment -%}
+Publication highlight card. Usage:
+{% include pub-highlight.html publication=publication %}
+{% include pub-highlight.html publication=publication award=award desc=desc %}
+
+Publication data should have:
+  - label: Venue label (e.g., "SIGMOD '25")
+  - title: Paper title
+  - authors: Author list
+  - venue: Publication venue
+  - pdf: Optional PDF link
+  - link: Optional link
+  - poster: Optional poster link
+  - slides: Optional slides link
+  - award: Optional award text (can be overridden by include.award)
+  - desc: Optional description (can be overridden by include.desc)
+  - github: Optional GitHub link
+{%- endcomment -%}
+{%- assign _award = include.award | default: include.publication.award -%}
+{%- assign _desc = include.desc | default: include.publication.desc -%}
+<div class="pub-card">
+  <div class="pub-card-top">
+    <span class="pub-card-venue">{{ include.publication.label }}</span>
+    {%- if _award -%}
+      <div class="pub-card-award"><span class="fa-solid fa-trophy"></span> {{ _award }}</div>
+    {%- endif -%}
+    <div class="pub-card-title">{{ include.publication.title }}</div>
+    <div class="pub-card-authors">{{ include.publication.authors }}</div>
+    {%- if _desc -%}
+      <div class="pub-card-desc">{{ _desc }}</div>
+    {%- endif -%}
+  </div>
+  <div class="pub-card-links">
+    {%- if include.publication.pdf -%}
+      {%- if include.publication.pdf contains "http" -%}
+        <a href="{{ include.publication.pdf }}"><span class="fa-solid fa-file-pdf"></span> PDF</a>
+      {%- else -%}
+        <a href="{{ site.url }}/{{ include.publication.pdf }}"><span class="fa-solid fa-file-pdf"></span> PDF</a>
+      {%- endif -%}
+    {%- endif -%}
+    {%- if include.publication.link -%}
+      <a href="{{ include.publication.link }}"><span class="fa-solid fa-up-right-from-square"></span> Link</a>
+    {%- endif -%}
+    {%- if include.publication.poster -%}
+      <a href="{{ site.url }}/{{ include.publication.poster }}"><span class="fa-solid fa-file-pdf"></span> Poster</a>
+    {%- endif -%}
+    {%- if include.publication.slides -%}
+      <a href="{{ site.url }}/{{ include.publication.slides }}"><span class="fa-solid fa-file-pdf"></span> Slides</a>
+    {%- endif -%}
+    {%- if include.publication.github -%}
+      <a href="{{ include.publication.github }}"><span class="fa-solid fa-code-branch"></span> GitHub</a>
+    {%- endif -%}
+  </div>
+</div>
