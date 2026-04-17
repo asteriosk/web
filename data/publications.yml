@@ -1,3 +1,51 @@
+- id: stream-window-aggregation-sema-encycl19
+  year: 2019
+  label: "Big Data Encycl.'19"
+  title: "Stream Window Aggregation Semantics and Optimization"
+  authors: "Paris Carbone, Asterios Katsifodimos, Seif Haridi"
+  venue: "Encyclopedia of Big Data Technologies"
+  link: "https://doi.org/10.1007/978-3-319-63962-8_154-1"
+
+- id: generating-reproducible-out-of-debs19
+  year: 2019
+  label: "DEBS'19"
+  title: "Generating Reproducible Out-of-Order Data Streams"
+  authors: "Philipp M. Grulich, Jonas Traub, Sebastian Breß, Asterios Katsifodimos, Volker Markl, Tilmann Rabl"
+  venue: "DEBS"
+  link: "https://doi.org/10.1145/3328905.3332511"
+
+- id: accelerating-machine-learning-ssdbm23
+  year: 2023
+  label: "SSDBM'23"
+  title: "Accelerating Machine Learning Queries with Linear Algebra Query Processing"
+  authors: "Wenbo Sun, Asterios Katsifodimos, Rihan Hai 0001"
+  venue: "SSDBM"
+  link: "https://doi.org/10.1145/3603719.3603726"
+
+- id: towards-evaluating-stream-proc-icdew23
+  year: 2023
+  label: "ICDEW'23"
+  title: "Towards Evaluating Stream Processing Autoscalers"
+  authors: "George Siachamis, Job Kanis, Wybe Koper, Kyriakos Psarakis, Marios Fragkoulis, Arie van Deursen, Asterios Katsifodimos"
+  venue: "ICDEW"
+  link: "https://doi.org/10.1109/ICDEW58674.2023.00021"
+
+- id: metadata-for-model-repos
+  year: 2023
+  label: "IEEE Access '23"
+  title: "Metadata Representations for Queryable Repositories of Machine Learning Models"
+  authors: "Ziyu Li, Henk Kant, Rihan Hai 0001, Asterios Katsifodimos, Marco Brambilla 0001, Alessandro Bozzon"
+  venue: "IEEE Access"
+  link: "https://doi.org/10.1109/ACCESS.2023.3330647"
+
+- id: feature-discovery-user-study
+  year: 2024
+  label: "HILDA@SIGMOD'24"
+  title: "Key Insights from a Feature Discovery User Study"
+  authors: "Andra Ionescu, Zeger Mouw, Efthimia Aivaloglou, Asterios Katsifodimos"
+  venue: "HILDA@SIGMOD"
+  link: "https://doi.org/10.1145/3665939.3665961"
+
 - id: state-migration-styx-vldbj26
   year: 2026
   label: "VLDBJ'26"
