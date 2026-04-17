@@ -16,15 +16,15 @@ He is the recipient of the ACM SIGMOD Systems Award (2023), an NWO VIDI Grant (2
 ##### Career Timeline
 
 <div class="timeline">
-{% for item in site.data.timeline %}
+{% for item in site.data.employment %}{% unless item.cv_only == true %}
   <div class="timeline-item">
     <div class="timeline-year">{{ item.year }}</div>
     <div class="timeline-dot{% if item.current %} current{% endif %}"></div>
     <div class="timeline-body">
       <span class="{{ item.icon }} timeline-icon"></span>
-      <strong>{{ item.title }}</strong> &mdash; {{ item.org }}
-      {% if item.detail %}<div class="timeline-detail">{{ item.detail }}</div>{% endif %}
+      <strong>{{ item.role }}</strong> &mdash; {{ item.organization }}
+      {% if item.department %}<div class="timeline-detail">{{ item.department }}</div>{% endif %}
     </div>
   </div>
-{% endfor %}
+{% endunless %}{% endfor %}
 </div>

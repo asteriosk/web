@@ -8,6 +8,8 @@ phd_students:
     position: "PhD Candidate"
     topic: "Geo-distributed transactions"
     photo: "/assets/people/oto-mraz.jpg"
+    cv_only:
+      funding: "Internal"
 
   - name: "Andra Ionescu"
     link: "https://andraionescu.github.io/"
@@ -93,9 +95,8 @@ postdocs:
   - name: "George Christodoulou"
     link: "https://giorgoschristodoulou.github.io/"
     start_year: 2023
-    present: true
-    position: "Postdoc"
-    institution: "TU Delft"
+    end_year: 2026
+    position: "Now with S&P Global"
     topic: "Transactional cloud applications and stateful dataflow runtimes"
     photo: "/assets/people/george-christodoulou.jpg"
 
@@ -375,6 +376,14 @@ masters:
     institution: "TU Berlin"
 
   - year: 2015
+    name: "T. Mendt"
+    link: "https://repository.tudelft.nl/"
+    topic: "Cardinality Estimation in Parallel Dataflows"
+    advisor: "A. Alexandrov"
+    initials: "TM"
+    institution: "TU Berlin"
+
+  - year: 2015
     name: "A. Lungu"
     link: "https://repository.tudelft.nl/"
     topic: "Scaling up Computations on Highly Skewed Graphs"
@@ -408,3 +417,58 @@ masters:
     topic: "Workflow Management System on Stratosphere"
     initials: "SH"
     institution: "TU Berlin"
+
+# CV-only sections
+
+research_engineers:
+  - name: "Jessie van Schijndel"
+    start_year: 2022
+    start_month: 2
+    end_year: 2022
+    end_month: 12
+    position: "Research Engineer (15h/week)"
+    collaborator: "R. Hai"
+    cv_only: true
+
+  - name: "Shaad Alaka"
+    start_year: 2019
+    start_month: 10
+    end_year: 2021
+    end_month: 12
+    position: "Research Engineer (20h/week)"
+    cv_only: true
+
+  - name: "Pedro Silvestre"
+    start_year: 2019
+    start_month: 6
+    end_year: 2020
+    end_month: 12
+    position: "Research Engineer (full-time)"
+    current_position: "PhD student at Imperial College London"
+    cv_only: true
+
+interns:
+  - name: "Kiril Vassilev"
+    program: "TU Delft Honors Programme"
+    period: "Winter 2022"
+    cv_only: true
+
+  - name: "Loïc Bertaux"
+    program: "ENSTA ParisTech, France"
+    period: "Summer 2016"
+    cv_only: true
+
+  - name: "Shivani Ghatge"
+    program: "IIT Indore, India"
+    period: "Summer 2015"
+    cv_only: true
+
+  - name: "Mariem Ayadi"
+    program: "Smith College, Massachusetts, USA"
+    period: "Summer 2014"
+    cv_only: true
+
+  - name: "Karan Aggarwal"
+    program: "IIT Roorkee, India"
+    period: "Summer 2012"
+    cv_only: true

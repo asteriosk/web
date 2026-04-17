@@ -1,4 +1,6 @@
-_site
-*.DS_store
+web/_site
+cv/output
+cv/node_modules
+.DS_Store
 .jekyll-cache*
-config_local.yml
+web/config_local.yml

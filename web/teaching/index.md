@@ -27,7 +27,7 @@ title: "Asterios Katsifodimos | Assistant Professor, TU Delft"
       <td>{{ course.period }}</td>
       <td>{% if course.end_year == course.start_year %}{{ course.start_year }}{% elsif course.end_year %}{{ course.start_year }}–{{ course.end_year }}{% else %}{{ course.start_year }}–present{% endif %}</td>
       <td>{% if course.level == "MSc" %}<span class="fa-solid fa-user-graduate"></span>{% elsif course.level == "BSc" %}<span class="fa-solid fa-graduation-cap"></span>{% elsif course.level == "ProfEd" %}<span class="fa-solid fa-briefcase"></span>{% endif %} {{ course.level }}</td>
-      <td>{{ course.description }}{% if course.collaborator_name %} · with <a href="{{ course.collaborator_link }}">{{ course.collaborator_name }}</a>{% endif %}</td>
+      <td>{{ course.description }}{% for c in course.collaborators %} · with {% if c.link %}<a href="{{ c.link }}">{{ c.name }}</a>{% else %}{{ c.name }}{% endif %}{% endfor %}</td>
     </tr>
     {% endfor %}
   </tbody>

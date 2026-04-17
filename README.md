@@ -1,80 +1,65 @@
 # asterios.katsifodimos.com
 
-Personal academic website for [Asterios Katsifodimos](http://asterios.katsifodimos.com), Assistant Professor at TU Delft.
+Personal academic website and CV for [Asterios Katsifodimos](https://asterios.katsifodimos.com), Assistant Professor at TU Delft.
 
-Built with [Jekyll](https://jekyllrb.com/) and hosted via GitHub Pages.
+## What's in this repo
 
-## Tech stack
+| Directory | Purpose |
+|-----------|---------|
+| `data/` | YAML source of truth — all content lives here, shared by website and CV |
+| `web/` | Jekyll website, deployed to GitHub Pages |
+| `cv/` | CV pipeline: Node.js + EJS templates → LaTeX → PDF |
+| `Makefile` | Root-level build orchestration |
 
-- **Jekyll** — static site generator (via `github-pages` gem)
-- **Bootstrap 5.3.3** — layout and responsive grid (CDN)
-- **Font Awesome 6.7.2** — icons (CDN)
-- **Montserrat / Roboto** — fonts (Google Fonts CDN)
-- **`css/theme.css`** — all custom styles (single file, no preprocessor)
-- **`css/syntax.css`** — code block syntax highlighting (Rouge)
+Content is edited **only in `data/*.yml`**. The website and CV both read from there — you never need to touch templates for routine updates.
 
-## Project structure
-
-```
-_layouts/
-  default.html        # single shared layout (navbar, footer)
-_config.yml           # site name, URL, markdown/highlighter settings
-index.md              # home page (hero, awards, people)
-publications/         # research & publications page
-teaching/             # courses and thesis supervision
-service/              # community service
-css/
-  theme.css           # custom styles
-  syntax.css          # syntax highlighting
-assets/               # images (profile photo, people portraits)
-Gemfile               # Ruby dependencies
-```
-
-## Local development
-
-### Prerequisites
-
-Ruby and Bundler must be installed. On macOS:
+## Quick start
 
 ```bash
-brew install ruby
-gem install bundler
+make install   # Install Ruby gems (web) + npm packages (cv)
+make preview   # Serve site at http://localhost:4000 (live reload)
+make cv        # Generate LaTeX and compile PDF
+make all       # Build both
 ```
-
-### Setup
-
-```bash
-bundle install
-```
-
-### Serve locally
-
-```bash
-bundle exec jekyll serve
-```
-
-The site is available at `http://localhost:4000`. Jekyll watches for file changes and rebuilds automatically.
-
-### Build (static output)
-
-```bash
-bundle exec jekyll build
-```
-
-Output is written to `_site/`.
-
-## Deployment
-
-The site is deployed automatically by GitHub Pages on every push to the `master` branch. No manual build step is needed — GitHub Pages runs Jekyll server-side.
 
 ## Editing content
 
-| Page | File |
-|------|------|
-| Home (bio, awards, people) | `index.md` |
-| Publications | `publications/index.md` |
-| Teaching | `teaching/index.html` |
-| Service | `service/index.md` |
-| Navbar / footer | `_layouts/default.html` |
-| Styles | `css/theme.css` |
-| Site config (URL, name) | `_config.yml` |
+All content is in `data/`. Each file maps to a section:
+
+| File | Website page | Notes |
+|------|-------------|-------|
+| `publications.yml` | `/publications/` | Full publication list |
+| `selected_publications.yml` | `/publications/` | Featured cards; references ids from publications.yml |
+| `awards.yml` | Home | Grants, awards, honors |
+| `supervision.yml` | `/people/` | PhD students, postdocs, master theses |
+| `teaching.yml` | `/teaching/` | Courses by institution |
+| `service.yml` | `/service/` | PC memberships, chairs |
+| `employment.yml` | `/bio/` timeline | Also drives the CV employment section |
+| `education.yml` | CV only | Degrees |
+| `personal.yml` | CV only | Contact info, name |
+| `funding.yml` | CV only | Grants with amounts |
+| `invited_talks.yml` | CV only | Talks and keynotes |
+| `referees.yml` | CV only | Reference contacts |
+
+### `cv_only` flag
+
+- `cv_only: true` — entry is included in the CV but hidden from the website
+- `cv_only: {key: value}` — entry is shown on the website; the object carries CV-only metadata (e.g., `{funding: "NWO VIDI"}`)
+
+### Career timeline
+
+The `/bio/` timeline is generated from `employment.yml`. All entries without `cv_only: true` appear on the timeline. Education milestones (PhD, BSc/MSc) are stored in `employment.yml` with `cv_section: null`.
+
+## Tech stack
+
+- **Jekyll** — static site generator
+- **Bootstrap 5** — layout and responsive grid (CDN)
+- **Font Awesome 6** — icons (CDN)
+- **Node.js + EJS** — CV template rendering
+- **pdflatex + biber** — LaTeX → PDF compilation
+
+## Deployment
+
+The site deploys via **GitHub Actions** (`.github/workflows/deploy.yml`) on every push to `master` — not GitHub's native Jekyll build, which can't handle the `web/` subdirectory layout.
+
+To set up on a new repo: Settings → Pages → Source → **GitHub Actions**.

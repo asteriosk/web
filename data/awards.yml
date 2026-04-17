@@ -1,17 +1,43 @@
-- name: ACM SIGMOD Systems Award 2023
-  type: award
+- name: "NWO VIDI"
+  year: 2024
+  type: "grant"
+  description: "Dutch research grant for leadership in data-intensive systems"
+  cv_only: false
 
-- name: NWO VIDI Grant 2022
-  type: grant
+- name: "ACM SIGMOD Systems Award"
+  year: 2023
+  type: "award"
+  cv_only: false
 
-- name: ACM DEBS Best Paper 2021
-  type: award
+- name: "ACM EDBT Best Demo Award"
+  year: 2023
+  type: "award"
+  cv_only: false
 
-- name: EDBT Best Paper 2019
-  type: award
+- name: "ACM DEBS Best Paper Award"
+  year: 2021
+  type: "award"
+  cv_only: false
 
-- name: EDBT Best Demo 2023
-  type: award
+- name: "EDBT Best Paper Award"
+  year: 2019
+  type: "award"
+  publication_id: "stream-slicing-edbt19"
+  cv_only: false
 
-- name: ACM SIGMOD Research Highlights Award 2015
-  type: award
+- name: "ACM SIGMOD Research Highlights Award"
+  year: 2015
+  type: "award"
+  description: "For works with potential for significant future research impact"
+  cv_only: false
+
+- name: "PhD Scholarship from Université Paris-Sud & French Ministry of Education"
+  year: 2009
+  type: "honor"
+  cv_only: true
+
+- name: "Scholarship from Ministry of Education of Cyprus"
+  year: 2006
+  type: "honor"
+  description: "Awarded for ranking 1st among Greek students during 3rd year of BSc"
+  cv_only: true

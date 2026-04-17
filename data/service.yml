@@ -1,40 +1,112 @@
 intro: I regularly serve in the program committees of VLDB, SIGMOD and ICDE.
 
 chairs:
-  - venue: ICDE 2027
-    role: Tutorial Chair
-  - venue: EuroSys 2025
-    role: Workshop Chair
-  - venue: ICDE 2024
-    role: Demos Chair
-  - venue: SIGMOD Record
-    role: "Information Director, 2016–2023"
-  - venue: DBDBD 2021
-    role: Chair
-  - venue: SIGMOD 2021
-    role: Proceedings Chair
-  - venue: SIGMOD 2019
-    role: Local Organizations Chair
-  - venue: ccGrid 2019
-    role: "Track Chair — Programming Models and Runtime Systems"
+  - venue: "ICDE 2027"
+    role: "Tutorial Chair"
+    year: 2027
+    cv_only: false
+    
+  - venue: "EuroSys 2025"
+    role: "Workshop Chair"
+    year: 2025
+    cv_only: false
+    
+  - venue: "ICDE 2024"
+    role: "Demos Chair"
+    year: 2024
+    cv_only: false
+    
+  - venue: "DEBS 2022"
+    role: "Demo Chair"
+    year: 2022
+    cv_only: false
+    
+  - venue: "SIGMOD Record"
+    role: "Information Director"
+    year_start: 2016
+    year_end: 2023
+    cv_only: false
+    
+  - venue: "DBDBD 2021"
+    role: "Chair"
+    year: 2021
+    cv_only: false
+    
+  - venue: "Dutch-Belgian Database Day"
+    role: "Organizer"
+    year: 2021
+    location: "Delft"
+    cv_only: false
+    
+  - venue: "SIGMOD 2021"
+    role: "Proceedings Chair"
+    year: 2021
+    cv_only: false
+    
+  - venue: "SIGMOD 2019"
+    role: "Local Organizations Chair"
+    year: 2019
+    cv_only: false
+    
+  - venue: "ccGrid 2020 (Programming Models and Runtime Systems)"
+    role: "Track Chair"
+    year: 2020
+    cv_only: false
+    
   - venue: "DanaC @ SIGMOD 2014, 2015"
     role: "Workshop Chair — Data Analytics at Scale"
+    year_start: 2014
+    year_end: 2015
+    cv_only: false
 
 pc_member:
-  - venue: (P)VLDB
+  - venue: "(P)VLDB"
     years: "2015, 2017–2021, 2023–2027"
-  - venue: ACM SIGMOD
+    cv_only: false
+    
+  - venue: "ACM SIGMOD"
     years: "2016–2018, 2020–2021, 2024–2027"
-  - venue: ACM SIGMOD ARI
-    link: https://reproducibility.sigmod.org
+    cv_only: false
+    
+  - venue: "ACM SIGMOD ARI"
+    link: "https://reproducibility.sigmod.org"
     years: "2010, 2021–2022"
-  - venue: IEEE ICDE
+    cv_only: false
+    
+  - venue: "IEEE ICDE"
     years: "2016–2019, 2021, 2024"
-  - venue: EDBT
+    cv_only: false
+    
+  - venue: "EDBT"
     years: "2020–2021, 2024–2025"
-  - venue: ACM CIKM
+    cv_only: false
+    
+  - venue: "ACM CIKM"
     years: "2014, 2017"
-  - venue: WBDB
+    cv_only: false
+    
+  - venue: "WBDB"
     years: "2015"
-  - venue: SSDBM
+    cv_only: false
+    
+  - venue: "SSDBM"
     years: "2014"
+    cv_only: false
+
+special_service:
+  - role: "Dutch Seminar on Data Systems Design"
+    role_detail: "Co-founder"
+    year: 2020
+    collaborators:
+      - "P. Boncz (CWI)"
+      - "G. Fletcher (TUe)"
+    cv_only: true
+    
+  - role: "Data Science Platform Nederland -- Vision 2021/2026"
+    role_detail: "Co-author"
+    year: 2021
+    collaborators:
+      - "P. Boncz (CWI)"
+      - "P. Groth (UVA)"
+      - "GJ. Houben (TUD)"
+    cv_only: true

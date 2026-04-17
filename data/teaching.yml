@@ -1,4 +1,5 @@
 - institution: TU Delft
+  location: "Delft, Netherlands"
   start_year: 2017
   courses:
     - id:
@@ -9,6 +10,10 @@
       start_year: 2017
       end_year:
       description: Scalable databases and data systems
+      contribution: "80%"
+      collaborators:
+        - name: "C. Lofi"
+          contribution: "20%"
 
     - id:
       name: Distributed Data Systems
@@ -27,6 +32,25 @@
       start_year: 2017
       end_year:
       description: Advanced topics on relational databases
+      contribution: "50%"
+      collaborators:
+        - name: "C. Lofi"
+          contribution: "50%"
+
+    - id:
+      name: Data Mining
+      link:
+      level: BSc
+      period: Q3
+      start_year: 2021
+      end_year:
+      description: Machine learning for data mining
+      contribution: "25%"
+      collaborators:
+        - name: "C. Lofi"
+          contribution: "25%"
+        - name: "G. Migut"
+          contribution: "50%"
 
     - id:
       name: "Taming Big Data Streams: Real-time Data Processing at Scale"
@@ -36,6 +60,7 @@
       start_year: 2020
       end_year: 2021
       description: Professional education course on TU Delft's edX
+      department: External School
 
 - institution: TU Berlin
   start_year: 2014
@@ -67,8 +92,9 @@
       start_year: 2014
       end_year: 2014
       description: 2h/week
-      collaborator_name: Sebastian Schelter
-      collaborator_link: https://deem.berlin/#professor
+      collaborators:
+        - name: "Sebastian Schelter"
+          link: "https://deem.berlin/#professor"
 
 - institution: Université Paris Descartes
   start_year: 2012

@@ -20,8 +20,8 @@ Asst. Professor at <a href="http://www.tudelft.nl/">TU Delft</a> and Amazon Scho
 <div class="awards-row">
 <strong><span class="fa-solid fa-trophy"></span> Awards</strong><br>
 <div class="awards-content">
-{% for a in site.data.awards %}<span class="badge-{{ a.type }}"><span class="fa-solid fa-{% if a.type == 'grant' %}flask{% else %}award{% endif %} badge-icon"></span>{{ a.name }}</span>
-{% endfor %}</div>
+{% for a in site.data.awards %}{% unless a.cv_only %}<span class="badge-{{ a.type }}"><span class="fa-solid fa-{% if a.type == 'grant' %}flask{% else %}award{% endif %} badge-icon"></span>{{ a.name }}</span>
+{% endunless %}{% endfor %}</div>
 </div>
 
 </div>
