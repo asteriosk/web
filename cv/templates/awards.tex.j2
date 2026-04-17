@@ -1,0 +1,12 @@
+\section{Awards}
+
+(% for award in awards %)
+\cventry{}
+{\normalfont }{(( award.name | escape_latex ))}
+{(( award.year ))}{}
+{
+\vspace{\upcventry}(% if award.description %)\small (( award.description | escape_latex )) \\(% endif %)
+}
+
+(% endfor %)
+\vspace{3mm}

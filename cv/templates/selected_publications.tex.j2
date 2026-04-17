@@ -1,0 +1,7 @@
+\section{Selected Publications}
+
+\begin{description}[style=multiline,leftmargin=2.2cm,font=\normalfont]
+(% for sel in selected_publications %)
+(% set pub = pub_by_id.get(sel.id, {}) %)
+\item[\scriptsize\textbf{(( pub.get('label', '') | escape_latex ))}] \fullcite{(( sel.id ))}
+(% endfor %)\end{description}

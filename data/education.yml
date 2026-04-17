@@ -1,0 +1,32 @@
+- level: "PhD in Database Systems"
+  institution: "Université Paris-Sud & Inria Saclay"
+  location: "Paris, France"
+  year_start: 2009
+  year_end: 2013
+  thesis:
+    title: "Scalable View-based Techniques for Web Data: Algorithms and Systems"
+    honor: "Mention Très Honorable (Summa Cum Laude)"
+    advisor: "Dr. Ioana Manolescu"
+    reviewers:
+      - "Prof. Yanlei Diao (University of Massachusetts-Amherst, U.S.A)"
+      - "Prof. Philippe Rigaux (CNAM, Paris)"
+
+- level: "MSc"
+  institution: "University of Cyprus"
+  program: "Advanced Information Technologies"
+  location: "Nicosia, Cyprus"
+  year_start: 2007
+  year_end: 2009
+  thesis:
+    title: "MinerSoft: Searching Software Resources in Grid & Cloud Infrastructures"
+    advisor: "Prof. Marios D. Dikaiakos"
+
+- level: "BSc"
+  institution: "University of Cyprus"
+  program: "Computer Science"
+  location: "Nicosia, Cyprus"
+  year_start: 2003
+  year_end: 2007
+  thesis:
+    title: "gridDigger: a Software Search Engine for the Computational Grid"
+    advisor: "Prof. Marios D. Dikaiakos"

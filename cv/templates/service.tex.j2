@@ -1,0 +1,37 @@
+\section{Research Community Service \& Leadership}
+\normalsize
+\begin{nstabbing}
+(% set chairs = service.chairs or [] %)
+(% set unique_roles = [] %)
+(% for chair in chairs %)
+(% if chair.role not in unique_roles %)(% set _ = unique_roles.append(chair.role) %)(% endif %)
+(% endfor %)
+(% set local_org_roles = unique_roles | select('contains', 'Local Organization') | list %)
+(% set other_roles = unique_roles | reject('contains', 'Local Organization') | list %)
+(% set sorted_roles = local_org_roles + other_roles %)
+(% for role in sorted_roles %)
+(% set role_chairs = chairs | selectattr('role', 'equalto', role) | list %)
+(% if loop.first %)\textbf{(( role | escape_latex ))}: $\qquad\qquad\qquad\qquad\quad$\=-- (( role_chairs[0].venue | escape_latex ))(% for chair in role_chairs[1:] %) \\ \> -- (( chair.venue | escape_latex ))(% endfor %) \\
+\tiny~~\\(% else %)\textbf{(( role | escape_latex ))} \> -- (( role_chairs[0].venue | escape_latex ))(% for chair in role_chairs[1:] %) \\ \> -- (( chair.venue | escape_latex ))(% endfor %) \\
+~~\\(% endif %)
+(% endfor %)
+\textbf{Program Committee Member} \> -- (P)VLDB '15/'17-'21/'23-'27 \\
+\vspace{1mm}
+								  \> -- ACM SIGMOD '16-'18/'20-'21/'24-'27 \\
+\vspace{1mm}
+								  \> -- IEEE ICDE '16-'19/'21/'24 \\
+\vspace{1mm}
+								  \> -- EDBT '20-'21/'24-'25 \\
+\vspace{1mm}
+								  \> -- ACM CIKM '14/'17 \\
+								  \> -- WBDB '15 \\
+								  \> -- SSDBM '14 \\
+~~\\
+(% set special = service.special_service or [] %)
+(% for item in special %)
+\textbf{(( (item.role_detail or item.role) | escape_latex ))} \> -- (( item.role | escape_latex )) \\
+\vspace{2mm}
+                      \> ~~~with (( item.collaborators | map('escape_latex') | join(', ') ))
+~~\\
+(% endfor %)
+\end{nstabbing}

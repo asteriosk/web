@@ -1,0 +1,122 @@
+\documentclass[11pt,letterpaper,sans,linktoc=all]{moderncv}
+
+% moderncv themes
+\moderncvstyle{banking}
+\moderncvcolor{blue}
+\renewcommand{\thefootnote}{\fnsymbol{footnote}}
+
+\usepackage{footmisc}
+\usepackage{nameref}
+\usepackage{enumitem}
+\usepackage{eurosym}
+\usepackage{float}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{tabularx,tabu}
+\usepackage[utf8]{inputenc}
+\usepackage[table]{xcolor}
+\usepackage{relsize}
+
+\makeatletter
+\newcommand\@pnumwidth{1.55em}
+\newcommand\@tocrmarg{2.55em}
+\newcommand\@dotsep{4.5}
+\makeatother
+\usepackage{titletoc}
+\usepackage{changepage}
+
+\usepackage[
+  backend=biber,
+  style=numeric,
+  sorting=ynt,
+  maxbibnames=99,
+  maxcitenames=99,
+  firstinits=true,
+  doi=false,isbn=false,url=false,eprint=false
+]{biblatex}
+\addbibresource{references.bib}
+
+\AtEveryBibitem{\clearfield{pages}}
+\AtEveryBibitem{\clearfield{volume}}
+\AtEveryBibitem{\clearfield{number}}
+\AtEveryBibitem{\clearfield{month}}
+\AtEveryBibitem{\clearfield{location}}
+
+\newcommand{\tableheadfont}{\bfseries\fontsize{10}{10}\selectfont\leavevmode\color{black}}
+
+\usepackage[top=0.6in, bottom=1in, left=0.8in, right=0.8in]{geometry}
+
+\newenvironment{nstabbing}
+  {\setlength{\topsep}{0pt}%
+   \setlength{\partopsep}{0pt}%
+   \tabbing}
+  {\endtabbing}
+
+\newlength{\upcventry}
+\setlength{\upcventry}{-1.2em}
+
+% Personal data
+(% set nameParts = split_name(personal.name) %)
+\name{(( nameParts.first | escape_latex ))}{(( nameParts.last | escape_latex ))}
+\address{(( personal.title | escape_latex ))}{(( personal.institution | escape_latex ))}{(( (personal.secondary_title or '') | escape_latex ))}
+\phone[mobile]{(( personal.contact.phone | escape_latex ))}
+\email{(( personal.contact.email | escape_latex ))}
+\homepage{(( personal.contact.homepage | escape_latex ))}
+\extrainfo{\hspace{-2mm}(( personal.birth_date | format_birth_date ))}
+
+\begin{document}
+
+\maketitle
+
+% ~\\~\\~\\~\\~\\~\\~\\~\\~\\~\\~\\~\\~
+
+% \addcontentsline{toc}{section}{\textbf{\Large Supporting Statements}}
+
+% \input{research-statement}
+
+% \newpage
+
+% \input{education-statement}
+
+% \input{leadership-valorization-organization}
+
+% \newpage
+
+% \input{referees}
+
+% \newpage
+
+% ~\\~\\~\\~\\~\\~\\~\\~\\~\\~\\~\\~\\~
+
+% \addcontentsline{toc}{section}{\textbf{\Large Detailed CV}}
+
+% \begin{center}
+% \huge Detailed Curriculum Vitae
+% \end{center}
+
+% \newpage
+
+\input{education}
+
+\vspace{-0.8em}
+\input{employment}
+
+\input{awards}
+
+\input{funding}
+
+\input{service}
+
+\input{teaching}
+
+\input{supervision}
+
+\input{invited-talks}
+
+% \newpage
+\input{selected-publications}
+
+\input{publications}
+
+
+\end{document}

@@ -1,0 +1,105 @@
+\section{Supervision}
+
+\subsection{Postdocs}
+(% for postdoc in supervision.postdocs or [] %)
+(% set years = postdoc.start_year | string + (' -- ' + postdoc.end_year | string if postdoc.end_year else '') %)
+(% set current_pos = ' (' + (postdoc.position | escape_latex) + ')' if postdoc.position and not postdoc.present else '' %)
+(% set name_link = '\\href{' + postdoc.link + '}{' + (postdoc.name | escape_latex) + '}' if postdoc.link else (postdoc.name | escape_latex) %)
+(% set topic = postdoc.topic | escape_latex if postdoc.topic else '' %)
+\cventry{}
+{\normalfont (( current_pos ))(( ' -- ' + topic if topic else '' ))}{(( name_link ))}
+{(( years ))}{}
+{
+\vspace{\upcventry}
+}
+
+(% endfor %)
+
+\vspace{1mm}
+\subsection{Research Engineers}
+(% for re in supervision.research_engineers or [] %)
+(% set start_m = (re.start_month | string).zfill(2) if re.start_month else '01' %)
+(% set end_m   = (re.end_month   | string).zfill(2) if re.end_month   else '12' %)
+(% set years = re.start_year | string + '/' + start_m + ' -- ' + ('today' if re.present else re.end_year | string + '/' + end_m) %)
+(% set current_pos = ' (' + (re.current_position | escape_latex) + ')' if re.current_position else '' %)
+(% set collaborator = ' (with ' + (re.collaborator | escape_latex) + ')' if re.collaborator else '' %)
+(% set name_link = '\\href{' + re.link + '}{' + (re.name | escape_latex) + '}' if re.link else (re.name | escape_latex) %)
+\cventry{}
+{\normalfont (( re.position | escape_latex ))(( collaborator ))(( current_pos ))}{(( name_link ))}
+{(( years ))}{}
+{
+\vspace{\upcventry}
+}
+
+(% endfor %)
+
+\vspace{1mm}
+\subsection{PhD Students (as daily supervisor)}
+\vspace{2mm}
+(% for phd in (supervision.phd_students or []) | rejectattr('end_year') %)
+(% set years = phd.start_year | string + ' -- today' %)
+(% set funding = ' (funded by ' + (phd.cv_only.funding | escape_latex) + ')' if phd.cv_only and phd.cv_only.funding else '' %)
+(% set topic = phd.topic | escape_latex if phd.topic else '' %)
+(% set name_link = '\\href{' + phd.link + '}{' + (phd.name | escape_latex) + '}' if phd.link else (phd.name | escape_latex) %)
+(% set advisor_info = '' %)
+(% if phd.advisor and phd.advisor != 'Main Advisor' %)
+(% set ma = phd.advisor | regex_search('Main Advisor:\\s*(.+)$') %)
+(% if ma %)(% set advisor_info = ' (with ' + (ma | escape_latex) + ')' %)(% endif %)
+(% endif %)
+\cventry{}
+{\normalfont (( topic ))(( advisor_info ))(( funding ))}{(( name_link ))}
+{(( years ))}{}
+{
+\vspace{\upcventry}
+}
+
+(% endfor %)
+(% for phd in (supervision.phd_students or []) | selectattr('end_year') | sort(attribute='end_year', reverse=True) %)
+(% set years = phd.start_year | string + ' -- ' + phd.end_year | string %)
+(% set funding = ' (funded by ' + (phd.cv_only.funding | escape_latex) + ')' if phd.cv_only and phd.cv_only.funding else '' %)
+(% set topic = phd.topic | escape_latex if phd.topic else '' %)
+(% set name_link = '\\href{' + phd.link + '}{' + (phd.name | escape_latex) + '}' if phd.link else (phd.name | escape_latex) %)
+(% set advisor_info = '' %)
+(% if phd.advisor and phd.advisor != 'Main Advisor' %)
+(% set ma = phd.advisor | regex_search('Main Advisor:\\s*(.+)$') %)
+(% if ma %)(% set advisor_info = ' (with ' + (ma | escape_latex) + ')' %)(% endif %)
+(% endif %)
+\cventry{}
+{\normalfont (( topic ))(( advisor_info ))(( funding ))}{(( name_link ))}
+{(( years ))}{}
+{
+\vspace{\upcventry}
+}
+
+(% endfor %)
+
+\vspace{3mm}
+\subsection{Master Theses}
+\vspace{2mm}
+(% set masters = supervision.masters or [] %)
+(% for group in masters | groupby('year') | sort(attribute='grouper', reverse=True) %)
+\textbf{(( group.grouper ))}\begin{itemize}[leftmargin=6mm]
+(% for m in group.list %)
+(% set name_link = '\\href{' + m.link + '}{' + (m.name | escape_latex) + '}' if m.link else (m.name | escape_latex) %)
+(% set topic = m.topic | escape_latex if m.topic else '' %)
+(% set advisor = ' (with ' + (m.advisor | escape_latex) + ')' if m.advisor and m.advisor != 'Main Advisor' else '' %)
+\item \textbf{(( name_link ))}: (( topic ))(( advisor ))
+(% endfor %)\end{itemize}
+\vspace{1mm}
+(% endfor %)
+
+\vspace{4mm}
+
+\subsection{Interns}
+(% set interns = supervision.interns or [] %)
+(% if interns %)
+\begin{itemize}[leftmargin=6mm]
+(% for i in interns %)
+(% set name_link = '\\href{' + i.link + '}{' + (i.name | escape_latex) + '}' if i.link else (i.name | escape_latex) %)
+(% set topic = ' -- \\emph{' + (i.topic | escape_latex) + '}' if i.topic else '' %)
+(% set intern_info = '(' + (i.program | escape_latex) + ', ' + (i.period | escape_latex) + ')' %)
+\item (( name_link )) (( intern_info ))(( topic ))
+(% endfor %)\end{itemize}
+(% else %)
+\textit{No interns supervised yet.}
+(% endif %)

@@ -1,0 +1,56 @@
+# Funding Acquisition / Grants
+# All grants and funding secured as PI, Co-PI, or proposer
+
+- name: "H2020 OpertusMundi"
+  amount: "€620K for TU Delft"
+  description: "Two PhDs, two-year postdoc"
+  role: "Co-Proposer, led state-of-the-art and research WPs"
+  year_start: 2020
+  year_end: 2022
+  type: "grant"
+  cv_only: false
+
+- name: "Cognizant"
+  amount: "€500K"
+  description: "One PhD"
+  role: "Co-Proposer with A. Bozzon"
+  year_start: 2019
+  year_end: 2023
+  type: "grant"
+  cv_only: false
+
+- name: "ING, AI for Fintech Lab (AIFL)"
+  amount: "€500K + 1FTE in kind"
+  description: "Two PhDs"
+  role: "Co-Proposer with A. Van Deursen"
+  year_start: 2019
+  year_end: 2023
+  type: "grant"
+  cv_only: false
+
+- name: "Health Convergence / Digital Twin Project"
+  amount: "€100K"
+  description: "Postdoc, two years"
+  role: "Organizer of consortium"
+  year_start: 2020
+  year_end: 2021
+  type: "grant"
+  cv_only: false
+
+- name: "H2020 Proteus"
+  amount: "€1M for TU Berlin/DFKI"
+  description: "EU-funded project"
+  role: "Co-PI with Prof. Dr. V. Markl. Led & coordinated the research part of the proposal"
+  year_start: 2015
+  year_end: 2018
+  type: "grant"
+  cv_only: false
+
+- name: "EIT Europa"
+  amount: "€1M total, €500K for TU Berlin"
+  description: "EU-funded project"
+  role: "Led & coordinated the proposal and project as co-PI with Prof. Dr. V. Markl"
+  year_start: 2014
+  year_end: 2014
+  type: "grant"
+  cv_only: false

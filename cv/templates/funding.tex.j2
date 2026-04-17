@@ -1,0 +1,12 @@
+\section{Funding Acquisition}
+\label{sec:funding}
+
+(% for grant in funding %)
+\cventry{}
+{\normalfont Role: (( grant.role | escape_latex ))}{(( grant.name | escape_latex )): (( grant.amount | escape_latex ))(% if grant.description %) ((( grant.description | escape_latex )))(% endif %)}
+{(( grant.year_start ))(% if grant.year_end and grant.year_start != grant.year_end %) -- (( grant.year_end ))(% endif %)}{}
+{
+\vspace{\upcventry}
+}
+
+(% endfor %)

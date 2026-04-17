@@ -1,0 +1,9 @@
+\section{Employment}
+\vspace{4mm}
+(% for job in employment %)\cventry{(( job.year | escape_latex ))}{}{(( job.organization | escape_latex )) \textnormal{-- \emph{(( job.role | escape_latex ))}}}{(( (job.location or '') | escape_latex ))}{}{
+\vspace{\upcventry}
+\textit{(( (job.department or '') | escape_latex ))}%
+(% if job.cv_details and job.cv_details | length > 0 %)\begin{itemize}%
+(% for detail in job.cv_details %)\item (( detail | escape_latex ))
+(% endfor %)\end{itemize}(% endif %)}
+(% endfor %)

@@ -1,0 +1,20 @@
+name: "Asterios Katsifodimos"
+title: "Assistant Professor"
+institution: "Delft University of Technology"
+secondary_title: "Amazon Scholar at AWS"
+
+contact:
+  email: "A.Katsifodimos@tudelft.nl"
+  phone: "+31 6 29 35 10 89"
+  address: "Delft, Netherlands"
+  homepage: "asterios.katsifodimos.com"
+
+social:
+  - platform: "Google Scholar"
+    url: "https://scholar.google.com/citations?user=K1P9u1wAAAAJ"
+  - platform: "Twitter"
+    url: "https://twitter.com/katsifodimos"
+  - platform: "GitHub"
+    url: "https://github.com/katsifodimos"
+
+birth_date: "1985-09-16"

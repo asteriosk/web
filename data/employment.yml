@@ -1,0 +1,103 @@
+# Employment history - used for both website timeline and CV
+# cv_section: "employment" means it appears in CV employment section
+# cv_only: true means it is hidden from the website (timeline)
+
+- year: "2025–present"
+  current: true
+  organization: "AWS"
+  role: "Amazon Scholar"
+  department: "Deep Science for Systems Group (DS3)"
+  location: "Santa Clara, USA (part-time, remote)"
+  icon: "fa-solid fa-cloud"
+  cv_section: "employment"
+  cv_details:
+    - "Researching next-generation Cloud systems for data integration and AI workloads"
+
+- year: "2024–present"
+  current: true
+  organization: "TU Delft"
+  role: "Head of the DIS Group"
+  department: "Data-intensive Systems Group"
+  location: "Delft, Netherlands"
+  icon: "fa-solid fa-users"
+  cv_section: "employment"
+  cv_details:
+    - "Leading research in scalable data management in the Cloud"
+    - "Focus on Big Data analytics, stream processing, database language models, and query optimization"
+
+- year: "2023–2024"
+  organization: "AWS"
+  role: "Amazon Visiting Academic"
+  department: "Deep Science for Systems Group (DS3)"
+  location: "Santa Clara, USA"
+  icon: "fa-solid fa-cloud"
+  cv_section: "employment"
+
+- year: "2017–present"
+  current: true
+  organization: "TU Delft"
+  role: "Assistant Professor"
+  department: "Faculty of EEMCS"
+  location: "Delft, Netherlands"
+  icon: "fa-solid fa-university"
+  cv_section: "employment"
+  cv_details:
+    - "Head of the Data-intensive Systems Group"
+    - "Lecturing advanced data management techniques in BSc and MSc classes"
+
+- year: "2017"
+  organization: "SAP Innovation Center"
+  role: "Senior Software Engineer"
+  department: "SAP Leonardo Machine Learning Foundation"
+  location: "Berlin, Germany"
+  icon: "fa-solid fa-building"
+  cv_section: "employment"
+  cv_details:
+    - "Worked on scale-out architectures for machine learning inference and training"
+    - "Resulted in the first two releases of the Machine Learning foundation (now SAP Leonardo Data Intelligence)"
+
+- year: "2013–2016"
+  organization: "TU Berlin & DFKI"
+  role: "Senior Researcher"
+  department: "Database and Information Management Group"
+  advisor: "Prof. Dr. Volker Markl"
+  location: "Berlin, Germany"
+  icon: "fa-solid fa-flask"
+  cv_section: "employment"
+  cv_details:
+    - "Leading the Stratosphere (stratosphere.eu) and Proteus (proteus-bigdata.com) projects"
+    - "Research on data-parallel processing architectures and language models"
+    - "Main instructor of Database Technology class (MSc)"
+    - "Mentoring PhD and MSc students, authoring scientific papers, managing EU-funded projects"
+
+- year: "2006–2009"
+  organization: "University of Cyprus"
+  role: "Research Assistant"
+  department: "High Performance Computing Systems Laboratory (HPCL)"
+  advisor: "Prof. Marios Dikaiakos"
+  location: "Nicosia, Cyprus"
+  icon: "fa-solid fa-desktop"
+  cv_section: "employment"
+  cv_only: true
+  cv_details:
+    - "Design and development of a search engine for software resources"
+    - "Administered a Linux cluster (part of EGI European computational Grid, 99% uptime over 2 years)"
+    - "Performed gLite (Grid middleware) testing and certification"
+    - "Represented University of Cyprus as PlanetLab technical contact"
+    - "Delivered Grid-technologies training to Cypriot Grid users"
+
+- year: "2009–2013"
+  organization: "INRIA Saclay & Université Paris-Sud"
+  role: "PhD"
+  department: "Supervised by Ioana Manolescu"
+  location: "Paris, France"
+  icon: "fa-solid fa-graduation-cap"
+  cv_section: null
+
+- year: "2003–2009"
+  organization: "University of Cyprus"
+  role: "BSc & MSc"
+  department: "High Performance Computing Lab · with Marios Dikaiakos"
+  location: "Nicosia, Cyprus"
+  icon: "fa-solid fa-graduation-cap"
+  cv_section: null

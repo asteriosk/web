@@ -1,0 +1,9 @@
+\section{Publications}
+
+(% for group in publications | groupby('year') | sort(attribute='grouper', reverse=True) %)
+\textbf{(( group.grouper ))}\begin{description}[style=multiline,leftmargin=2.2cm,font=\normalfont]
+(% for pub in group.list %)
+\item[\scriptsize\textbf{(( pub.label | escape_latex ))}] \fullcite{(( pub.id ))}
+(% endfor %)\end{description}
+\vspace{2mm}
+(% endfor %)

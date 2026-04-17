@@ -1,0 +1,54 @@
+\section{Teaching}
+\label{sec:teaching}
+
+\vspace{2mm}
+(% for institution in teaching %)
+(% set courses = institution.courses or [] %)
+(% set has_external = courses | selectattr('department', 'equalto', 'External School') | list | length > 0 %)
+(% set external_courses = courses | selectattr('department', 'equalto', 'External School') | list %)
+(% set regular_courses = courses | rejectattr('department', 'equalto', 'External School') | list %)
+(% if has_external %)
+\cventry{}{}{(( institution.institution | escape_latex ))}{(( (institution.location or '') | escape_latex ))}{}{
+\vspace{\upcventry}
+\cvitemwithcomment{External School}{\textit{Instructor}}{Since (( institution.start_year ))}{
+\begin{itemize}
+(% for course in external_courses %)
+(% set ext_link = ' \\url{' + course.link + '}' if course.link else '' %)
+\item \textbf{(( course.name | escape_latex ))}: \emph{(( (course.description or '') | escape_latex ))}%(( ext_link ))
+(% endfor %)\end{itemize}\addvspace{0.5\parsep}
+}}
+
+\vspace{2mm}
+\cvitemwithcomment{(( (institution.department or 'Software Technology Department') | escape_latex ))}{\textit{(co)-Instructor}}{(( institution.start_year ))(% if institution.end_year %) -- (( institution.end_year ))(% else %) -- today(% endif %)}{
+\begin{itemize}
+(% for course in regular_courses %)
+(% set year_display = course.start_year | string if course.start_year == course.end_year else course.start_year | string + '-' + (course.end_year | string if course.end_year else 'today') %)
+(% set contribution = ' (contributing ' + course.contribution + ')' if course.contribution else '' %)
+(% set collab_arr = course.collaborators or [] %)
+(% set description = ' -- \\emph{' + (course.description | escape_latex) + '}' if course.description else '' %)
+(% set link = ' \\url{' + course.link + '}' if course.link else '' %)
+(% set collab_parts = [] %)
+(% for c in collab_arr %)(% set _c_contrib = ' (' + c.contribution + ')' if c.contribution else '' %)(% set _ = collab_parts.append((c.name | escape_latex) + _c_contrib) %)(% endfor %)
+(% set collab_str = ', with ' + collab_parts | join(', ') if collab_arr else '' %)
+\item (( year_display )): \textbf{(( course.name | escape_latex ))}, (( course.level | escape_latex ))(( description ))(( contribution ))(( collab_str ))(( link ))
+(% endfor %)\end{itemize}\addvspace{0.5\parsep}
+}
+(% else %)
+\cventry{}{}{(( institution.institution | escape_latex ))}{(( (institution.location or '') | escape_latex ))}{}{
+\vspace{\upcventry}
+\cvitemwithcomment{(( (institution.department or 'Software Technology Department') | escape_latex ))}{\textit{(co)-Instructor}}{(( institution.start_year ))(% if institution.end_year %) -- (( institution.end_year ))(% else %) -- today(% endif %)}{
+\begin{itemize}
+(% for course in regular_courses %)
+(% set year_display = course.start_year | string if course.start_year == course.end_year else course.start_year | string + '-' + (course.end_year | string if course.end_year else 'today') %)
+(% set contribution = ' (contributing ' + course.contribution + ')' if course.contribution else '' %)
+(% set collab_arr = course.collaborators or [] %)
+(% set description = ' -- \\emph{' + (course.description | escape_latex) + '}' if course.description else '' %)
+(% set link = ' \\url{' + course.link + '}' if course.link else '' %)
+(% set collab_parts = [] %)
+(% for c in collab_arr %)(% set _c_contrib = ' (' + c.contribution + ')' if c.contribution else '' %)(% set _ = collab_parts.append((c.name | escape_latex) + _c_contrib) %)(% endfor %)
+(% set collab_str = ', with ' + collab_parts | join(', ') if collab_arr else '' %)
+\item (( year_display )): \textbf{(( course.name | escape_latex ))}, (( course.level | escape_latex ))(( description ))(( contribution ))(( collab_str ))(( link ))
+(% endfor %)\end{itemize}\addvspace{0.5\parsep}
+}}
+(% endif %)
+(% endfor %)

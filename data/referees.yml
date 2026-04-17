@@ -1,0 +1,29 @@
+- name: "Prof. Dr. Ioana Manolescu"
+  affiliation: "École Polytechnique de Paris & INRIA Saclay, France"
+  email: "ioana.manolescu@inria.fr"
+  relationship: "PhD supervisor, co-author"
+
+- name: "Prof. Dr. Volker Markl"
+  affiliation: "TU Berlin, Germany"
+  email: "volker.markl@tu-berlin.de"
+  relationship: "Postdoc supervisor, co-author"
+
+- name: "Prof. Dr. Marios Dikaiakos"
+  affiliation: "University of Cyprus"
+  email: "mdd@cs.ucy.ac.cy"
+  relationship: "BSc, MSc thesis supervisor, employer, co-author"
+
+- name: "Prof. Dr. Angela Bonifati"
+  affiliation: "Lyon 1 University, France"
+  email: "angela.bonifati@univ-lyon1.fr"
+  relationship: "Co-author"
+
+- name: "Prof. Dr. Peter Boncz"
+  affiliation: "CWI & VU Amsterdam, Netherlands"
+  email: "P.Boncz@cwi.nl"
+  relationship: "Co-organizer of conferences, national initiatives and seminars"
+
+- name: "Prof. Dr. Seif Haridi"
+  affiliation: "KTH Stockholm, Sweden"
+  email: "haridi@kth.se"
+  relationship: "Co-author, project collaborator"

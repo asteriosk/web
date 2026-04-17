@@ -1,0 +1,14 @@
+(% for pub in publications %)
+@(( pub | get_bib_entry_type )) {(( pub.id )),
+  title = {(( pub.title | escape_latex ))},
+  author = {(( pub.authors | format_bib_authors ))},
+  year = {(( pub.year ))},
+(% if pub.venue %)  booktitle = {(( pub.venue | escape_latex ))},
+(% endif %)
+(% if pub.pdf %)  url = {(( pub.pdf ))},
+(% endif %)
+(% if pub.github %)  github = {(( pub.github ))},
+(% endif %)
+}
+
+(% endfor %)

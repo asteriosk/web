@@ -1,0 +1,14 @@
+\section{Invited Talks (selected)}
+
+(% for talk in invited_talks %)
+(% set type_labels = {'invited_talk': 'Invited talk', 'keynote': 'Keynote', 'tutorial': 'Invited tutorial'} %)
+(% set type_label = type_labels.get(talk.type, 'Invited talk') %)
+\cventry{}{}{(( talk.title | escape_latex ))}{(( talk.date | format_date ))(% if talk.end_date %) -- (( talk.end_date | format_date ))(% endif %)}{}{
+\vspace{\upcventry}
+(( type_label )) at (( talk.venue | escape_latex )), (( talk.location | escape_latex )). (% if talk.link %)\url{(( talk.link ))}(% endif %) \\
+(% if talk.description %)
+\vspace{1mm}
+\small \emph{(( talk.description | escape_latex ))} \\
+(% endif %)}
+
+(% endfor %)

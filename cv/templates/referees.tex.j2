@@ -1,0 +1,7 @@
+\section{Referees}
+
+(% for ref in referees %)\cventry{}{}{(( ref.name | escape_latex ))}{(( ref.affiliation | escape_latex ))}{}{
+\vspace{\upcventry}
+\small \emph{(( ref.relationship | escape_latex ))} \\
+\small \url{mailto:(( ref.email ))} \\
+(% endfor %)}

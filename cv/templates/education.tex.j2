@@ -1,0 +1,9 @@
+\section{Education}
+(% for edu in education %)\cventry{(( format_year_range(edu.year_start, edu.year_end) ))}{(( edu.institution | escape_latex ))}{(( edu.level | escape_latex ))(% if edu.program %) in (( edu.program | escape_latex ))(% endif %)}{(( edu.location | escape_latex ))}{}{
+\begin{nstabbing}
+\textbf{Thesis} $\qquad\quad$\=\emph{``(( edu.thesis.title | escape_latex ))''} \\(% if edu.thesis.honor %)
+\textbf{~~~~}    \>\emph{(( edu.thesis.honor | escape_latex ))} \\(% endif %)
+\textbf{Advisor} \>(% if 'PhD' in edu.level %)\emph{(( edu.thesis.advisor | escape_latex ))}(% else %)(( edu.thesis.advisor | escape_latex ))(% endif %) \\(% if edu.thesis.reviewers and edu.thesis.reviewers | length > 0 %)
+\textbf{Reviewers} \>\emph{(( edu.thesis.reviewers | map('escape_latex') | join(', ') ))} \\(% endif %)
+\end{nstabbing}
+}(% endfor %)
