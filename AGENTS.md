@@ -8,14 +8,14 @@ This file provides guidance to AI coding agents when working with code in this r
 website/
 ├── data/          # YAML source of truth — used by BOTH website and CV
 ├── web/           # Jekyll website (source for GitHub Pages)
-├── cv/            # CV generation pipeline (Node.js EJS → LaTeX → PDF)
+├── cv/            # CV generation pipeline (Python Jinja2 → LaTeX → PDF)
 ├── Makefile       # Root-level build orchestration
 └── AGENTS.md
 ```
 
-**`data/`** is the single source of truth. All 12 YAML files are consumed by:
+**`data/`** is the single source of truth. All 12 YAML files (plus `check_dblp.py`) are consumed by:
 - The Jekyll website via `site.data.*` Liquid variables — `web/_data` is a git symlink to `../data`
-- The CV generator (`cv/generate.js`) which reads them directly
+- The CV generator (`cv/generate.py`) which reads them directly
 
 ## Design Decisions
 
@@ -71,7 +71,7 @@ For each missing entry the wizard prompts for the two manual fields (`id` slug a
 ## Subsystem docs
 
 - **`web/AGENTS.md`** — pages, includes, data→Liquid mapping, Liquid gotchas, nav active state
-- **`cv/AGENTS.md`** — known LaTeX/EJS bugs, pre-flight checklist, visual inspection patterns
+- **`cv/AGENTS.md`** — known LaTeX/Jinja2 bugs, pre-flight checklist, visual inspection patterns
 
 ## CV Pipeline
 
@@ -110,6 +110,7 @@ Template helper functions (registered as both filters and globals):
   github: "https://..."        # (optional)
   slides: "path/to/slides.pdf" # (optional)
   poster: "path/to/poster.pdf" # (optional)
+  extended: "..."              # (optional); extended version note
   award: "ACM SIGMOD Best Paper 2025"  # (optional)
 ```
 
@@ -127,7 +128,7 @@ Template helper functions (registered as both filters and globals):
   type: "grant"                # award | grant | honor
   description: "Optional text" # (optional)
   publication_id: "slug"        # (optional) must match an id in publications.yml
-  cv_only: false               # true = CV only, false = show everywhere
+  cv_only: true                # true = CV only, false/omitted = show on website
 ```
 
 ### supervision.yml
@@ -147,7 +148,13 @@ phd_students:
       funding: "NWO VIDI"
 
 postdocs:
-  # same structure as phd_students
+  - name: "Full Name"
+    link: "https://..."
+    start_year: 2023
+    end_year:                  # omit if still active
+    position: "Now Postdoc at X"
+    topic: "Research topic"
+    photo: "/assets/people/name.jpg"  # optional
 
 masters:
   - year: 2025
@@ -156,6 +163,23 @@ masters:
     topic: "Thesis Title"
     initials: "MP"             # optional override for badge
     institution: "TU Delft"
+    advisor: "..."             # optional; advisor name (rarely used)
+
+research_engineers:             # CV only
+  - name: "Full Name"
+    start_year: 2022
+    start_month: 2
+    end_year: 2022
+    end_month: 12
+    position: "Research Engineer"
+    collaborator: "Colleague Name"  # optional
+    cv_only: true
+
+interns:                        # CV only
+  - name: "Full Name"
+    program: "TU Delft Honors Programme"
+    period: "Winter 2022"
+    cv_only: true
 ```
 
 ### teaching.yml
@@ -174,6 +198,7 @@ masters:
       end_year:                # optional
       description: "Short description"
       contribution: "80%"      # optional; professor's share, shown in CV only
+      department: "External School"  # optional; course department (e.g., ProfEd)
       collaborators:           # optional; co-instructors
         - name: "C. Lofi"
           contribution: "20%"  # optional; their share, shown in CV only
@@ -192,9 +217,9 @@ chairs:
 
 pc_member:
   - venue: "(P)VLDB"
-    years: "2015, 2017–2021, 2023–2027"
+    years: "2015, 2017–2021, 2023–2027"  # comma/semicolon-separated or ranges
     link: https://...          # optional
-    cv_only: false
+    cv_only: false             # optional; true = CV only
 
 special_service:               # CV only — not shown on website
   - role: "Dutch Seminar on Data Systems Design"
@@ -217,6 +242,9 @@ contact:
   phone: "..."
   address: "..."
   homepage: "..."
+social:               # optional; external profile links
+  - platform: "Google Scholar"
+    url: "https://..."
 birth_date: "1985-09-16"
 ```
 
@@ -231,6 +259,18 @@ birth_date: "1985-09-16"
     title: "..."
     honor: "Mention Très Honorable"
     advisor: "Dr. Ioana Manolescu"
+    reviewers:              # optional; list of reviewer names (PhD only)
+      - "Prof. Yanlei Diao"
+
+- level: "MSc"
+  institution: "University of Cyprus"
+  program: "Advanced Information Technologies"  # optional; MSc/BSc only
+  location: "Nicosia, Cyprus"
+  year_start: 2007
+  year_end: 2009
+  thesis:
+    title: "..."
+    advisor: "Prof. Marios D. Dikaiakos"
 ```
 
 ### employment.yml
@@ -243,6 +283,7 @@ birth_date: "1985-09-16"
   location: "..."
   icon: "fa-solid fa-cloud"
   cv_section: "employment"  # null = website-only entry (e.g., education milestones)
+  advisor: "..."            # optional; for roles with an advisor (e.g., TU Berlin researcher)
   cv_only: true             # optional; hides from website timeline
   cv_details:
     - "Detail bullet point..."
@@ -257,6 +298,7 @@ birth_date: "1985-09-16"
   year_start: 2020
   year_end: 2022
   type: "grant"
+  cv_only: true                # optional; hidden from website (most entries)
 ```
 
 ### invited_talks.yml (CV only)
@@ -265,7 +307,9 @@ birth_date: "1985-09-16"
   venue: "Data Lab, Northwestern University"
   location: "Boston, USA"
   date: "2021-12"              # YYYY-MM
+  end_date: "2021-12"          # optional; YYYY-MM for multi-day events
   type: "invited_talk"         # or "keynote"
+  description: "Optional description"  # optional
   link: "https://..."          # optional
 ```
 
