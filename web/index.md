@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Asterios Katsifodimos | Asst. Professor, TU Delft"
+title: "Asterios Katsifodimos | Assoc. Professor, TU Delft"
 ---
 
 <!-- Hero -->
@@ -8,7 +8,7 @@ title: "Asterios Katsifodimos | Asst. Professor, TU Delft"
 <div class="col-sm-8">
 
 <p class="lead lead-xl"><strong>
-Asst. Professor at <a href="http://www.tudelft.nl/">TU Delft</a> and Amazon Scholar (<a href="https://www.amazon.science/research-areas/information-and-knowledge-management">AWS</a>).</strong>
+Assoc. Professor at <a href="http://www.tudelft.nl/">TU Delft</a> and Amazon Scholar (<a href="https://www.amazon.science/research-areas/information-and-knowledge-management">AWS</a>).</strong>
 </p>
 
 <p>I lead the <a href="https://dis.ewi.tudelft.nl">Data-intensive Systems Group</a> at TU Delft. I work in the broad area of data systems research; most of my research at the moment focuses on Cloud application runtimes, and data discovery. Over the years, my research has found applications in multiple real-world systems, including Apache Flink, and systems within Amazon's Cloud. Before joining TU Delft in 2017, I held positions at the <a href="https://icn.sap.com">SAP Innovation Center</a>, as well as at <a href="http://www.dima.tu-berlin.de/menue/database_systems_and_information_management_group/?no_cache=1">TU Berlin</a>, working with <a href="https://www.dima.tu-berlin.de/menue/staff/volker_markl/">Volker Markl</a>. I received my PhD from <a href="http://www.inria.fr/saclay/">INRIA Saclay</a>/<a href="https://www.universite-paris-saclay.fr">Université Paris-Sud 11</a> in 2013, supervised by <a href="http://www-rocq.inria.fr/~manolesc/">Ioana Manolescu</a>. I completed my BSc and MSc at the University of Cyprus, working with <a href="http://www.cs.ucy.ac.cy/~mdd/">Marios Dikaiakos</a>.
