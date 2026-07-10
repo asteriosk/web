@@ -3,7 +3,7 @@ phd_students:
     link: "https://omrazcz.github.io"
     advisor_present: true
     advisor: "Main Advisor"
-    start_year: 2023
+    start_year: 2024
     present: true
     position: "PhD Candidate"
     topic: "Geo-distributed transactions"
